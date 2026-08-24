@@ -1,0 +1,37 @@
+# Environments & Dependencies
+venv/
+.venv/
+env/
+node_modules/
+dist/
+.vite/
+extensions/
+
+# Python Cache & Testing
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Databases & Logs
+*.db
+*.db-journal
+*.sqlite3
+cloud_optimizer.db
+generated_reports/*.pdf
+generated_reports/*.csv
+*.log
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+argv.json

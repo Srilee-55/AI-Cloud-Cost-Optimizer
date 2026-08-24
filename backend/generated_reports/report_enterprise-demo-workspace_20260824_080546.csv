@@ -1,0 +1,363 @@
+ID,Date,Provider,Service,Resource ID,Amount,Currency,Cost Center,Team,Environment
+be68e0f8-9f38-4023-be6c-b94ef6a3a220,2026-05-27,AWS,EC2,aws-ec2-res,125.87,USD,Engineering,Backend Core,Production
+4fe476ce-0d1a-4b15-acfb-e4975263fde9,2026-05-27,AWS,RDS,aws-rds-res,79.07,USD,Engineering,Backend Core,Production
+b9e838e7-f066-4c03-94bf-adc9caf836a0,2026-05-27,AWS,S3,aws-s3-res,35.67,USD,Engineering,Data Platform,Production
+4de6389b-00f2-466d-872b-2605cc1b52db,2026-05-27,AWS,Lambda,aws-lambda-res,8.68,USD,Finance,Payments,Production
+42d98706-18db-44e1-8fcb-17f38f1c1033,2026-05-28,AWS,EC2,aws-ec2-res,114.35,USD,Engineering,Backend Core,Production
+605f2b76-700d-4081-bf63-ba84952e95dc,2026-05-28,AWS,RDS,aws-rds-res,75.09,USD,Engineering,Backend Core,Production
+dac40051-48f6-4907-be3d-ed32f97f8d9d,2026-05-28,AWS,S3,aws-s3-res,32.0,USD,Engineering,Data Platform,Production
+89be09df-57ca-483b-acbb-d8b576b1e6dc,2026-05-28,AWS,Lambda,aws-lambda-res,9.04,USD,Finance,Payments,Production
+9841e5b7-a3e4-4aee-9f04-2573fdab17c6,2026-05-29,AWS,EC2,aws-ec2-res,116.2,USD,Engineering,Backend Core,Production
+72115f1b-c472-4e17-a6b0-d89554dd018b,2026-05-29,AWS,RDS,aws-rds-res,77.85,USD,Engineering,Backend Core,Production
+4740be43-c6e5-4377-8420-066f7c16ce99,2026-05-29,AWS,S3,aws-s3-res,32.43,USD,Engineering,Data Platform,Production
+8e6bd2d5-a639-4c78-9846-54f1e0eaa9b6,2026-05-29,AWS,Lambda,aws-lambda-res,9.63,USD,Finance,Payments,Production
+f2ffc4f8-fe15-4aad-b921-c0dec905b7e8,2026-05-30,AWS,EC2,aws-ec2-res,98.82,USD,Engineering,Backend Core,Production
+f2832e6b-7d69-44fa-971a-a6fbd056bb00,2026-05-30,AWS,RDS,aws-rds-res,62.43,USD,Engineering,Backend Core,Production
+89e0ba69-754d-49ca-b473-ac23f936baf9,2026-05-30,AWS,S3,aws-s3-res,25.85,USD,Engineering,Data Platform,Production
+0260c1cb-b86e-48a0-b93a-c8e3d5f98d4d,2026-05-30,AWS,Lambda,aws-lambda-res,7.3,USD,Finance,Payments,Production
+720e5204-5914-45bb-884a-28738b604711,2026-05-31,AWS,EC2,aws-ec2-res,97.76,USD,Engineering,Backend Core,Production
+65bf9074-1c54-439c-a57d-fd33eabe5ed4,2026-05-31,AWS,RDS,aws-rds-res,68.74,USD,Engineering,Backend Core,Production
+139c546f-f1b5-4d5b-a192-ba4c4f3cd04c,2026-05-31,AWS,S3,aws-s3-res,28.39,USD,Engineering,Data Platform,Production
+2a58a638-1f04-4dd9-9057-cce10c9ff5af,2026-05-31,AWS,Lambda,aws-lambda-res,7.19,USD,Finance,Payments,Production
+e3c82114-0768-41ca-b8cd-a343edb314d9,2026-06-01,AWS,EC2,aws-ec2-res,125.79,USD,Engineering,Backend Core,Production
+b9b4b979-70f1-4fdf-b543-eaaafba1e01b,2026-06-01,AWS,RDS,aws-rds-res,73.68,USD,Engineering,Backend Core,Production
+93d9b4e1-6b84-48f1-836c-f0df9affdcd0,2026-06-01,AWS,S3,aws-s3-res,33.42,USD,Engineering,Data Platform,Production
+04a4626a-8a66-4ff3-aae3-b01d898d13a2,2026-06-01,AWS,Lambda,aws-lambda-res,9.71,USD,Finance,Payments,Production
+62a9bd54-fd97-40f9-b991-ec35a1f4d05f,2026-06-02,AWS,EC2,aws-ec2-res,113.87,USD,Engineering,Backend Core,Production
+749d6c6d-59c5-4334-a7ed-379b64384bcb,2026-06-02,AWS,RDS,aws-rds-res,77.34,USD,Engineering,Backend Core,Production
+fc4fbf23-49ea-479d-be02-5d7dfe889f53,2026-06-02,AWS,S3,aws-s3-res,32.37,USD,Engineering,Data Platform,Production
+17cb5f2c-152d-4b94-9014-13c9860ef80e,2026-06-02,AWS,Lambda,aws-lambda-res,9.05,USD,Finance,Payments,Production
+2d93388d-a765-4e06-b62d-5dd53d742161,2026-06-03,AWS,EC2,aws-ec2-res,114.03,USD,Engineering,Backend Core,Production
+3f86a7b7-8e7a-4fa7-9ea3-73c18f6f95f2,2026-06-03,AWS,RDS,aws-rds-res,85.29,USD,Engineering,Backend Core,Production
+7912b34d-f0ea-4857-9b0b-291a19ce5481,2026-06-03,AWS,S3,aws-s3-res,35.03,USD,Engineering,Data Platform,Production
+b4db7c77-1721-4559-ac8f-fea8bd31dfa0,2026-06-03,AWS,Lambda,aws-lambda-res,9.36,USD,Finance,Payments,Production
+fcd204bf-852c-4ff8-b76a-f6896209cea1,2026-06-04,AWS,EC2,aws-ec2-res,125.0,USD,Engineering,Backend Core,Production
+46f9798f-f6b1-4caa-b05e-cfad5ac901a6,2026-06-04,AWS,RDS,aws-rds-res,84.87,USD,Engineering,Backend Core,Production
+546e18e4-67e8-4e96-82a5-3dc784c50d53,2026-06-04,AWS,S3,aws-s3-res,35.57,USD,Engineering,Data Platform,Production
+a6b1528d-6d3e-45f8-9f8a-3f034b1c062f,2026-06-04,AWS,Lambda,aws-lambda-res,8.63,USD,Finance,Payments,Production
+5ed2635a-370b-40a2-8711-62bec286fd2b,2026-06-05,AWS,EC2,aws-ec2-res,132.29,USD,Engineering,Backend Core,Production
+17a646e8-8bea-460e-91de-766f1b5d8b7e,2026-06-05,AWS,RDS,aws-rds-res,74.57,USD,Engineering,Backend Core,Production
+0281ae04-7706-451b-8022-f7d253b8a2e1,2026-06-05,AWS,S3,aws-s3-res,34.18,USD,Engineering,Data Platform,Production
+059ae144-a369-4c51-8a5b-66334575dc05,2026-06-05,AWS,Lambda,aws-lambda-res,9.65,USD,Finance,Payments,Production
+2e913fd6-2ae0-4c94-ae35-cc39a827480c,2026-06-06,AWS,EC2,aws-ec2-res,104.24,USD,Engineering,Backend Core,Production
+2af60c3a-5f4b-4845-b95c-b831f132e031,2026-06-06,AWS,RDS,aws-rds-res,62.2,USD,Engineering,Backend Core,Production
+d503ca3a-cc32-476c-a531-4cf2a6460eb4,2026-06-06,AWS,S3,aws-s3-res,26.22,USD,Engineering,Data Platform,Production
+796824c4-172d-4cbf-be40-74ff05bed191,2026-06-06,AWS,Lambda,aws-lambda-res,7.82,USD,Finance,Payments,Production
+2b080cb8-ad56-453b-b145-b1139650929b,2026-06-07,AWS,EC2,aws-ec2-res,95.55,USD,Engineering,Backend Core,Production
+0b08bbf4-aa22-4ff8-920c-401332358338,2026-06-07,AWS,RDS,aws-rds-res,68.94,USD,Engineering,Backend Core,Production
+98c66a76-0308-4537-93c2-4abb8045bcee,2026-06-07,AWS,S3,aws-s3-res,27.75,USD,Engineering,Data Platform,Production
+e0cb8e99-2f3d-41f9-8ff4-28e51d9b63c9,2026-06-07,AWS,Lambda,aws-lambda-res,6.99,USD,Finance,Payments,Production
+1e093b7b-0ab9-4e42-b85d-9ba2a3c5b244,2026-06-08,AWS,EC2,aws-ec2-res,121.56,USD,Engineering,Backend Core,Production
+a5b098b7-d5ca-4310-b442-730688aad4f1,2026-06-08,AWS,RDS,aws-rds-res,76.51,USD,Engineering,Backend Core,Production
+3682a619-be63-49c6-8d97-b3f4e3f56e87,2026-06-08,AWS,S3,aws-s3-res,36.59,USD,Engineering,Data Platform,Production
+d8706241-ae03-42b6-9fef-7514433785f4,2026-06-08,AWS,Lambda,aws-lambda-res,9.73,USD,Finance,Payments,Production
+689207ba-ac9c-4076-8c79-63453a8ed360,2026-06-09,AWS,EC2,aws-ec2-res,118.63,USD,Engineering,Backend Core,Production
+cdf6e5b1-981e-4163-8903-23bbf3df54c5,2026-06-09,AWS,RDS,aws-rds-res,85.55,USD,Engineering,Backend Core,Production
+6fa517e3-1aac-43ee-bef6-4f601fc176a9,2026-06-09,AWS,S3,aws-s3-res,32.38,USD,Engineering,Data Platform,Production
+5a6952f5-5505-40c4-bdbc-dbc67b7b5548,2026-06-09,AWS,Lambda,aws-lambda-res,9.5,USD,Finance,Payments,Production
+c24c7e2e-9e61-4ecb-b386-e8f8133dd60b,2026-06-10,AWS,EC2,aws-ec2-res,122.31,USD,Engineering,Backend Core,Production
+2cb65677-1263-4bd4-9ca9-eb6c66d61b91,2026-06-10,AWS,RDS,aws-rds-res,82.59,USD,Engineering,Backend Core,Production
+98979fbd-c4f9-4b2f-93be-a74ba90411db,2026-06-10,AWS,S3,aws-s3-res,34.57,USD,Engineering,Data Platform,Production
+255e557a-a528-474e-a446-faa8ad46fc3f,2026-06-10,AWS,Lambda,aws-lambda-res,9.7,USD,Finance,Payments,Production
+0b1c6371-a451-4c50-9f98-0c1255ea8d33,2026-06-11,AWS,EC2,aws-ec2-res,116.88,USD,Engineering,Backend Core,Production
+4086f919-767f-4563-a5e4-d37862c7c958,2026-06-11,AWS,RDS,aws-rds-res,77.16,USD,Engineering,Backend Core,Production
+29fd7c74-9f9d-4675-85f9-1c14b430128a,2026-06-11,AWS,S3,aws-s3-res,36.68,USD,Engineering,Data Platform,Production
+7a409be1-744d-42ac-85cb-772da1f9f484,2026-06-11,AWS,Lambda,aws-lambda-res,9.01,USD,Finance,Payments,Production
+d00d4263-943d-43ed-830f-6c3ae026dea3,2026-06-12,AWS,EC2,aws-ec2-res,119.72,USD,Engineering,Backend Core,Production
+89669307-555a-48c9-a0ae-538d1715556f,2026-06-12,AWS,RDS,aws-rds-res,80.61,USD,Engineering,Backend Core,Production
+a8dd6963-1b13-4e66-a5df-0a34e3636455,2026-06-12,AWS,S3,aws-s3-res,35.36,USD,Engineering,Data Platform,Production
+348a19da-5ef7-459a-81f4-9b3fad5c19cb,2026-06-12,AWS,Lambda,aws-lambda-res,9.65,USD,Finance,Payments,Production
+efbf8fac-96f7-4546-80a8-31c766458709,2026-06-13,AWS,EC2,aws-ec2-res,105.13,USD,Engineering,Backend Core,Production
+9c352c2e-7f89-4156-ba84-e9293b98b272,2026-06-13,AWS,RDS,aws-rds-res,61.73,USD,Engineering,Backend Core,Production
+20dd1c2b-9396-404f-9571-7cbf17f73437,2026-06-13,AWS,S3,aws-s3-res,27.11,USD,Engineering,Data Platform,Production
+205e1672-430e-4e7d-bbed-25fe4bef4729,2026-06-13,AWS,Lambda,aws-lambda-res,7.15,USD,Finance,Payments,Production
+918ea122-9a40-44b9-98da-086c4dacc95a,2026-06-14,AWS,EC2,aws-ec2-res,96.54,USD,Engineering,Backend Core,Production
+14931c84-3811-4053-8375-adb3ffe740af,2026-06-14,AWS,RDS,aws-rds-res,65.38,USD,Engineering,Backend Core,Production
+e67ba2bd-ff8a-4d6e-9923-f60937dd0cca,2026-06-14,AWS,S3,aws-s3-res,27.92,USD,Engineering,Data Platform,Production
+90b620fa-5640-4fdd-9a7d-ade46a18812d,2026-06-14,AWS,Lambda,aws-lambda-res,7.84,USD,Finance,Payments,Production
+207f6bbe-65cf-4fe3-9f62-8391a0fc11ff,2026-06-15,AWS,EC2,aws-ec2-res,122.99,USD,Engineering,Backend Core,Production
+a6a4fcd1-8124-41db-baac-1f40d1e0b822,2026-06-15,AWS,RDS,aws-rds-res,80.16,USD,Engineering,Backend Core,Production
+8f61f010-f7d6-4644-bc96-218a3408ad61,2026-06-15,AWS,S3,aws-s3-res,34.55,USD,Engineering,Data Platform,Production
+4fa3e7d2-b69c-4ab4-b633-db38c14320ae,2026-06-15,AWS,Lambda,aws-lambda-res,9.11,USD,Finance,Payments,Production
+3fa5b971-fb76-4c17-817e-dde559a08292,2026-06-16,AWS,EC2,aws-ec2-res,132.62,USD,Engineering,Backend Core,Production
+93f21ecf-61cb-4e4c-a5f5-21c401fc4e8d,2026-06-16,AWS,RDS,aws-rds-res,84.39,USD,Engineering,Backend Core,Production
+bbda2289-007b-4f99-a1e6-06e8b5f55bdd,2026-06-16,AWS,S3,aws-s3-res,36.1,USD,Engineering,Data Platform,Production
+0e79b3e2-a19f-42a5-9da4-7bcb263e7b12,2026-06-16,AWS,Lambda,aws-lambda-res,8.52,USD,Finance,Payments,Production
+59fa7b06-8d82-46ad-8622-85535419d67b,2026-06-17,AWS,EC2,aws-ec2-res,124.26,USD,Engineering,Backend Core,Production
+f8f7ccbc-6682-4b3d-a4c7-8f3546821e5b,2026-06-17,AWS,RDS,aws-rds-res,82.53,USD,Engineering,Backend Core,Production
+79fa13a6-5898-4df7-949f-7f589fb8f2fa,2026-06-17,AWS,S3,aws-s3-res,32.16,USD,Engineering,Data Platform,Production
+8ca29208-270f-49fb-a847-552963d60ee3,2026-06-17,AWS,Lambda,aws-lambda-res,8.8,USD,Finance,Payments,Production
+b9f25188-ef2c-4ad1-a6fa-68448dc3707b,2026-06-18,AWS,EC2,aws-ec2-res,121.23,USD,Engineering,Backend Core,Production
+40d4a589-0aa2-41a3-b6af-2af2cde2d0fc,2026-06-18,AWS,RDS,aws-rds-res,82.37,USD,Engineering,Backend Core,Production
+db595ce3-dcee-434a-ae1d-7781cda7e223,2026-06-18,AWS,S3,aws-s3-res,34.83,USD,Engineering,Data Platform,Production
+4f441378-1fb3-48a4-ab50-e103a0bd8247,2026-06-18,AWS,Lambda,aws-lambda-res,8.71,USD,Finance,Payments,Production
+6b9c6be6-842b-4945-8ea3-7d418199861d,2026-06-19,AWS,EC2,aws-ec2-res,130.49,USD,Engineering,Backend Core,Production
+303ef2c3-214a-4752-9d9e-7322b8f61fd3,2026-06-19,AWS,RDS,aws-rds-res,80.1,USD,Engineering,Backend Core,Production
+810b9843-07eb-49cd-bb2f-67dc008559d1,2026-06-19,AWS,S3,aws-s3-res,37.25,USD,Engineering,Data Platform,Production
+83438b48-ea04-4433-b98d-69614cda39ad,2026-06-19,AWS,Lambda,aws-lambda-res,9.88,USD,Finance,Payments,Production
+9cadccb9-d74b-4914-b7fd-8f9e7d049516,2026-06-20,AWS,EC2,aws-ec2-res,99.56,USD,Engineering,Backend Core,Production
+80935fcc-6661-4a91-b85b-4847e7a01e3c,2026-06-20,AWS,RDS,aws-rds-res,66.53,USD,Engineering,Backend Core,Production
+f6c9ae84-9170-4c84-9af4-a82f494ff86a,2026-06-20,AWS,S3,aws-s3-res,29.23,USD,Engineering,Data Platform,Production
+4a724b7d-1566-43eb-89ce-d3210c19313e,2026-06-20,AWS,Lambda,aws-lambda-res,7.97,USD,Finance,Payments,Production
+c204a8db-242c-433e-adda-c23a73676bb7,2026-06-21,AWS,EC2,aws-ec2-res,108.14,USD,Engineering,Backend Core,Production
+0894ed50-dccb-4d3d-8c6d-2533ed03a9e2,2026-06-21,AWS,RDS,aws-rds-res,68.92,USD,Engineering,Backend Core,Production
+23cc3d40-9502-4e99-906b-53282f9f5bbe,2026-06-21,AWS,S3,aws-s3-res,27.83,USD,Engineering,Data Platform,Production
+72eaf5c3-26aa-4b0b-8ced-5ca63b616028,2026-06-21,AWS,Lambda,aws-lambda-res,8.0,USD,Finance,Payments,Production
+93e74a49-a86c-431f-905b-908a30ade5af,2026-06-22,AWS,EC2,aws-ec2-res,115.81,USD,Engineering,Backend Core,Production
+50dfa8df-75e8-445c-8ab4-e61b5002be10,2026-06-22,AWS,RDS,aws-rds-res,86.06,USD,Engineering,Backend Core,Production
+65078bfd-07d2-44aa-85b8-33c36c01c338,2026-06-22,AWS,S3,aws-s3-res,32.72,USD,Engineering,Data Platform,Production
+f2a97a2a-1382-4c32-810b-091db014fcd4,2026-06-22,AWS,Lambda,aws-lambda-res,8.73,USD,Finance,Payments,Production
+d9d907f3-aa9f-4b4f-a936-7c47aa600cbc,2026-06-23,AWS,EC2,aws-ec2-res,127.37,USD,Engineering,Backend Core,Production
+f8c747e2-3a79-43bb-abae-6ceef24579f3,2026-06-23,AWS,RDS,aws-rds-res,79.8,USD,Engineering,Backend Core,Production
+6fe8e6ff-dcb6-4639-afb0-f593568466c4,2026-06-23,AWS,S3,aws-s3-res,34.62,USD,Engineering,Data Platform,Production
+17fb2500-9222-4c37-a30e-17a37af5df89,2026-06-23,AWS,Lambda,aws-lambda-res,9.67,USD,Finance,Payments,Production
+9e880c33-8ce0-4e75-a0b7-cf8e41b1824f,2026-06-24,AWS,EC2,aws-ec2-res,123.54,USD,Engineering,Backend Core,Production
+28a7421e-ad78-45eb-b2ea-07a5fad69bf0,2026-06-24,AWS,RDS,aws-rds-res,88.75,USD,Engineering,Backend Core,Production
+0698f0dc-87e2-4a72-9526-11600837a16a,2026-06-24,AWS,S3,aws-s3-res,36.05,USD,Engineering,Data Platform,Production
+5fd3d398-9011-42ee-884e-90d50736f1e8,2026-06-24,AWS,Lambda,aws-lambda-res,10.06,USD,Finance,Payments,Production
+8f0bc96c-cd12-404a-971a-df2a60f84428,2026-06-25,AWS,EC2,aws-ec2-res,135.25,USD,Engineering,Backend Core,Production
+ebe51b17-6328-4a63-8e43-db83bbd7105e,2026-06-25,AWS,RDS,aws-rds-res,88.07,USD,Engineering,Backend Core,Production
+ee7d54cd-6976-43fc-ab3f-3fe438fa9492,2026-06-25,AWS,S3,aws-s3-res,36.46,USD,Engineering,Data Platform,Production
+4ab0fe0a-67f0-4578-ab14-c2d6871057d5,2026-06-25,AWS,Lambda,aws-lambda-res,9.68,USD,Finance,Payments,Production
+49e1146f-82a8-4e15-b7d2-7cb6522dac30,2026-06-26,AWS,EC2,aws-ec2-res,121.98,USD,Engineering,Backend Core,Production
+5fba8df7-87b9-45e5-8a1c-aaaf9265dfde,2026-06-26,AWS,RDS,aws-rds-res,83.65,USD,Engineering,Backend Core,Production
+38301a20-639b-4d3f-a8bc-bd8aa575354f,2026-06-26,AWS,S3,aws-s3-res,36.3,USD,Engineering,Data Platform,Production
+294beea8-7b86-43b6-9e91-85713eeb9e9e,2026-06-26,AWS,Lambda,aws-lambda-res,8.97,USD,Finance,Payments,Production
+29d7d4a8-1954-4c18-9f5e-8712b02b362d,2026-06-27,AWS,EC2,aws-ec2-res,95.79,USD,Engineering,Backend Core,Production
+f769c25b-a0b7-4b8c-85ff-3d51039dd165,2026-06-27,AWS,RDS,aws-rds-res,67.53,USD,Engineering,Backend Core,Production
+711237db-80b1-41ee-89d0-b595162b1ecd,2026-06-27,AWS,S3,aws-s3-res,28.47,USD,Engineering,Data Platform,Production
+8e260578-939a-419a-a956-4c1c31bccd7c,2026-06-27,AWS,Lambda,aws-lambda-res,7.62,USD,Finance,Payments,Production
+be43061a-e952-40cc-b77f-dc37eb7d3d30,2026-06-28,AWS,EC2,aws-ec2-res,109.19,USD,Engineering,Backend Core,Production
+2474d3e3-812b-460f-b279-16baf4dd51ea,2026-06-28,AWS,RDS,aws-rds-res,65.3,USD,Engineering,Backend Core,Production
+4e30e448-a1bf-4454-b978-bf28ce6a0f13,2026-06-28,AWS,S3,aws-s3-res,30.26,USD,Engineering,Data Platform,Production
+3e30dfb7-32e1-4990-8d59-b65ce58c1a3c,2026-06-28,AWS,Lambda,aws-lambda-res,7.74,USD,Finance,Payments,Production
+88c2305a-185a-4fb9-9769-c2993c5b2ff4,2026-06-29,AWS,EC2,aws-ec2-res,131.48,USD,Engineering,Backend Core,Production
+31294691-6bcf-44f3-8805-dccc09c981b4,2026-06-29,AWS,RDS,aws-rds-res,84.88,USD,Engineering,Backend Core,Production
+0cd87569-4e5f-4db5-a716-ed7d0e3595b9,2026-06-29,AWS,S3,aws-s3-res,33.46,USD,Engineering,Data Platform,Production
+701e1929-3335-4375-b008-eab250f2903d,2026-06-29,AWS,Lambda,aws-lambda-res,8.97,USD,Finance,Payments,Production
+33b4c7da-d596-483c-af67-6c32025eb3a4,2026-06-30,AWS,EC2,aws-ec2-res,124.86,USD,Engineering,Backend Core,Production
+e0ff7957-9305-440a-ad26-e20a463d3c24,2026-06-30,AWS,RDS,aws-rds-res,82.04,USD,Engineering,Backend Core,Production
+e6bd1234-771a-404b-801f-ec82f3b681d3,2026-06-30,AWS,S3,aws-s3-res,36.22,USD,Engineering,Data Platform,Production
+8ab50254-2ef9-4dbd-ae8a-05a9a69a225c,2026-06-30,AWS,Lambda,aws-lambda-res,9.02,USD,Finance,Payments,Production
+d8f70ba1-95f1-4b51-84f2-6dd930cac07c,2026-07-01,AWS,EC2,aws-ec2-res,119.64,USD,Engineering,Backend Core,Production
+5669d96c-60a7-468e-b795-c788eacdc19f,2026-07-01,AWS,RDS,aws-rds-res,89.47,USD,Engineering,Backend Core,Production
+3b12e106-72ef-4c94-98cf-4c8d654cf939,2026-07-01,AWS,S3,aws-s3-res,34.98,USD,Engineering,Data Platform,Production
+720cdff3-9599-43ae-9e43-41b79b97dd03,2026-07-01,AWS,Lambda,aws-lambda-res,9.87,USD,Finance,Payments,Production
+190143d4-41bc-47dd-b2ac-0bd693bf5096,2026-07-02,AWS,EC2,aws-ec2-res,118.4,USD,Engineering,Backend Core,Production
+aedb0541-32fb-46b7-8860-200885e28a6b,2026-07-02,AWS,RDS,aws-rds-res,77.02,USD,Engineering,Backend Core,Production
+393ae635-7195-422c-bd64-cd04e9c72f57,2026-07-02,AWS,S3,aws-s3-res,33.64,USD,Engineering,Data Platform,Production
+bcfed30e-a947-45af-9cd5-632fb63d64da,2026-07-02,AWS,Lambda,aws-lambda-res,9.0,USD,Finance,Payments,Production
+7f0270f7-bd45-43a3-8ef5-ac64defff8e5,2026-07-03,AWS,EC2,aws-ec2-res,119.15,USD,Engineering,Backend Core,Production
+199c7737-7b42-4cb0-a980-5e9b1a5a8916,2026-07-03,AWS,RDS,aws-rds-res,81.34,USD,Engineering,Backend Core,Production
+51406c33-18fa-4428-8a56-796ff6e75105,2026-07-03,AWS,S3,aws-s3-res,36.8,USD,Engineering,Data Platform,Production
+d59cb02f-d06c-4a6c-8d67-c0239b49b4c1,2026-07-03,AWS,Lambda,aws-lambda-res,9.53,USD,Finance,Payments,Production
+64e07709-3d95-4bcd-b5a4-938c2ebf259b,2026-07-04,AWS,EC2,aws-ec2-res,105.16,USD,Engineering,Backend Core,Production
+5b9664a1-bd11-4721-818b-2619e54ca07b,2026-07-04,AWS,RDS,aws-rds-res,68.68,USD,Engineering,Backend Core,Production
+638d0f3d-2146-4488-8cff-f6a838478204,2026-07-04,AWS,S3,aws-s3-res,28.75,USD,Engineering,Data Platform,Production
+72ee9c69-5388-42de-99e8-a6e20885cc62,2026-07-04,AWS,Lambda,aws-lambda-res,8.0,USD,Finance,Payments,Production
+503105f6-051a-4141-9204-7ddb475465f0,2026-07-05,AWS,EC2,aws-ec2-res,101.51,USD,Engineering,Backend Core,Production
+21f4b95c-4609-4cd3-b11c-4b7a0f514247,2026-07-05,AWS,RDS,aws-rds-res,69.73,USD,Engineering,Backend Core,Production
+1060f7c1-ec43-463e-825b-cb2d7354981a,2026-07-05,AWS,S3,aws-s3-res,30.28,USD,Engineering,Data Platform,Production
+3db75981-0cf9-476b-a580-f1946d1e24d0,2026-07-05,AWS,Lambda,aws-lambda-res,8.14,USD,Finance,Payments,Production
+a9eda45c-336c-4e8c-81fa-eb0f9da4376a,2026-07-06,AWS,EC2,aws-ec2-res,134.94,USD,Engineering,Backend Core,Production
+dd922687-ab5b-4067-b78a-968d1aa79a16,2026-07-06,AWS,RDS,aws-rds-res,82.84,USD,Engineering,Backend Core,Production
+9be0f31c-6707-457b-a1e7-48fc48ca8b83,2026-07-06,AWS,S3,aws-s3-res,34.86,USD,Engineering,Data Platform,Production
+bc40f00e-7ffe-46e5-9f1f-d5254cb27af7,2026-07-06,AWS,Lambda,aws-lambda-res,9.67,USD,Finance,Payments,Production
+56b47c8a-a80d-4f0a-80e0-5551960aecae,2026-07-07,AWS,EC2,aws-ec2-res,123.05,USD,Engineering,Backend Core,Production
+001329dd-618f-4bbf-82ac-a96cc4801545,2026-07-07,AWS,RDS,aws-rds-res,77.38,USD,Engineering,Backend Core,Production
+918886b3-7c1d-46c9-b2d6-595de893babc,2026-07-07,AWS,S3,aws-s3-res,36.98,USD,Engineering,Data Platform,Production
+1c27a2e1-2341-4187-8e3d-d0b0d775aedb,2026-07-07,AWS,Lambda,aws-lambda-res,8.86,USD,Finance,Payments,Production
+a6fe43bd-f1ae-47dc-9db6-9d9b631a6a14,2026-07-08,AWS,EC2,aws-ec2-res,128.26,USD,Engineering,Backend Core,Production
+4bbbc377-b67f-4939-be07-0ca8de25b683,2026-07-08,AWS,RDS,aws-rds-res,85.83,USD,Engineering,Backend Core,Production
+1fc44bd9-91ee-4e97-80a9-24579bfd5bcc,2026-07-08,AWS,S3,aws-s3-res,37.16,USD,Engineering,Data Platform,Production
+837a709c-48be-45b1-9f11-c8ea765bb162,2026-07-08,AWS,Lambda,aws-lambda-res,8.95,USD,Finance,Payments,Production
+59b31953-629f-4166-bb6b-9f04f940f22a,2026-07-09,AWS,EC2,aws-ec2-res,138.92,USD,Engineering,Backend Core,Production
+f3bcc2d7-5315-41cd-b096-1f8980e30ea6,2026-07-09,AWS,RDS,aws-rds-res,81.39,USD,Engineering,Backend Core,Production
+60eaf5e4-9920-40ff-9069-f6d5cfbda1d9,2026-07-09,AWS,S3,aws-s3-res,37.08,USD,Engineering,Data Platform,Production
+3e022de8-fd52-4c5b-a2ad-85becc6373e9,2026-07-09,AWS,Lambda,aws-lambda-res,9.85,USD,Finance,Payments,Production
+af67ecb0-6d7e-4224-9b05-428373da09af,2026-07-10,AWS,EC2,aws-ec2-res,133.39,USD,Engineering,Backend Core,Production
+b4462181-aabf-4387-8eb3-40168aeb602f,2026-07-10,AWS,RDS,aws-rds-res,88.79,USD,Engineering,Backend Core,Production
+96a46537-9911-4a82-8ab7-ebde1629c084,2026-07-10,AWS,S3,aws-s3-res,38.0,USD,Engineering,Data Platform,Production
+2ef0323b-5229-44d2-b923-32b13df94670,2026-07-10,AWS,Lambda,aws-lambda-res,9.49,USD,Finance,Payments,Production
+e1e1d427-d791-4518-a9e6-bbeb54016015,2026-07-11,AWS,EC2,aws-ec2-res,110.15,USD,Engineering,Backend Core,Production
+83b15b90-4c20-4556-880d-d4c7ef564382,2026-07-11,AWS,RDS,aws-rds-res,73.54,USD,Engineering,Backend Core,Production
+7d9b4db3-f2b7-47f2-af7e-0b69b21f5452,2026-07-11,AWS,S3,aws-s3-res,29.77,USD,Engineering,Data Platform,Production
+aa620fec-de40-4a79-9394-846545b25ae7,2026-07-11,AWS,Lambda,aws-lambda-res,8.14,USD,Finance,Payments,Production
+60ee438c-30be-4f2f-b1ed-14ea6331a4d0,2026-07-12,AWS,EC2,aws-ec2-res,101.47,USD,Engineering,Backend Core,Production
+5a073aac-d4ba-4940-88ae-a12b1874a637,2026-07-12,AWS,RDS,aws-rds-res,62.88,USD,Engineering,Backend Core,Production
+5dc6e78f-f21b-46d2-88b3-df26cb239049,2026-07-12,AWS,S3,aws-s3-res,28.59,USD,Engineering,Data Platform,Production
+20834511-8b13-48b1-88d1-b754888d1602,2026-07-12,AWS,Lambda,aws-lambda-res,8.11,USD,Finance,Payments,Production
+1abd9e04-89f0-44a1-b9f3-b10b4a1034fb,2026-07-13,AWS,EC2,aws-ec2-res,121.74,USD,Engineering,Backend Core,Production
+aa5291b2-5100-4134-a2fe-f9a8878bfa99,2026-07-13,AWS,RDS,aws-rds-res,84.41,USD,Engineering,Backend Core,Production
+e983ac94-e1b7-4433-b18d-4ba1f262f0e7,2026-07-13,AWS,S3,aws-s3-res,36.93,USD,Engineering,Data Platform,Production
+6cf07e8c-eb04-4f1c-bb48-9fa278ea453e,2026-07-13,AWS,Lambda,aws-lambda-res,9.17,USD,Finance,Payments,Production
+ddf9e973-f89a-4024-a19b-b6e2c149e4dd,2026-07-14,AWS,EC2,aws-ec2-res,131.68,USD,Engineering,Backend Core,Production
+d8160871-c408-4c22-97d0-ca28359e552d,2026-07-14,AWS,RDS,aws-rds-res,90.21,USD,Engineering,Backend Core,Production
+ac943438-8585-46a3-aa35-1f1305a9e01e,2026-07-14,AWS,S3,aws-s3-res,34.98,USD,Engineering,Data Platform,Production
+757b51fc-1c85-4035-be92-9bd7f157e331,2026-07-14,AWS,Lambda,aws-lambda-res,9.91,USD,Finance,Payments,Production
+c1171a1e-0f92-453d-b067-496f4aff034b,2026-07-15,AWS,EC2,aws-ec2-res,137.56,USD,Engineering,Backend Core,Production
+acf19614-ae31-4d6d-b18a-75d48bf7de58,2026-07-15,AWS,RDS,aws-rds-res,86.96,USD,Engineering,Backend Core,Production
+5d9f8817-d5df-485d-a2ee-bda214f1747a,2026-07-15,AWS,S3,aws-s3-res,38.25,USD,Engineering,Data Platform,Production
+0744fe2e-1380-4876-b5d5-dfbe81742db3,2026-07-15,AWS,Lambda,aws-lambda-res,10.05,USD,Finance,Payments,Production
+d469cd7c-a1fd-4ff9-8391-62eecdc384a8,2026-07-16,AWS,EC2,aws-ec2-res,136.76,USD,Engineering,Backend Core,Production
+83f31483-7097-47b3-8ca4-b15334c0e61f,2026-07-16,AWS,RDS,aws-rds-res,78.2,USD,Engineering,Backend Core,Production
+930db84d-8679-4d40-922d-c4265736d297,2026-07-16,AWS,S3,aws-s3-res,37.26,USD,Engineering,Data Platform,Production
+1272454d-7193-4803-b72e-4464c0ad992a,2026-07-16,AWS,Lambda,aws-lambda-res,9.73,USD,Finance,Payments,Production
+a0a7313d-127b-4c2f-9bff-b5a584840f81,2026-07-17,AWS,EC2,aws-ec2-res,134.25,USD,Engineering,Backend Core,Production
+a1e9e66f-c4d5-4182-83c8-1772e65faca6,2026-07-17,AWS,RDS,aws-rds-res,89.22,USD,Engineering,Backend Core,Production
+6e72fd8d-4bdf-472e-b21c-34adb674bd2b,2026-07-17,AWS,S3,aws-s3-res,37.25,USD,Engineering,Data Platform,Production
+c6217f02-f9f2-4460-b66f-337ba8615357,2026-07-17,AWS,Lambda,aws-lambda-res,9.11,USD,Finance,Payments,Production
+10cc0009-d689-40cc-96f5-4491638865e9,2026-07-18,AWS,EC2,aws-ec2-res,109.31,USD,Engineering,Backend Core,Production
+752ed0b4-0e19-4195-a1b2-1cc1233e5554,2026-07-18,AWS,RDS,aws-rds-res,63.68,USD,Engineering,Backend Core,Production
+cce8087d-e9c4-4d4c-ba06-47f4401a0bdb,2026-07-18,AWS,S3,aws-s3-res,30.58,USD,Engineering,Data Platform,Production
+3fbd0d1e-c1eb-450c-ac31-8330a8c2e58a,2026-07-18,AWS,Lambda,aws-lambda-res,7.54,USD,Finance,Payments,Production
+d72eadeb-be2e-43b8-848f-e4dc465ce053,2026-07-19,AWS,EC2,aws-ec2-res,113.52,USD,Engineering,Backend Core,Production
+3a84728f-f016-4e33-8045-db1cacf2a696,2026-07-19,AWS,RDS,aws-rds-res,63.99,USD,Engineering,Backend Core,Production
+07c590a8-2765-4b6c-8d83-b569cfa0fd61,2026-07-19,AWS,S3,aws-s3-res,28.21,USD,Engineering,Data Platform,Production
+33d40f6c-b4a2-47e7-9e8f-d94a96f1c573,2026-07-19,AWS,Lambda,aws-lambda-res,7.48,USD,Finance,Payments,Production
+ba3eb627-60a2-41c3-8ab9-72baddff04ee,2026-07-20,AWS,EC2,aws-ec2-res,136.55,USD,Engineering,Backend Core,Production
+aa8f75e0-227f-42d4-a3e2-fb28d9423f77,2026-07-20,AWS,RDS,aws-rds-res,86.04,USD,Engineering,Backend Core,Production
+0dd6096e-03d6-41b4-8c6b-24aa58359281,2026-07-20,AWS,S3,aws-s3-res,36.5,USD,Engineering,Data Platform,Production
+dca06596-d000-4f6e-96dd-3c9b7e0996fb,2026-07-20,AWS,Lambda,aws-lambda-res,9.39,USD,Finance,Payments,Production
+d59118c3-c5e8-41e7-b0d9-4a62d2c14e6b,2026-07-21,AWS,EC2,aws-ec2-res,140.53,USD,Engineering,Backend Core,Production
+79f1b593-7609-4a26-a37a-4d9a392041d2,2026-07-21,AWS,RDS,aws-rds-res,90.5,USD,Engineering,Backend Core,Production
+633ac475-e3eb-42ac-8cc2-12ff13578add,2026-07-21,AWS,S3,aws-s3-res,34.23,USD,Engineering,Data Platform,Production
+6c300680-ee2c-46ba-9413-a73672afa0f8,2026-07-21,AWS,Lambda,aws-lambda-res,10.44,USD,Finance,Payments,Production
+f8fcab12-a169-4d3b-8e1a-a05fd75e585b,2026-07-22,AWS,EC2,aws-ec2-res,133.99,USD,Engineering,Backend Core,Production
+f23009c7-f70e-45ac-8956-47c815930f07,2026-07-22,AWS,RDS,aws-rds-res,83.91,USD,Engineering,Backend Core,Production
+4c58db8d-67b2-4d30-b8d0-f4ae5d3a4b0e,2026-07-22,AWS,S3,aws-s3-res,34.61,USD,Engineering,Data Platform,Production
+300eec7e-0537-4276-a9ff-c55bf6b48816,2026-07-22,AWS,Lambda,aws-lambda-res,9.36,USD,Finance,Payments,Production
+b7844619-2a74-47c9-b936-b7f18831251f,2026-07-23,AWS,EC2,aws-ec2-res,141.05,USD,Engineering,Backend Core,Production
+68bd1995-356d-47a8-8b50-2284d6b0448d,2026-07-23,AWS,RDS,aws-rds-res,91.07,USD,Engineering,Backend Core,Production
+0ac42542-8cc3-4a2f-9427-9134840eb469,2026-07-23,AWS,S3,aws-s3-res,35.19,USD,Engineering,Data Platform,Production
+5a40fb11-771f-486a-8005-be97e3697b35,2026-07-23,AWS,Lambda,aws-lambda-res,10.3,USD,Finance,Payments,Production
+c303c8aa-157b-49b2-a326-830be95f957a,2026-07-24,AWS,EC2,aws-ec2-res,121.05,USD,Engineering,Backend Core,Production
+cdbb01ca-2b0f-4c63-a108-30ad4dfe4d84,2026-07-24,AWS,RDS,aws-rds-res,81.4,USD,Engineering,Backend Core,Production
+3c7363ca-d6bf-4266-873d-2fde5064f634,2026-07-24,AWS,S3,aws-s3-res,39.01,USD,Engineering,Data Platform,Production
+b97cee93-1587-41e1-9c42-900071dbe9b6,2026-07-24,AWS,Lambda,aws-lambda-res,9.53,USD,Finance,Payments,Production
+426920cd-7031-4cce-827a-a29b33baefd1,2026-07-25,AWS,EC2,aws-ec2-res,105.87,USD,Engineering,Backend Core,Production
+9c0bcca3-a77d-4a21-8fae-eadf94afe87c,2026-07-25,AWS,RDS,aws-rds-res,73.9,USD,Engineering,Backend Core,Production
+060ea971-ba9c-433e-95b5-1c91b422025a,2026-07-25,AWS,S3,aws-s3-res,29.66,USD,Engineering,Data Platform,Production
+565ced7b-00c4-42f7-8306-6e18fa6471c7,2026-07-25,AWS,Lambda,aws-lambda-res,7.82,USD,Finance,Payments,Production
+f4e6c716-782c-48c5-9ee5-66ff121aab42,2026-07-26,AWS,EC2,aws-ec2-res,101.83,USD,Engineering,Backend Core,Production
+0e1dd7cf-c9e4-4f70-bf40-4af8e71a40e9,2026-07-26,AWS,RDS,aws-rds-res,67.17,USD,Engineering,Backend Core,Production
+8c120b27-1e40-442b-a5f7-e215617e4f2c,2026-07-26,AWS,S3,aws-s3-res,27.38,USD,Engineering,Data Platform,Production
+8e300836-4a90-403a-9f5b-0b8d23f7dd9e,2026-07-26,AWS,Lambda,aws-lambda-res,8.5,USD,Finance,Payments,Production
+ba8265ef-9000-47ae-a105-b32db939993f,2026-07-27,AWS,EC2,aws-ec2-res,122.7,USD,Engineering,Backend Core,Production
+f257bb69-258f-4080-9092-2791dfa945b5,2026-07-27,AWS,RDS,aws-rds-res,85.3,USD,Engineering,Backend Core,Production
+4390789b-04bc-4763-b0cc-4555ccd3ce49,2026-07-27,AWS,S3,aws-s3-res,34.99,USD,Engineering,Data Platform,Production
+f288182e-3f98-496f-a831-b5907008eeac,2026-07-27,AWS,Lambda,aws-lambda-res,9.65,USD,Finance,Payments,Production
+3569341d-3528-4690-b586-d39c21cf9304,2026-07-28,AWS,EC2,aws-ec2-res,138.37,USD,Engineering,Backend Core,Production
+5de7f34a-2d24-45b3-8e0c-820eb104a169,2026-07-28,AWS,RDS,aws-rds-res,80.92,USD,Engineering,Backend Core,Production
+79fa9caf-aa5f-4e85-a59d-e085c31bc561,2026-07-28,AWS,S3,aws-s3-res,33.99,USD,Engineering,Data Platform,Production
+7a783270-9479-48b0-8912-169a8d3d097d,2026-07-28,AWS,Lambda,aws-lambda-res,9.17,USD,Finance,Payments,Production
+24c5b6ca-5f94-448b-bd58-4af4374cf606,2026-07-29,AWS,EC2,aws-ec2-res,137.37,USD,Engineering,Backend Core,Production
+f612b9ee-762a-479d-8536-47ab8f1a12ea,2026-07-29,AWS,RDS,aws-rds-res,92.95,USD,Engineering,Backend Core,Production
+f22639a3-2c0b-4b68-b5a0-006dd3e34cf8,2026-07-29,AWS,S3,aws-s3-res,38.04,USD,Engineering,Data Platform,Production
+ebbd43d6-33be-43d9-b11c-db9d0bf7415c,2026-07-29,AWS,Lambda,aws-lambda-res,10.33,USD,Finance,Payments,Production
+ca1e6c08-e2fb-447d-b014-5557787dad93,2026-07-30,AWS,EC2,aws-ec2-res,137.83,USD,Engineering,Backend Core,Production
+f9ab224a-661a-408c-b1df-382844b450dc,2026-07-30,AWS,RDS,aws-rds-res,84.98,USD,Engineering,Backend Core,Production
+9daed4e5-b891-4872-b468-0c96041a7b53,2026-07-30,AWS,S3,aws-s3-res,35.37,USD,Engineering,Data Platform,Production
+1e035954-a52f-449a-aa5b-7dcb3ac855bd,2026-07-30,AWS,Lambda,aws-lambda-res,9.18,USD,Finance,Payments,Production
+6b62e4b7-74e6-4a5a-8d8c-4fb173de94ae,2026-07-31,AWS,EC2,aws-ec2-res,143.0,USD,Engineering,Backend Core,Production
+e60421b0-5c7f-4d11-89e3-7170809f3b68,2026-07-31,AWS,RDS,aws-rds-res,83.92,USD,Engineering,Backend Core,Production
+214aa6f5-ae85-486c-9faf-5e3b481466d4,2026-07-31,AWS,S3,aws-s3-res,34.93,USD,Engineering,Data Platform,Production
+541f3241-a03c-4da2-8133-a9e91544a174,2026-07-31,AWS,Lambda,aws-lambda-res,10.07,USD,Finance,Payments,Production
+f48231c3-166a-4037-a703-c75ec83f430a,2026-08-01,AWS,EC2,aws-ec2-res,112.48,USD,Engineering,Backend Core,Production
+13617ff1-0c6f-4712-9ad6-6b1d58cccbb2,2026-08-01,AWS,RDS,aws-rds-res,69.92,USD,Engineering,Backend Core,Production
+bd2359a5-33e0-4c58-a2d6-8fda56d07bbd,2026-08-01,AWS,S3,aws-s3-res,28.47,USD,Engineering,Data Platform,Production
+65c082ae-3e01-4769-8ab9-e8cae5768e46,2026-08-01,AWS,Lambda,aws-lambda-res,8.57,USD,Finance,Payments,Production
+311a06f6-0a29-4761-a2bd-647aa9a67a37,2026-08-02,AWS,EC2,aws-ec2-res,114.47,USD,Engineering,Backend Core,Production
+f64eaff6-239d-46de-9990-3e9600cc3677,2026-08-02,AWS,RDS,aws-rds-res,73.96,USD,Engineering,Backend Core,Production
+c378e543-3e52-4e91-9ac5-a9aa62bfcb37,2026-08-02,AWS,S3,aws-s3-res,29.83,USD,Engineering,Data Platform,Production
+6c2b0ea2-bb94-4a21-a84b-703f72c26704,2026-08-02,AWS,Lambda,aws-lambda-res,7.7,USD,Finance,Payments,Production
+b2a322df-23b1-427c-9370-fd1b4dff8bb1,2026-08-03,AWS,EC2,aws-ec2-res,124.65,USD,Engineering,Backend Core,Production
+b16a41bf-8af5-4de6-8610-5da1c8181175,2026-08-03,AWS,RDS,aws-rds-res,207.62,USD,Engineering,Backend Core,Production
+d0daaaa2-34b9-4f06-80a4-d044cdd03b0c,2026-08-03,AWS,S3,aws-s3-res,38.94,USD,Engineering,Data Platform,Production
+d3b9e641-eab0-4292-8732-4622d24c22d7,2026-08-03,AWS,Lambda,aws-lambda-res,9.51,USD,Finance,Payments,Production
+18ce8e9c-6658-4994-922a-42a4ea3d2de6,2026-08-04,AWS,EC2,aws-ec2-res,134.72,USD,Engineering,Backend Core,Production
+0b74cd43-f0ec-4e6b-b90d-25e825bf162a,2026-08-04,AWS,RDS,aws-rds-res,81.54,USD,Engineering,Backend Core,Production
+67afc834-0b49-4560-b1f7-84729fe27aa9,2026-08-04,AWS,S3,aws-s3-res,35.22,USD,Engineering,Data Platform,Production
+d9ad70f1-1dec-4674-9fa1-75a7a318af33,2026-08-04,AWS,Lambda,aws-lambda-res,9.55,USD,Finance,Payments,Production
+6b923990-6fc5-4110-a7ed-5bac515ca758,2026-08-05,AWS,EC2,aws-ec2-res,140.95,USD,Engineering,Backend Core,Production
+fa7ff23c-346d-4178-8b68-20073b99fed6,2026-08-05,AWS,RDS,aws-rds-res,86.25,USD,Engineering,Backend Core,Production
+6bb921c7-e636-40c7-95ec-0b0e18375e07,2026-08-05,AWS,S3,aws-s3-res,35.71,USD,Engineering,Data Platform,Production
+e8055224-58b7-43ab-9581-46661d87b6d1,2026-08-05,AWS,Lambda,aws-lambda-res,9.09,USD,Finance,Payments,Production
+30c1b822-b71b-4067-af8a-4b48f225e92b,2026-08-06,AWS,EC2,aws-ec2-res,124.21,USD,Engineering,Backend Core,Production
+3a247f5c-e46e-4a09-8ec9-854cc09fb028,2026-08-06,AWS,RDS,aws-rds-res,80.66,USD,Engineering,Backend Core,Production
+7166cac5-0bb9-4ce8-903b-48a26eb61fde,2026-08-06,AWS,S3,aws-s3-res,38.79,USD,Engineering,Data Platform,Production
+a2e7d1d1-7a96-4161-9ab4-6d607257e34d,2026-08-06,AWS,Lambda,aws-lambda-res,9.72,USD,Finance,Payments,Production
+0ef73a03-fcf5-4ef5-ae79-7055f7f0e3d0,2026-08-07,AWS,EC2,aws-ec2-res,140.75,USD,Engineering,Backend Core,Production
+2331150e-d47c-4388-a948-1dffdadbe6bf,2026-08-07,AWS,RDS,aws-rds-res,86.01,USD,Engineering,Backend Core,Production
+9527d6f4-476d-4d1d-b209-a02e52ec1a0d,2026-08-07,AWS,S3,aws-s3-res,39.3,USD,Engineering,Data Platform,Production
+aa17466a-73b2-4c2c-b012-f71c5bc693cd,2026-08-07,AWS,Lambda,aws-lambda-res,9.82,USD,Finance,Payments,Production
+c781134f-4a99-4b90-94e1-edf458344c96,2026-08-08,AWS,EC2,aws-ec2-res,100.86,USD,Engineering,Backend Core,Production
+1fe220a0-92a4-4d74-8941-c669ea48d5cd,2026-08-08,AWS,RDS,aws-rds-res,72.15,USD,Engineering,Backend Core,Production
+dcb304f0-ea10-40e3-a4f2-78b6239cf870,2026-08-08,AWS,S3,aws-s3-res,28.31,USD,Engineering,Data Platform,Production
+a6557b97-60b9-43fd-b562-c86f545d50be,2026-08-08,AWS,Lambda,aws-lambda-res,7.71,USD,Finance,Payments,Production
+2debd154-8cd6-4dc8-9356-cfc4cd4834e2,2026-08-09,AWS,EC2,aws-ec2-res,104.21,USD,Engineering,Backend Core,Production
+8772ca26-73fc-44ad-b97b-14ef4e1b1dec,2026-08-09,AWS,RDS,aws-rds-res,70.5,USD,Engineering,Backend Core,Production
+1782ed71-2bb5-42b5-97d5-d9900af0def5,2026-08-09,AWS,S3,aws-s3-res,30.41,USD,Engineering,Data Platform,Production
+e54daca4-77ff-4e4c-b608-04617aab9289,2026-08-09,AWS,Lambda,aws-lambda-res,8.12,USD,Finance,Payments,Production
+623744a7-78f0-4ad5-bcab-c4a9abf7fa04,2026-08-10,AWS,EC2,aws-ec2-res,382.18,USD,Engineering,Backend Core,Production
+6f1530cb-b34b-4c39-8589-fe5015b5c83a,2026-08-10,AWS,RDS,aws-rds-res,84.69,USD,Engineering,Backend Core,Production
+b2ba9e7a-138d-4a35-aa0f-bced515d3492,2026-08-10,AWS,S3,aws-s3-res,38.09,USD,Engineering,Data Platform,Production
+3ffbd3d6-4611-476f-acf0-1d286bd8e9dd,2026-08-10,AWS,Lambda,aws-lambda-res,10.16,USD,Finance,Payments,Production
+39ab8dc0-6501-4209-9a0a-ea0668992858,2026-08-11,AWS,EC2,aws-ec2-res,126.73,USD,Engineering,Backend Core,Production
+eaa752ed-c132-41f0-9da4-c07196356599,2026-08-11,AWS,RDS,aws-rds-res,94.53,USD,Engineering,Backend Core,Production
+27d2e741-3869-4aa1-ae14-9d912ecd2976,2026-08-11,AWS,S3,aws-s3-res,35.27,USD,Engineering,Data Platform,Production
+c801e005-c21a-449d-80f6-618cc7bc3929,2026-08-11,AWS,Lambda,aws-lambda-res,10.5,USD,Finance,Payments,Production
+20a5a9ef-6efb-4533-93f8-c88a8c6a6476,2026-08-12,AWS,EC2,aws-ec2-res,145.33,USD,Engineering,Backend Core,Production
+886b737a-5fd2-472a-b26e-6f1aef337617,2026-08-12,AWS,RDS,aws-rds-res,90.97,USD,Engineering,Backend Core,Production
+8169dad7-d10d-4667-b6b1-93cd7f70881d,2026-08-12,AWS,S3,aws-s3-res,35.02,USD,Engineering,Data Platform,Production
+f5d9608e-f780-466e-8980-3a0af021d4a6,2026-08-12,AWS,Lambda,aws-lambda-res,10.72,USD,Finance,Payments,Production
+76375eca-608e-4f95-b2ba-e94dfba00704,2026-08-13,AWS,EC2,aws-ec2-res,126.37,USD,Engineering,Backend Core,Production
+11e4c10d-d1fd-49be-91d9-4d4171de4865,2026-08-13,AWS,RDS,aws-rds-res,84.34,USD,Engineering,Backend Core,Production
+b40d7a23-e4cb-45f5-8f19-17656f54436a,2026-08-13,AWS,S3,aws-s3-res,35.27,USD,Engineering,Data Platform,Production
+d4101323-a5c4-4baf-abb8-6efffb3c8423,2026-08-13,AWS,Lambda,aws-lambda-res,10.2,USD,Finance,Payments,Production
+d2d004a7-a40a-43b5-9456-5ff25bd4b0f3,2026-08-14,AWS,EC2,aws-ec2-res,138.29,USD,Engineering,Backend Core,Production
+21f7132a-739c-4a56-a9e8-f4e310eaec69,2026-08-14,AWS,RDS,aws-rds-res,94.88,USD,Engineering,Backend Core,Production
+26b3cd11-9fef-471f-8156-5f71c0869765,2026-08-14,AWS,S3,aws-s3-res,39.18,USD,Engineering,Data Platform,Production
+76ffff41-e55b-4d11-bfb0-c7c46ff9c41c,2026-08-14,AWS,Lambda,aws-lambda-res,10.31,USD,Finance,Payments,Production
+94d3cb25-64b3-4f51-ac84-03cf1f804d7b,2026-08-15,AWS,EC2,aws-ec2-res,115.75,USD,Engineering,Backend Core,Production
+c5608231-7178-43fb-acd9-b918ec025f6f,2026-08-15,AWS,RDS,aws-rds-res,69.16,USD,Engineering,Backend Core,Production
+c4494ea3-8dd7-48ba-8fa4-f49105e67aed,2026-08-15,AWS,S3,aws-s3-res,29.15,USD,Engineering,Data Platform,Production
+24cc1ba2-df9f-4304-9f96-60974399c1c8,2026-08-15,AWS,Lambda,aws-lambda-res,8.61,USD,Finance,Payments,Production
+1b6fc903-6a09-4eb1-ba08-3958a49c8195,2026-08-16,AWS,EC2,aws-ec2-res,111.66,USD,Engineering,Backend Core,Production
+d929d8a1-9bd7-465c-bab5-3540ed693541,2026-08-16,AWS,RDS,aws-rds-res,71.37,USD,Engineering,Backend Core,Production
+a4737d2a-94e8-4122-887c-3a6ddd5011af,2026-08-16,AWS,S3,aws-s3-res,30.98,USD,Engineering,Data Platform,Production
+64fe87cc-3af7-4917-b9e9-a21ec65533b4,2026-08-16,AWS,Lambda,aws-lambda-res,8.03,USD,Finance,Payments,Production
+3e7a309f-ec81-4e13-ab9d-506cf365009d,2026-08-17,AWS,EC2,aws-ec2-res,128.1,USD,Engineering,Backend Core,Production
+851ca6fd-593b-4c1c-90b7-93bb93247a7a,2026-08-17,AWS,RDS,aws-rds-res,86.68,USD,Engineering,Backend Core,Production
+d9ea45a8-7cc5-4963-bce3-baaac0485cf4,2026-08-17,AWS,S3,aws-s3-res,40.28,USD,Engineering,Data Platform,Production
+c2a80c2b-93aa-409f-9039-7b0e1cffb1e8,2026-08-17,AWS,Lambda,aws-lambda-res,10.72,USD,Finance,Payments,Production
+e2a20bf0-a416-4d47-8df8-9b6129a160e0,2026-08-18,AWS,EC2,aws-ec2-res,136.19,USD,Engineering,Backend Core,Production
+33076737-d9cd-4f14-9313-a94649e4b1fd,2026-08-18,AWS,RDS,aws-rds-res,90.31,USD,Engineering,Backend Core,Production
+5d311cdb-2898-4599-84ef-1d4e1092eb0c,2026-08-18,AWS,S3,aws-s3-res,35.24,USD,Engineering,Data Platform,Production
+de4b3ab6-5c06-445e-9359-7e636ff4987f,2026-08-18,AWS,Lambda,aws-lambda-res,10.06,USD,Finance,Payments,Production
+7d9d8ad1-90f2-4fe9-978d-8887e69dd7b6,2026-08-19,AWS,EC2,aws-ec2-res,132.19,USD,Engineering,Backend Core,Production
+1c2f51ec-95c8-425e-bff9-0b02ab8f2625,2026-08-19,AWS,RDS,aws-rds-res,82.78,USD,Engineering,Backend Core,Production
+937a5b72-c6d7-4e85-8747-75e92e6b0d79,2026-08-19,AWS,S3,aws-s3-res,38.41,USD,Engineering,Data Platform,Production
+6a78ce20-3fdc-4c74-a17d-458adf9bf5e5,2026-08-19,AWS,Lambda,aws-lambda-res,10.7,USD,Finance,Payments,Production
+bfa936f6-74ae-4a1a-bb37-90beeb9fa722,2026-08-20,AWS,EC2,aws-ec2-res,142.7,USD,Engineering,Backend Core,Production
+1e1c73a7-16c4-4333-a352-7bcff047e0af,2026-08-20,AWS,RDS,aws-rds-res,93.9,USD,Engineering,Backend Core,Production
+666051e5-49bb-4095-991f-37709aeaaf55,2026-08-20,AWS,S3,aws-s3-res,38.93,USD,Engineering,Data Platform,Production
+8b0311b5-ce4b-4afd-85c7-fb78812dd973,2026-08-20,AWS,Lambda,aws-lambda-res,10.0,USD,Finance,Payments,Production
+55987d7a-cfed-4cd0-b813-f98a67524023,2026-08-21,AWS,EC2,aws-ec2-res,127.2,USD,Engineering,Backend Core,Production
+bb31dc61-58b9-4233-bf93-0e68d8d6ef9b,2026-08-21,AWS,RDS,aws-rds-res,88.62,USD,Engineering,Backend Core,Production
+5dfbf800-f33f-44be-bd79-7cc962abc1f9,2026-08-21,AWS,S3,aws-s3-res,35.94,USD,Engineering,Data Platform,Production
+39532916-de82-406c-945c-d09ef5dd7781,2026-08-21,AWS,Lambda,aws-lambda-res,9.91,USD,Finance,Payments,Production
+ff02f3bb-113e-4fe4-9047-5a69efa864c4,2026-08-22,AWS,EC2,aws-ec2-res,104.98,USD,Engineering,Backend Core,Production
+8e391654-e02b-456a-a658-635f0015128b,2026-08-22,AWS,RDS,aws-rds-res,66.62,USD,Engineering,Backend Core,Production
+664f815a-9d6b-4cd5-83e5-d62b846dadbc,2026-08-22,AWS,S3,aws-s3-res,32.16,USD,Engineering,Data Platform,Production
+78ba319f-ef93-476a-b0ab-b585c5b31881,2026-08-22,AWS,Lambda,aws-lambda-res,7.69,USD,Finance,Payments,Production
+8765adff-78ca-4f48-876b-cc6c1487281a,2026-08-23,AWS,EC2,aws-ec2-res,115.93,USD,Engineering,Backend Core,Production
+b477e659-403d-49ad-827e-be3bcdf173d7,2026-08-23,AWS,RDS,aws-rds-res,77.25,USD,Engineering,Backend Core,Production
+3f89650f-a2de-4cff-a7fd-27abd7d070f3,2026-08-23,AWS,S3,aws-s3-res,31.93,USD,Engineering,Data Platform,Production
+45fcf2b4-7a5f-42d8-ab0b-82ed99735e2e,2026-08-23,AWS,Lambda,aws-lambda-res,8.02,USD,Finance,Payments,Production
+20eb1860-8178-4382-843c-a399a2303618,2026-08-24,AWS,EC2,aws-ec2-res,132.04,USD,Engineering,Backend Core,Production
+74effa7f-5f14-489d-9965-54eb0f23b0b4,2026-08-24,AWS,RDS,aws-rds-res,87.41,USD,Engineering,Backend Core,Production
+fb383760-2031-4189-b91c-8f64a25ecd5b,2026-08-24,AWS,S3,aws-s3-res,36.41,USD,Engineering,Data Platform,Production
+3438502a-9576-4749-81fc-07d127bbce5c,2026-08-24,AWS,Lambda,aws-lambda-res,10.27,USD,Finance,Payments,Production
+54cc50dd-9957-4f8f-989b-95118c83e873,2026-08-24,AWS,EC2,245542443,150000.0,USD,Engineering,Platform,Production
+be2e6819-6a02-41c5-b5c0-74d4e9100250,2026-08-24,AWS,EC2,aws-ec2-res,123400.0,USD,Engineering,Platform,Production

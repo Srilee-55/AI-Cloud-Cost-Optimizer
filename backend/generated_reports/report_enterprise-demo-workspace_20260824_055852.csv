@@ -1,0 +1,991 @@
+ID,Date,Provider,Service,Resource ID,Amount,Currency,Cost Center,Team,Environment
+be68e0f8-9f38-4023-be6c-b94ef6a3a220,2026-05-27,AWS,EC2,aws-ec2-res,125.87,USD,Engineering,Backend Core,Production
+4fe476ce-0d1a-4b15-acfb-e4975263fde9,2026-05-27,AWS,RDS,aws-rds-res,79.07,USD,Engineering,Backend Core,Production
+b9e838e7-f066-4c03-94bf-adc9caf836a0,2026-05-27,AWS,S3,aws-s3-res,35.67,USD,Engineering,Data Platform,Production
+4de6389b-00f2-466d-872b-2605cc1b52db,2026-05-27,AWS,Lambda,aws-lambda-res,8.68,USD,Finance,Payments,Production
+7ad281d1-4212-4655-a643-b77da6b3c923,2026-05-27,AWS,EBS,aws-ebs-res,14.94,USD,Infrastructure,DevOps,Staging
+7ed9b6d1-1761-4d3d-824c-f0f9cb9206d0,2026-05-27,AZURE,Virtual Machines,azure-virtual machines-res,33.92,USD,Finance,Risk Modeling,Production
+66ac55c3-1020-4277-9b90-e7fce74564c7,2026-05-27,AZURE,Azure SQL,azure-azure sql-res,43.54,USD,Finance,Accounting,Production
+674cc3fc-5f21-499d-bb31-bfb9885b1830,2026-05-27,AZURE,Blob Storage,azure-blob storage-res,14.85,USD,Legal,Compliance,Production
+c1790926-fdb0-4479-9f44-b6be8253b43b,2026-05-27,GCP,BigQuery,gcp-bigquery-res,71.36,USD,Data Science,BI & Analytics,Production
+f702d184-ee39-44fb-87d6-741fea7effb9,2026-05-27,GCP,Compute Engine,gcp-compute engine-res,28.98,USD,Data Science,Machine Learning,Production
+4995c360-3757-43ba-8ae0-bc5f570d08a2,2026-05-27,GCP,Cloud Storage,gcp-cloud storage-res,12.49,USD,Data Science,Machine Learning,Production
+42d98706-18db-44e1-8fcb-17f38f1c1033,2026-05-28,AWS,EC2,aws-ec2-res,114.35,USD,Engineering,Backend Core,Production
+605f2b76-700d-4081-bf63-ba84952e95dc,2026-05-28,AWS,RDS,aws-rds-res,75.09,USD,Engineering,Backend Core,Production
+dac40051-48f6-4907-be3d-ed32f97f8d9d,2026-05-28,AWS,S3,aws-s3-res,32.0,USD,Engineering,Data Platform,Production
+89be09df-57ca-483b-acbb-d8b576b1e6dc,2026-05-28,AWS,Lambda,aws-lambda-res,9.04,USD,Finance,Payments,Production
+d1a28908-2830-41ac-be03-6661ee3677db,2026-05-28,AWS,EBS,aws-ebs-res,15.27,USD,Infrastructure,DevOps,Staging
+55814728-5510-4742-8412-c33d38fca200,2026-05-28,AZURE,Virtual Machines,azure-virtual machines-res,36.82,USD,Finance,Risk Modeling,Production
+b426fc83-b7f4-4cf0-967a-ad35c613fa83,2026-05-28,AZURE,Azure SQL,azure-azure sql-res,43.16,USD,Finance,Accounting,Production
+f38a1e2f-522e-4210-86bb-84eb93ce058e,2026-05-28,AZURE,Blob Storage,azure-blob storage-res,15.2,USD,Legal,Compliance,Production
+05cd23fc-bb7b-4034-9d96-3c841fe94ef3,2026-05-28,GCP,BigQuery,gcp-bigquery-res,67.1,USD,Data Science,BI & Analytics,Production
+a07be715-1973-4ab6-bafd-1a6441332343,2026-05-28,GCP,Compute Engine,gcp-compute engine-res,31.84,USD,Data Science,Machine Learning,Production
+e9036eba-ea51-46b0-8f44-54d6a05c5666,2026-05-28,GCP,Cloud Storage,gcp-cloud storage-res,12.75,USD,Data Science,Machine Learning,Production
+9841e5b7-a3e4-4aee-9f04-2573fdab17c6,2026-05-29,AWS,EC2,aws-ec2-res,116.2,USD,Engineering,Backend Core,Production
+72115f1b-c472-4e17-a6b0-d89554dd018b,2026-05-29,AWS,RDS,aws-rds-res,77.85,USD,Engineering,Backend Core,Production
+4740be43-c6e5-4377-8420-066f7c16ce99,2026-05-29,AWS,S3,aws-s3-res,32.43,USD,Engineering,Data Platform,Production
+8e6bd2d5-a639-4c78-9846-54f1e0eaa9b6,2026-05-29,AWS,Lambda,aws-lambda-res,9.63,USD,Finance,Payments,Production
+ec31fc04-6cdc-49c6-a355-2b8e9386620c,2026-05-29,AWS,EBS,aws-ebs-res,14.41,USD,Infrastructure,DevOps,Staging
+9d668611-745a-456f-a7d4-41be11541e8f,2026-05-29,AZURE,Virtual Machines,azure-virtual machines-res,38.97,USD,Finance,Risk Modeling,Production
+4fd107e5-d003-4747-8bf1-384996d2ce86,2026-05-29,AZURE,Azure SQL,azure-azure sql-res,47.73,USD,Finance,Accounting,Production
+10c8629c-a5aa-4899-ad91-8e3d5c636654,2026-05-29,AZURE,Blob Storage,azure-blob storage-res,14.84,USD,Legal,Compliance,Production
+9f282bd7-e5a6-44b7-8843-948fcd8f9d3b,2026-05-29,GCP,BigQuery,gcp-bigquery-res,72.19,USD,Data Science,BI & Analytics,Production
+cae53eee-3dc5-41a6-9dec-c0c503fee866,2026-05-29,GCP,Compute Engine,gcp-compute engine-res,27.35,USD,Data Science,Machine Learning,Production
+0a283f03-e10e-450f-b4c3-a99affeb36a8,2026-05-29,GCP,Cloud Storage,gcp-cloud storage-res,12.28,USD,Data Science,Machine Learning,Production
+f2ffc4f8-fe15-4aad-b921-c0dec905b7e8,2026-05-30,AWS,EC2,aws-ec2-res,98.82,USD,Engineering,Backend Core,Production
+f2832e6b-7d69-44fa-971a-a6fbd056bb00,2026-05-30,AWS,RDS,aws-rds-res,62.43,USD,Engineering,Backend Core,Production
+89e0ba69-754d-49ca-b473-ac23f936baf9,2026-05-30,AWS,S3,aws-s3-res,25.85,USD,Engineering,Data Platform,Production
+0260c1cb-b86e-48a0-b93a-c8e3d5f98d4d,2026-05-30,AWS,Lambda,aws-lambda-res,7.3,USD,Finance,Payments,Production
+6984816f-6bf4-49a0-82f7-ba122e854176,2026-05-30,AWS,EBS,aws-ebs-res,12.38,USD,Infrastructure,DevOps,Staging
+65a124ea-d8d5-4263-94f9-8b6c10b3da1b,2026-05-30,AZURE,Virtual Machines,azure-virtual machines-res,30.7,USD,Finance,Risk Modeling,Production
+55c297c7-53e9-4c46-8b0d-fd95db41f4db,2026-05-30,AZURE,Azure SQL,azure-azure sql-res,36.6,USD,Finance,Accounting,Production
+d49c12da-c00e-49f2-aa50-ef1a8ab59369,2026-05-30,AZURE,Blob Storage,azure-blob storage-res,13.39,USD,Legal,Compliance,Production
+ae59bbff-4872-4ba0-80a0-13ca07acce4b,2026-05-30,GCP,BigQuery,gcp-bigquery-res,57.68,USD,Data Science,BI & Analytics,Production
+81cce198-fe30-409c-8783-2087e1e2f566,2026-05-30,GCP,Compute Engine,gcp-compute engine-res,25.77,USD,Data Science,Machine Learning,Production
+fc10534d-3401-4f38-87d3-e4ab5581306f,2026-05-30,GCP,Cloud Storage,gcp-cloud storage-res,9.8,USD,Data Science,Machine Learning,Production
+720e5204-5914-45bb-884a-28738b604711,2026-05-31,AWS,EC2,aws-ec2-res,97.76,USD,Engineering,Backend Core,Production
+65bf9074-1c54-439c-a57d-fd33eabe5ed4,2026-05-31,AWS,RDS,aws-rds-res,68.74,USD,Engineering,Backend Core,Production
+139c546f-f1b5-4d5b-a192-ba4c4f3cd04c,2026-05-31,AWS,S3,aws-s3-res,28.39,USD,Engineering,Data Platform,Production
+2a58a638-1f04-4dd9-9057-cce10c9ff5af,2026-05-31,AWS,Lambda,aws-lambda-res,7.19,USD,Finance,Payments,Production
+5aaf8b55-8468-4e45-b4c4-f3fc5011136e,2026-05-31,AWS,EBS,aws-ebs-res,12.28,USD,Infrastructure,DevOps,Staging
+05719077-0983-490b-9f93-213c7727b4f2,2026-05-31,AZURE,Virtual Machines,azure-virtual machines-res,31.14,USD,Finance,Risk Modeling,Production
+ee7e4af6-0142-46df-b915-556c1b9f7758,2026-05-31,AZURE,Azure SQL,azure-azure sql-res,38.69,USD,Finance,Accounting,Production
+04684fda-d06a-4c21-bae8-23cd9f4694b4,2026-05-31,AZURE,Blob Storage,azure-blob storage-res,13.32,USD,Legal,Compliance,Production
+2a32e846-1d8f-4dfe-91f8-9ad02ddd214c,2026-05-31,GCP,BigQuery,gcp-bigquery-res,60.71,USD,Data Science,BI & Analytics,Production
+307c03a4-011b-444b-acee-1e4beeaa6b02,2026-05-31,GCP,Compute Engine,gcp-compute engine-res,25.62,USD,Data Science,Machine Learning,Production
+ad6d135f-c77a-44ae-b176-1b6007846582,2026-05-31,GCP,Cloud Storage,gcp-cloud storage-res,9.89,USD,Data Science,Machine Learning,Production
+e3c82114-0768-41ca-b8cd-a343edb314d9,2026-06-01,AWS,EC2,aws-ec2-res,125.79,USD,Engineering,Backend Core,Production
+b9b4b979-70f1-4fdf-b543-eaaafba1e01b,2026-06-01,AWS,RDS,aws-rds-res,73.68,USD,Engineering,Backend Core,Production
+93d9b4e1-6b84-48f1-836c-f0df9affdcd0,2026-06-01,AWS,S3,aws-s3-res,33.42,USD,Engineering,Data Platform,Production
+04a4626a-8a66-4ff3-aae3-b01d898d13a2,2026-06-01,AWS,Lambda,aws-lambda-res,9.71,USD,Finance,Payments,Production
+5c6ac7ac-0002-46d6-8151-037f216a0e48,2026-06-01,AWS,EBS,aws-ebs-res,13.94,USD,Infrastructure,DevOps,Staging
+01a2ba22-b2fb-469b-9e50-51f022816673,2026-06-01,AZURE,Virtual Machines,azure-virtual machines-res,35.66,USD,Finance,Risk Modeling,Production
+cc58dd9e-5fdf-4da7-ad13-d701de74d254,2026-06-01,AZURE,Azure SQL,azure-azure sql-res,43.24,USD,Finance,Accounting,Production
+4600f01a-4535-41d4-b3ff-c51bbf120c1c,2026-06-01,AZURE,Blob Storage,azure-blob storage-res,15.64,USD,Legal,Compliance,Production
+e4a971f5-e6b2-4c00-858d-b7f28acbb392,2026-06-01,GCP,BigQuery,gcp-bigquery-res,68.47,USD,Data Science,BI & Analytics,Production
+dd4b5e7f-72d4-44ef-86d3-b21ff4b5fb52,2026-06-01,GCP,Compute Engine,gcp-compute engine-res,28.53,USD,Data Science,Machine Learning,Production
+fa51a227-8a68-4ad8-a823-ae04c5995e38,2026-06-01,GCP,Cloud Storage,gcp-cloud storage-res,13.24,USD,Data Science,Machine Learning,Production
+62a9bd54-fd97-40f9-b991-ec35a1f4d05f,2026-06-02,AWS,EC2,aws-ec2-res,113.87,USD,Engineering,Backend Core,Production
+749d6c6d-59c5-4334-a7ed-379b64384bcb,2026-06-02,AWS,RDS,aws-rds-res,77.34,USD,Engineering,Backend Core,Production
+fc4fbf23-49ea-479d-be02-5d7dfe889f53,2026-06-02,AWS,S3,aws-s3-res,32.37,USD,Engineering,Data Platform,Production
+17cb5f2c-152d-4b94-9014-13c9860ef80e,2026-06-02,AWS,Lambda,aws-lambda-res,9.05,USD,Finance,Payments,Production
+072bda03-bce9-4661-9950-2f4ce2cbc451,2026-06-02,AWS,EBS,aws-ebs-res,15.94,USD,Infrastructure,DevOps,Staging
+7ca73c58-cd07-4965-8740-117c9dd50f51,2026-06-02,AZURE,Virtual Machines,azure-virtual machines-res,37.36,USD,Finance,Risk Modeling,Production
+900c29f4-e1a0-43ff-a47b-4b9c7b2cbb8c,2026-06-02,AZURE,Azure SQL,azure-azure sql-res,41.39,USD,Finance,Accounting,Production
+6d17f031-2141-4ce6-8b03-0ea211cf63db,2026-06-02,AZURE,Blob Storage,azure-blob storage-res,15.85,USD,Legal,Compliance,Production
+fad06dbe-1909-4cbd-b54b-f5400093e7b2,2026-06-02,GCP,BigQuery,gcp-bigquery-res,67.86,USD,Data Science,BI & Analytics,Production
+e7a9fbfc-767f-4b33-9fb4-d51c571770d6,2026-06-02,GCP,Compute Engine,gcp-compute engine-res,30.66,USD,Data Science,Machine Learning,Production
+1057ee50-46c6-438c-a6ff-2e77d365c1c3,2026-06-02,GCP,Cloud Storage,gcp-cloud storage-res,12.73,USD,Data Science,Machine Learning,Production
+2d93388d-a765-4e06-b62d-5dd53d742161,2026-06-03,AWS,EC2,aws-ec2-res,114.03,USD,Engineering,Backend Core,Production
+3f86a7b7-8e7a-4fa7-9ea3-73c18f6f95f2,2026-06-03,AWS,RDS,aws-rds-res,85.29,USD,Engineering,Backend Core,Production
+7912b34d-f0ea-4857-9b0b-291a19ce5481,2026-06-03,AWS,S3,aws-s3-res,35.03,USD,Engineering,Data Platform,Production
+b4db7c77-1721-4559-ac8f-fea8bd31dfa0,2026-06-03,AWS,Lambda,aws-lambda-res,9.36,USD,Finance,Payments,Production
+0938266e-359a-43d9-a283-ce8685f7a430,2026-06-03,AWS,EBS,aws-ebs-res,14.86,USD,Infrastructure,DevOps,Staging
+9ef9fbe1-2f1a-476c-b166-ed352959957d,2026-06-03,AZURE,Virtual Machines,azure-virtual machines-res,36.61,USD,Finance,Risk Modeling,Production
+fcfa153a-7f45-4f6f-af26-2eb0132be304,2026-06-03,AZURE,Azure SQL,azure-azure sql-res,42.23,USD,Finance,Accounting,Production
+ab258b8d-cb84-455b-859d-59824c6c6854,2026-06-03,AZURE,Blob Storage,azure-blob storage-res,15.09,USD,Legal,Compliance,Production
+17a70f39-8d84-4519-af1b-5ac9864ff747,2026-06-03,GCP,BigQuery,gcp-bigquery-res,77.57,USD,Data Science,BI & Analytics,Production
+7f847a89-7176-4b84-87f4-c0a52c451510,2026-06-03,GCP,Compute Engine,gcp-compute engine-res,27.44,USD,Data Science,Machine Learning,Production
+e9100e71-4cd2-44fe-b8d9-713e0e048f29,2026-06-03,GCP,Cloud Storage,gcp-cloud storage-res,12.78,USD,Data Science,Machine Learning,Production
+fcd204bf-852c-4ff8-b76a-f6896209cea1,2026-06-04,AWS,EC2,aws-ec2-res,125.0,USD,Engineering,Backend Core,Production
+46f9798f-f6b1-4caa-b05e-cfad5ac901a6,2026-06-04,AWS,RDS,aws-rds-res,84.87,USD,Engineering,Backend Core,Production
+546e18e4-67e8-4e96-82a5-3dc784c50d53,2026-06-04,AWS,S3,aws-s3-res,35.57,USD,Engineering,Data Platform,Production
+a6b1528d-6d3e-45f8-9f8a-3f034b1c062f,2026-06-04,AWS,Lambda,aws-lambda-res,8.63,USD,Finance,Payments,Production
+977304ad-db75-4d85-a9a4-350c33323a21,2026-06-04,AWS,EBS,aws-ebs-res,15.67,USD,Infrastructure,DevOps,Staging
+b8c24c23-9408-45c0-9231-b9ca2cffc347,2026-06-04,AZURE,Virtual Machines,azure-virtual machines-res,39.45,USD,Finance,Risk Modeling,Production
+a411f8b1-9579-4c0d-810a-f47a5b6440e6,2026-06-04,AZURE,Azure SQL,azure-azure sql-res,45.19,USD,Finance,Accounting,Production
+6d36a9c3-129f-4302-8071-c1a03bb2befb,2026-06-04,AZURE,Blob Storage,azure-blob storage-res,15.25,USD,Legal,Compliance,Production
+83bb0fa1-3911-4af8-9064-1f61e79f70be,2026-06-04,GCP,BigQuery,gcp-bigquery-res,77.35,USD,Data Science,BI & Analytics,Production
+43a2eac4-1791-4e7d-b820-3df543de764d,2026-06-04,GCP,Compute Engine,gcp-compute engine-res,29.01,USD,Data Science,Machine Learning,Production
+8db920c3-6bb5-41d0-a703-8f61b43880c3,2026-06-04,GCP,Cloud Storage,gcp-cloud storage-res,13.27,USD,Data Science,Machine Learning,Production
+5ed2635a-370b-40a2-8711-62bec286fd2b,2026-06-05,AWS,EC2,aws-ec2-res,132.29,USD,Engineering,Backend Core,Production
+17a646e8-8bea-460e-91de-766f1b5d8b7e,2026-06-05,AWS,RDS,aws-rds-res,74.57,USD,Engineering,Backend Core,Production
+0281ae04-7706-451b-8022-f7d253b8a2e1,2026-06-05,AWS,S3,aws-s3-res,34.18,USD,Engineering,Data Platform,Production
+059ae144-a369-4c51-8a5b-66334575dc05,2026-06-05,AWS,Lambda,aws-lambda-res,9.65,USD,Finance,Payments,Production
+e179cf5c-f1d6-47cc-953d-113d149e9b08,2026-06-05,AWS,EBS,aws-ebs-res,14.51,USD,Infrastructure,DevOps,Staging
+10d18cd4-5366-4a74-a2e4-b92a78ee7466,2026-06-05,AZURE,Virtual Machines,azure-virtual machines-res,36.37,USD,Finance,Risk Modeling,Production
+08a5f5ed-0b0a-45e2-a7c3-e44058d53554,2026-06-05,AZURE,Azure SQL,azure-azure sql-res,44.34,USD,Finance,Accounting,Production
+51ca1109-39e9-44e8-baaa-d8b718842239,2026-06-05,AZURE,Blob Storage,azure-blob storage-res,17.11,USD,Legal,Compliance,Production
+1c66eb89-a18f-4943-bcc1-7e25b54f1030,2026-06-05,GCP,BigQuery,gcp-bigquery-res,72.72,USD,Data Science,BI & Analytics,Production
+05ca2b69-073d-439d-aa02-d3fd1f3f2d72,2026-06-05,GCP,Compute Engine,gcp-compute engine-res,31.07,USD,Data Science,Machine Learning,Production
+47135880-11b8-4b3e-be67-3b4e2b6bab21,2026-06-05,GCP,Cloud Storage,gcp-cloud storage-res,12.38,USD,Data Science,Machine Learning,Production
+2e913fd6-2ae0-4c94-ae35-cc39a827480c,2026-06-06,AWS,EC2,aws-ec2-res,104.24,USD,Engineering,Backend Core,Production
+2af60c3a-5f4b-4845-b95c-b831f132e031,2026-06-06,AWS,RDS,aws-rds-res,62.2,USD,Engineering,Backend Core,Production
+d503ca3a-cc32-476c-a531-4cf2a6460eb4,2026-06-06,AWS,S3,aws-s3-res,26.22,USD,Engineering,Data Platform,Production
+796824c4-172d-4cbf-be40-74ff05bed191,2026-06-06,AWS,Lambda,aws-lambda-res,7.82,USD,Finance,Payments,Production
+68de2569-db1f-440d-b5ad-a3a54bccbec9,2026-06-06,AWS,EBS,aws-ebs-res,12.95,USD,Infrastructure,DevOps,Staging
+03baaed6-cc8f-4d69-9167-310b3af47a38,2026-06-06,AZURE,Virtual Machines,azure-virtual machines-res,32.24,USD,Finance,Risk Modeling,Production
+868eb9d8-8dd6-42fc-bce7-b76e746a766d,2026-06-06,AZURE,Azure SQL,azure-azure sql-res,35.99,USD,Finance,Accounting,Production
+14fec097-e2e0-41df-aaf0-dbaa224e4536,2026-06-06,AZURE,Blob Storage,azure-blob storage-res,13.51,USD,Legal,Compliance,Production
+2e3a0082-c68b-4b8a-8a11-90ff732c97e9,2026-06-06,GCP,BigQuery,gcp-bigquery-res,57.19,USD,Data Science,BI & Analytics,Production
+7acb5211-1b0b-42aa-bb35-059f3ff352b8,2026-06-06,GCP,Compute Engine,gcp-compute engine-res,23.24,USD,Data Science,Machine Learning,Production
+31d8ebdd-8a7c-4658-9af6-cf1fa4950793,2026-06-06,GCP,Cloud Storage,gcp-cloud storage-res,11.11,USD,Data Science,Machine Learning,Production
+2b080cb8-ad56-453b-b145-b1139650929b,2026-06-07,AWS,EC2,aws-ec2-res,95.55,USD,Engineering,Backend Core,Production
+0b08bbf4-aa22-4ff8-920c-401332358338,2026-06-07,AWS,RDS,aws-rds-res,68.94,USD,Engineering,Backend Core,Production
+98c66a76-0308-4537-93c2-4abb8045bcee,2026-06-07,AWS,S3,aws-s3-res,27.75,USD,Engineering,Data Platform,Production
+e0cb8e99-2f3d-41f9-8ff4-28e51d9b63c9,2026-06-07,AWS,Lambda,aws-lambda-res,6.99,USD,Finance,Payments,Production
+81ffc0f9-30a8-4c27-a53a-d1d6cfcadfed,2026-06-07,AWS,EBS,aws-ebs-res,12.1,USD,Infrastructure,DevOps,Staging
+3953b4c7-e4bb-4569-b900-08edd7cca4c4,2026-06-07,AZURE,Virtual Machines,azure-virtual machines-res,32.34,USD,Finance,Risk Modeling,Production
+707188eb-86d1-459e-a09e-fe59b9c905d7,2026-06-07,AZURE,Azure SQL,azure-azure sql-res,38.88,USD,Finance,Accounting,Production
+02b057ed-e30b-465f-accf-f93fe33ccf19,2026-06-07,AZURE,Blob Storage,azure-blob storage-res,13.32,USD,Legal,Compliance,Production
+29071f47-7fcc-449f-9cb2-a044642b32c4,2026-06-07,GCP,BigQuery,gcp-bigquery-res,54.67,USD,Data Science,BI & Analytics,Production
+65a5b939-6d4f-4262-9a88-3510fc1e5085,2026-06-07,GCP,Compute Engine,gcp-compute engine-res,24.02,USD,Data Science,Machine Learning,Production
+1b22210e-8506-4c81-aaa7-6af18482e0fd,2026-06-07,GCP,Cloud Storage,gcp-cloud storage-res,10.82,USD,Data Science,Machine Learning,Production
+1e093b7b-0ab9-4e42-b85d-9ba2a3c5b244,2026-06-08,AWS,EC2,aws-ec2-res,121.56,USD,Engineering,Backend Core,Production
+a5b098b7-d5ca-4310-b442-730688aad4f1,2026-06-08,AWS,RDS,aws-rds-res,76.51,USD,Engineering,Backend Core,Production
+3682a619-be63-49c6-8d97-b3f4e3f56e87,2026-06-08,AWS,S3,aws-s3-res,36.59,USD,Engineering,Data Platform,Production
+d8706241-ae03-42b6-9fef-7514433785f4,2026-06-08,AWS,Lambda,aws-lambda-res,9.73,USD,Finance,Payments,Production
+86fc4d3f-750e-4a93-af2e-d5153d3b56d2,2026-06-08,AWS,EBS,aws-ebs-res,15.27,USD,Infrastructure,DevOps,Staging
+7ee5e3c4-d0da-4199-ac3a-6862cefbcc0c,2026-06-08,AZURE,Virtual Machines,azure-virtual machines-res,39.73,USD,Finance,Risk Modeling,Production
+deabf665-b9b3-4eee-bb5a-0c9be8164d49,2026-06-08,AZURE,Azure SQL,azure-azure sql-res,43.25,USD,Finance,Accounting,Production
+1b51ba25-52d4-4861-8145-5c806dab4334,2026-06-08,AZURE,Blob Storage,azure-blob storage-res,16.96,USD,Legal,Compliance,Production
+1be94250-81c0-4053-b113-ac9e61969f5c,2026-06-08,GCP,BigQuery,gcp-bigquery-res,69.2,USD,Data Science,BI & Analytics,Production
+f8f73cf0-3f69-4928-8ef6-84707c54d514,2026-06-08,GCP,Compute Engine,gcp-compute engine-res,29.04,USD,Data Science,Machine Learning,Production
+b051eda4-342c-4954-9f52-bfe6902f0676,2026-06-08,GCP,Cloud Storage,gcp-cloud storage-res,13.0,USD,Data Science,Machine Learning,Production
+689207ba-ac9c-4076-8c79-63453a8ed360,2026-06-09,AWS,EC2,aws-ec2-res,118.63,USD,Engineering,Backend Core,Production
+cdf6e5b1-981e-4163-8903-23bbf3df54c5,2026-06-09,AWS,RDS,aws-rds-res,85.55,USD,Engineering,Backend Core,Production
+6fa517e3-1aac-43ee-bef6-4f601fc176a9,2026-06-09,AWS,S3,aws-s3-res,32.38,USD,Engineering,Data Platform,Production
+5a6952f5-5505-40c4-bdbc-dbc67b7b5548,2026-06-09,AWS,Lambda,aws-lambda-res,9.5,USD,Finance,Payments,Production
+e47c1bf5-327c-4471-a4bf-a11154069662,2026-06-09,AWS,EBS,aws-ebs-res,15.27,USD,Infrastructure,DevOps,Staging
+3cd60878-ac02-41c2-a831-756ccc7adcf8,2026-06-09,AZURE,Virtual Machines,azure-virtual machines-res,38.75,USD,Finance,Risk Modeling,Production
+76d0d74f-bc08-4653-a426-41eea2fa4d8b,2026-06-09,AZURE,Azure SQL,azure-azure sql-res,43.99,USD,Finance,Accounting,Production
+ba2ec020-0804-42cc-a2f6-e80638ae4ed4,2026-06-09,AZURE,Blob Storage,azure-blob storage-res,15.46,USD,Legal,Compliance,Production
+437998af-d7c7-4f03-b780-2520b9907b96,2026-06-09,GCP,BigQuery,gcp-bigquery-res,72.45,USD,Data Science,BI & Analytics,Production
+b81b14b5-fcce-4739-b4cf-812a172d5ce5,2026-06-09,GCP,Compute Engine,gcp-compute engine-res,28.02,USD,Data Science,Machine Learning,Production
+07d3faa3-571b-4842-90e7-7c16e39885d8,2026-06-09,GCP,Cloud Storage,gcp-cloud storage-res,12.01,USD,Data Science,Machine Learning,Production
+c24c7e2e-9e61-4ecb-b386-e8f8133dd60b,2026-06-10,AWS,EC2,aws-ec2-res,122.31,USD,Engineering,Backend Core,Production
+2cb65677-1263-4bd4-9ca9-eb6c66d61b91,2026-06-10,AWS,RDS,aws-rds-res,82.59,USD,Engineering,Backend Core,Production
+98979fbd-c4f9-4b2f-93be-a74ba90411db,2026-06-10,AWS,S3,aws-s3-res,34.57,USD,Engineering,Data Platform,Production
+255e557a-a528-474e-a446-faa8ad46fc3f,2026-06-10,AWS,Lambda,aws-lambda-res,9.7,USD,Finance,Payments,Production
+2d128110-b188-4193-870b-1b61f5fef29d,2026-06-10,AWS,EBS,aws-ebs-res,15.34,USD,Infrastructure,DevOps,Staging
+9f96f9d3-5419-4714-8336-992292e07aa9,2026-06-10,AZURE,Virtual Machines,azure-virtual machines-res,36.96,USD,Finance,Risk Modeling,Production
+86396012-853b-48dc-9ca6-6ce6583619b8,2026-06-10,AZURE,Azure SQL,azure-azure sql-res,46.11,USD,Finance,Accounting,Production
+42b849ed-6954-4558-8c98-6d78b36092b0,2026-06-10,AZURE,Blob Storage,azure-blob storage-res,15.16,USD,Legal,Compliance,Production
+2868106e-8a01-4c14-94b6-9ecf4af004f8,2026-06-10,GCP,BigQuery,gcp-bigquery-res,75.32,USD,Data Science,BI & Analytics,Production
+cd3ea1ba-9ce5-41bb-859c-84cae82e309c,2026-06-10,GCP,Compute Engine,gcp-compute engine-res,32.26,USD,Data Science,Machine Learning,Production
+9a6970ff-8db6-41f5-87b4-8b8c984511a4,2026-06-10,GCP,Cloud Storage,gcp-cloud storage-res,13.42,USD,Data Science,Machine Learning,Production
+0b1c6371-a451-4c50-9f98-0c1255ea8d33,2026-06-11,AWS,EC2,aws-ec2-res,116.88,USD,Engineering,Backend Core,Production
+4086f919-767f-4563-a5e4-d37862c7c958,2026-06-11,AWS,RDS,aws-rds-res,77.16,USD,Engineering,Backend Core,Production
+29fd7c74-9f9d-4675-85f9-1c14b430128a,2026-06-11,AWS,S3,aws-s3-res,36.68,USD,Engineering,Data Platform,Production
+7a409be1-744d-42ac-85cb-772da1f9f484,2026-06-11,AWS,Lambda,aws-lambda-res,9.01,USD,Finance,Payments,Production
+ff3f8ac0-2e7b-4d62-a305-8b2887f8244e,2026-06-11,AWS,EBS,aws-ebs-res,14.45,USD,Infrastructure,DevOps,Staging
+02917aa7-c48b-46c8-979f-b02400ae28ae,2026-06-11,AZURE,Virtual Machines,azure-virtual machines-res,39.63,USD,Finance,Risk Modeling,Production
+ff3cfc4c-6ec7-453b-bb64-e351b1991485,2026-06-11,AZURE,Azure SQL,azure-azure sql-res,45.33,USD,Finance,Accounting,Production
+784e4526-301a-456f-be9f-ef8202d77d23,2026-06-11,AZURE,Blob Storage,azure-blob storage-res,15.11,USD,Legal,Compliance,Production
+9d6b9bcb-cbac-4bf5-993e-35c0a11a6889,2026-06-11,GCP,BigQuery,gcp-bigquery-res,74.08,USD,Data Science,BI & Analytics,Production
+56b7a05f-2a9a-4c46-9751-e44b7c252b42,2026-06-11,GCP,Compute Engine,gcp-compute engine-res,30.8,USD,Data Science,Machine Learning,Production
+6a71934d-93f4-452c-9994-97cdfe514d3a,2026-06-11,GCP,Cloud Storage,gcp-cloud storage-res,12.89,USD,Data Science,Machine Learning,Production
+d00d4263-943d-43ed-830f-6c3ae026dea3,2026-06-12,AWS,EC2,aws-ec2-res,119.72,USD,Engineering,Backend Core,Production
+89669307-555a-48c9-a0ae-538d1715556f,2026-06-12,AWS,RDS,aws-rds-res,80.61,USD,Engineering,Backend Core,Production
+a8dd6963-1b13-4e66-a5df-0a34e3636455,2026-06-12,AWS,S3,aws-s3-res,35.36,USD,Engineering,Data Platform,Production
+348a19da-5ef7-459a-81f4-9b3fad5c19cb,2026-06-12,AWS,Lambda,aws-lambda-res,9.65,USD,Finance,Payments,Production
+05f71a15-1e17-4512-bf7e-fd06baea394f,2026-06-12,AWS,EBS,aws-ebs-res,14.02,USD,Infrastructure,DevOps,Staging
+9996a6fe-a0ed-4851-a902-bae87e8d221c,2026-06-12,AZURE,Virtual Machines,azure-virtual machines-res,37.59,USD,Finance,Risk Modeling,Production
+a9337f51-ec54-4229-8e8e-386449095623,2026-06-12,AZURE,Azure SQL,azure-azure sql-res,45.08,USD,Finance,Accounting,Production
+5f063250-304e-4d47-9213-19d06dc69195,2026-06-12,AZURE,Blob Storage,azure-blob storage-res,15.38,USD,Legal,Compliance,Production
+f2b12d4f-bcdc-473b-a9de-076495058dea,2026-06-12,GCP,BigQuery,gcp-bigquery-res,70.77,USD,Data Science,BI & Analytics,Production
+b6588bed-f7be-4653-bb0a-a95c25b3a0e3,2026-06-12,GCP,Compute Engine,gcp-compute engine-res,27.96,USD,Data Science,Machine Learning,Production
+d005de20-9468-484a-aa6e-d5d5c08b56bb,2026-06-12,GCP,Cloud Storage,gcp-cloud storage-res,13.53,USD,Data Science,Machine Learning,Production
+efbf8fac-96f7-4546-80a8-31c766458709,2026-06-13,AWS,EC2,aws-ec2-res,105.13,USD,Engineering,Backend Core,Production
+9c352c2e-7f89-4156-ba84-e9293b98b272,2026-06-13,AWS,RDS,aws-rds-res,61.73,USD,Engineering,Backend Core,Production
+20dd1c2b-9396-404f-9571-7cbf17f73437,2026-06-13,AWS,S3,aws-s3-res,27.11,USD,Engineering,Data Platform,Production
+205e1672-430e-4e7d-bbed-25fe4bef4729,2026-06-13,AWS,Lambda,aws-lambda-res,7.15,USD,Finance,Payments,Production
+021e93c7-968d-47e3-8e71-384578f323c0,2026-06-13,AWS,EBS,aws-ebs-res,12.12,USD,Infrastructure,DevOps,Staging
+6573ecc3-095d-4014-a3c7-375e5dbadd09,2026-06-13,AZURE,Virtual Machines,azure-virtual machines-res,30.89,USD,Finance,Risk Modeling,Production
+112eca0e-666c-4f7c-813e-9a4fba94d6b7,2026-06-13,AZURE,Azure SQL,azure-azure sql-res,36.2,USD,Finance,Accounting,Production
+b2a1b891-a815-440d-850d-377dbf871424,2026-06-13,AZURE,Blob Storage,azure-blob storage-res,12.59,USD,Legal,Compliance,Production
+f6893d38-549c-4f81-a9f2-e62885f42101,2026-06-13,GCP,BigQuery,gcp-bigquery-res,63.38,USD,Data Science,BI & Analytics,Production
+b16b2981-c064-4eb9-8d24-8f2f54290feb,2026-06-13,GCP,Compute Engine,gcp-compute engine-res,22.64,USD,Data Science,Machine Learning,Production
+22fb4fe8-c57e-44d4-b395-0a3a10d759dd,2026-06-13,GCP,Cloud Storage,gcp-cloud storage-res,9.89,USD,Data Science,Machine Learning,Production
+918ea122-9a40-44b9-98da-086c4dacc95a,2026-06-14,AWS,EC2,aws-ec2-res,96.54,USD,Engineering,Backend Core,Production
+14931c84-3811-4053-8375-adb3ffe740af,2026-06-14,AWS,RDS,aws-rds-res,65.38,USD,Engineering,Backend Core,Production
+e67ba2bd-ff8a-4d6e-9923-f60937dd0cca,2026-06-14,AWS,S3,aws-s3-res,27.92,USD,Engineering,Data Platform,Production
+90b620fa-5640-4fdd-9a7d-ade46a18812d,2026-06-14,AWS,Lambda,aws-lambda-res,7.84,USD,Finance,Payments,Production
+914a9571-8646-4bba-827f-236b86a9cfc5,2026-06-14,AWS,EBS,aws-ebs-res,12.31,USD,Infrastructure,DevOps,Staging
+bc1ac194-6d05-49ee-bc35-82f8d26ff0f7,2026-06-14,AZURE,Virtual Machines,azure-virtual machines-res,30.04,USD,Finance,Risk Modeling,Production
+18f5d9a8-03f0-4048-877c-d0655913a6b1,2026-06-14,AZURE,Azure SQL,azure-azure sql-res,36.64,USD,Finance,Accounting,Production
+4d1d4886-62ca-4ffd-8a59-a8faf4604ab9,2026-06-14,AZURE,Blob Storage,azure-blob storage-res,12.26,USD,Legal,Compliance,Production
+c5e6557f-689b-4802-9ae8-ebc778977513,2026-06-14,GCP,BigQuery,gcp-bigquery-res,62.89,USD,Data Science,BI & Analytics,Production
+96a7d832-4c97-4c5f-860e-5a3889161fe0,2026-06-14,GCP,Compute Engine,gcp-compute engine-res,23.68,USD,Data Science,Machine Learning,Production
+2d38cada-69cb-454c-9e2a-d56486b80c10,2026-06-14,GCP,Cloud Storage,gcp-cloud storage-res,11.27,USD,Data Science,Machine Learning,Production
+207f6bbe-65cf-4fe3-9f62-8391a0fc11ff,2026-06-15,AWS,EC2,aws-ec2-res,122.99,USD,Engineering,Backend Core,Production
+a6a4fcd1-8124-41db-baac-1f40d1e0b822,2026-06-15,AWS,RDS,aws-rds-res,80.16,USD,Engineering,Backend Core,Production
+8f61f010-f7d6-4644-bc96-218a3408ad61,2026-06-15,AWS,S3,aws-s3-res,34.55,USD,Engineering,Data Platform,Production
+4fa3e7d2-b69c-4ab4-b633-db38c14320ae,2026-06-15,AWS,Lambda,aws-lambda-res,9.11,USD,Finance,Payments,Production
+2d08975a-d52a-4c79-bb0c-6971f7300002,2026-06-15,AWS,EBS,aws-ebs-res,14.08,USD,Infrastructure,DevOps,Staging
+6ea0343b-a499-4157-92bb-bf26348b8de3,2026-06-15,AZURE,Virtual Machines,azure-virtual machines-res,40.37,USD,Finance,Risk Modeling,Production
+3fc6f62e-a328-4be9-bd6e-e1e996f4a8e8,2026-06-15,AZURE,Azure SQL,azure-azure sql-res,46.22,USD,Finance,Accounting,Production
+d12c53b6-014c-41e2-8884-1b0f0ad24934,2026-06-15,AZURE,Blob Storage,azure-blob storage-res,15.13,USD,Legal,Compliance,Production
+2ab15d70-d43a-4be9-8613-ea4705933ef1,2026-06-15,GCP,BigQuery,gcp-bigquery-res,68.38,USD,Data Science,BI & Analytics,Production
+666b5f4c-4c18-41b3-9ed4-a303a0b4f122,2026-06-15,GCP,Compute Engine,gcp-compute engine-res,29.11,USD,Data Science,Machine Learning,Production
+afdce20b-e099-4ab6-9573-e46fbe9e294c,2026-06-15,GCP,Cloud Storage,gcp-cloud storage-res,13.83,USD,Data Science,Machine Learning,Production
+3fa5b971-fb76-4c17-817e-dde559a08292,2026-06-16,AWS,EC2,aws-ec2-res,132.62,USD,Engineering,Backend Core,Production
+93f21ecf-61cb-4e4c-a5f5-21c401fc4e8d,2026-06-16,AWS,RDS,aws-rds-res,84.39,USD,Engineering,Backend Core,Production
+bbda2289-007b-4f99-a1e6-06e8b5f55bdd,2026-06-16,AWS,S3,aws-s3-res,36.1,USD,Engineering,Data Platform,Production
+0e79b3e2-a19f-42a5-9da4-7bcb263e7b12,2026-06-16,AWS,Lambda,aws-lambda-res,8.52,USD,Finance,Payments,Production
+05f4b16a-7014-4f38-a966-720dfcf74687,2026-06-16,AWS,EBS,aws-ebs-res,15.19,USD,Infrastructure,DevOps,Staging
+9e41eb71-2aaf-4b5e-9d5a-cdbfdfcf1a95,2026-06-16,AZURE,Virtual Machines,azure-virtual machines-res,38.54,USD,Finance,Risk Modeling,Production
+d40a33f7-b929-4aad-bd8c-2558803a596a,2026-06-16,AZURE,Azure SQL,azure-azure sql-res,43.92,USD,Finance,Accounting,Production
+9b29c08b-dbf8-4ce8-a7e5-17eae4d06789,2026-06-16,AZURE,Blob Storage,azure-blob storage-res,17.27,USD,Legal,Compliance,Production
+cd4cd02d-7ce2-4adf-a531-a1e5f1c44799,2026-06-16,GCP,BigQuery,gcp-bigquery-res,77.64,USD,Data Science,BI & Analytics,Production
+dba15f27-fd89-4d58-bdaf-f2f91ebc84a5,2026-06-16,GCP,Compute Engine,gcp-compute engine-res,31.98,USD,Data Science,Machine Learning,Production
+85d87887-19d0-473a-8308-d7c5cc4c230d,2026-06-16,GCP,Cloud Storage,gcp-cloud storage-res,13.91,USD,Data Science,Machine Learning,Production
+59fa7b06-8d82-46ad-8622-85535419d67b,2026-06-17,AWS,EC2,aws-ec2-res,124.26,USD,Engineering,Backend Core,Production
+f8f7ccbc-6682-4b3d-a4c7-8f3546821e5b,2026-06-17,AWS,RDS,aws-rds-res,82.53,USD,Engineering,Backend Core,Production
+79fa13a6-5898-4df7-949f-7f589fb8f2fa,2026-06-17,AWS,S3,aws-s3-res,32.16,USD,Engineering,Data Platform,Production
+8ca29208-270f-49fb-a847-552963d60ee3,2026-06-17,AWS,Lambda,aws-lambda-res,8.8,USD,Finance,Payments,Production
+9af7e0fe-efe5-4bb1-920a-5301c3161394,2026-06-17,AWS,EBS,aws-ebs-res,14.43,USD,Infrastructure,DevOps,Staging
+3b8ff409-fcb3-4ca9-9d59-0450a5c07859,2026-06-17,AZURE,Virtual Machines,azure-virtual machines-res,39.15,USD,Finance,Risk Modeling,Production
+6092b80f-a58d-4616-8a00-87daa798b546,2026-06-17,AZURE,Azure SQL,azure-azure sql-res,45.62,USD,Finance,Accounting,Production
+c567793a-02d3-4d21-a5f0-f7fbbf01940b,2026-06-17,AZURE,Blob Storage,azure-blob storage-res,16.54,USD,Legal,Compliance,Production
+de47280e-25bd-424f-9437-2614d2e3e7a3,2026-06-17,GCP,BigQuery,gcp-bigquery-res,73.28,USD,Data Science,BI & Analytics,Production
+93504e1a-59c7-455b-b06a-4084a9d61b74,2026-06-17,GCP,Compute Engine,gcp-compute engine-res,32.53,USD,Data Science,Machine Learning,Production
+778beba4-5a29-4b1c-a530-0eb209c77679,2026-06-17,GCP,Cloud Storage,gcp-cloud storage-res,13.54,USD,Data Science,Machine Learning,Production
+b9f25188-ef2c-4ad1-a6fa-68448dc3707b,2026-06-18,AWS,EC2,aws-ec2-res,121.23,USD,Engineering,Backend Core,Production
+40d4a589-0aa2-41a3-b6af-2af2cde2d0fc,2026-06-18,AWS,RDS,aws-rds-res,82.37,USD,Engineering,Backend Core,Production
+db595ce3-dcee-434a-ae1d-7781cda7e223,2026-06-18,AWS,S3,aws-s3-res,34.83,USD,Engineering,Data Platform,Production
+4f441378-1fb3-48a4-ab50-e103a0bd8247,2026-06-18,AWS,Lambda,aws-lambda-res,8.71,USD,Finance,Payments,Production
+97dc6f71-90c9-4ed8-9ba2-441acd3c9db1,2026-06-18,AWS,EBS,aws-ebs-res,16.27,USD,Infrastructure,DevOps,Staging
+8f86eaa6-e476-47e5-ac7c-55c7dc2b5b2e,2026-06-18,AZURE,Virtual Machines,azure-virtual machines-res,40.1,USD,Finance,Risk Modeling,Production
+7bb53037-2d5e-4487-8c80-908a09014700,2026-06-18,AZURE,Azure SQL,azure-azure sql-res,42.46,USD,Finance,Accounting,Production
+00094ce1-118c-4a1b-9fab-5d2a8f39405d,2026-06-18,AZURE,Blob Storage,azure-blob storage-res,17.0,USD,Legal,Compliance,Production
+64bc5578-df33-4cba-a815-3d2734914221,2026-06-18,GCP,BigQuery,gcp-bigquery-res,69.53,USD,Data Science,BI & Analytics,Production
+1b2920ce-2741-4515-8bab-09b4478782c1,2026-06-18,GCP,Compute Engine,gcp-compute engine-res,28.67,USD,Data Science,Machine Learning,Production
+f9f933f3-67bd-4d80-a723-d228623af4a3,2026-06-18,GCP,Cloud Storage,gcp-cloud storage-res,12.16,USD,Data Science,Machine Learning,Production
+6b9c6be6-842b-4945-8ea3-7d418199861d,2026-06-19,AWS,EC2,aws-ec2-res,130.49,USD,Engineering,Backend Core,Production
+303ef2c3-214a-4752-9d9e-7322b8f61fd3,2026-06-19,AWS,RDS,aws-rds-res,80.1,USD,Engineering,Backend Core,Production
+810b9843-07eb-49cd-bb2f-67dc008559d1,2026-06-19,AWS,S3,aws-s3-res,37.25,USD,Engineering,Data Platform,Production
+83438b48-ea04-4433-b98d-69614cda39ad,2026-06-19,AWS,Lambda,aws-lambda-res,9.88,USD,Finance,Payments,Production
+aa565a35-346b-4e26-aa85-360738ebb967,2026-06-19,AWS,EBS,aws-ebs-res,14.57,USD,Infrastructure,DevOps,Staging
+2e47d52d-dd4a-48a8-8e6d-d2b233d78fb5,2026-06-19,AZURE,Virtual Machines,azure-virtual machines-res,39.8,USD,Finance,Risk Modeling,Production
+24dd6ade-ba81-4031-9473-5914fc2f3fe3,2026-06-19,AZURE,Azure SQL,azure-azure sql-res,48.24,USD,Finance,Accounting,Production
+be973a24-c073-487b-87e7-7957a2ed6e43,2026-06-19,AZURE,Blob Storage,azure-blob storage-res,16.29,USD,Legal,Compliance,Production
+3bae6443-197a-4223-ad56-35550e645907,2026-06-19,GCP,BigQuery,gcp-bigquery-res,68.25,USD,Data Science,BI & Analytics,Production
+b0220655-f2dc-4171-bd58-bc1c0314534d,2026-06-19,GCP,Compute Engine,gcp-compute engine-res,32.44,USD,Data Science,Machine Learning,Production
+69d7928c-4c97-4ab9-9453-400123fd5e8d,2026-06-19,GCP,Cloud Storage,gcp-cloud storage-res,13.15,USD,Data Science,Machine Learning,Production
+9cadccb9-d74b-4914-b7fd-8f9e7d049516,2026-06-20,AWS,EC2,aws-ec2-res,99.56,USD,Engineering,Backend Core,Production
+80935fcc-6661-4a91-b85b-4847e7a01e3c,2026-06-20,AWS,RDS,aws-rds-res,66.53,USD,Engineering,Backend Core,Production
+f6c9ae84-9170-4c84-9af4-a82f494ff86a,2026-06-20,AWS,S3,aws-s3-res,29.23,USD,Engineering,Data Platform,Production
+4a724b7d-1566-43eb-89ce-d3210c19313e,2026-06-20,AWS,Lambda,aws-lambda-res,7.97,USD,Finance,Payments,Production
+736dface-805b-4308-9262-d9fe939f41a5,2026-06-20,AWS,EBS,aws-ebs-res,13.12,USD,Infrastructure,DevOps,Staging
+9f1e3505-23e1-4b3e-86eb-3aa2fe17cde8,2026-06-20,AZURE,Virtual Machines,azure-virtual machines-res,33.12,USD,Finance,Risk Modeling,Production
+a2bcfc72-28e0-4b43-bf18-a9e13de1ad4f,2026-06-20,AZURE,Azure SQL,azure-azure sql-res,37.62,USD,Finance,Accounting,Production
+6cdb49c5-8c12-41f8-ba9b-3832ed1fc63e,2026-06-20,AZURE,Blob Storage,azure-blob storage-res,12.5,USD,Legal,Compliance,Production
+16ecf5e4-7013-45bb-8977-1cf4fe760fab,2026-06-20,GCP,BigQuery,gcp-bigquery-res,64.01,USD,Data Science,BI & Analytics,Production
+d7819256-580c-4276-ad25-4755f91f120b,2026-06-20,GCP,Compute Engine,gcp-compute engine-res,25.84,USD,Data Science,Machine Learning,Production
+707b5dcb-ec29-4229-8bd9-2c5dcd2e816e,2026-06-20,GCP,Cloud Storage,gcp-cloud storage-res,11.08,USD,Data Science,Machine Learning,Production
+c204a8db-242c-433e-adda-c23a73676bb7,2026-06-21,AWS,EC2,aws-ec2-res,108.14,USD,Engineering,Backend Core,Production
+0894ed50-dccb-4d3d-8c6d-2533ed03a9e2,2026-06-21,AWS,RDS,aws-rds-res,68.92,USD,Engineering,Backend Core,Production
+23cc3d40-9502-4e99-906b-53282f9f5bbe,2026-06-21,AWS,S3,aws-s3-res,27.83,USD,Engineering,Data Platform,Production
+72eaf5c3-26aa-4b0b-8ced-5ca63b616028,2026-06-21,AWS,Lambda,aws-lambda-res,8.0,USD,Finance,Payments,Production
+756b28fd-3486-400a-9be6-73f3760ee70c,2026-06-21,AWS,EBS,aws-ebs-res,12.89,USD,Infrastructure,DevOps,Staging
+36aebdb6-1604-44cd-a667-b96c2b5aeb34,2026-06-21,AZURE,Virtual Machines,azure-virtual machines-res,29.81,USD,Finance,Risk Modeling,Production
+bf3fd5a7-40c2-4b33-bd92-233fd827d2fe,2026-06-21,AZURE,Azure SQL,azure-azure sql-res,35.43,USD,Finance,Accounting,Production
+17035096-8f3c-4e62-9d70-231f46f4a13e,2026-06-21,AZURE,Blob Storage,azure-blob storage-res,13.49,USD,Legal,Compliance,Production
+9d8447ca-8dbc-4361-8b6a-4f764795d3ee,2026-06-21,GCP,BigQuery,gcp-bigquery-res,63.44,USD,Data Science,BI & Analytics,Production
+1acea30f-de90-4ac7-bc55-77a0d8d91f58,2026-06-21,GCP,Compute Engine,gcp-compute engine-res,26.05,USD,Data Science,Machine Learning,Production
+370f1166-d8b4-46a3-b254-591a9e231916,2026-06-21,GCP,Cloud Storage,gcp-cloud storage-res,11.01,USD,Data Science,Machine Learning,Production
+93e74a49-a86c-431f-905b-908a30ade5af,2026-06-22,AWS,EC2,aws-ec2-res,115.81,USD,Engineering,Backend Core,Production
+50dfa8df-75e8-445c-8ab4-e61b5002be10,2026-06-22,AWS,RDS,aws-rds-res,86.06,USD,Engineering,Backend Core,Production
+65078bfd-07d2-44aa-85b8-33c36c01c338,2026-06-22,AWS,S3,aws-s3-res,32.72,USD,Engineering,Data Platform,Production
+f2a97a2a-1382-4c32-810b-091db014fcd4,2026-06-22,AWS,Lambda,aws-lambda-res,8.73,USD,Finance,Payments,Production
+cb42f482-3e4f-4395-a797-7ec40402ff70,2026-06-22,AWS,EBS,aws-ebs-res,14.98,USD,Infrastructure,DevOps,Staging
+9ae76419-dd75-40ee-a16c-f24ebd81f5b4,2026-06-22,AZURE,Virtual Machines,azure-virtual machines-res,36.91,USD,Finance,Risk Modeling,Production
+0afc277b-2d84-4956-823a-07adc8cc41cb,2026-06-22,AZURE,Azure SQL,azure-azure sql-res,45.35,USD,Finance,Accounting,Production
+d3cfe266-fbc2-49a9-9e06-92405a8cc2c9,2026-06-22,AZURE,Blob Storage,azure-blob storage-res,17.29,USD,Legal,Compliance,Production
+2bdd4b2a-4ef3-47e9-9670-284ed85425d1,2026-06-22,GCP,BigQuery,gcp-bigquery-res,75.94,USD,Data Science,BI & Analytics,Production
+81b503f5-25b3-4068-aa0c-5dfc5638eedf,2026-06-22,GCP,Compute Engine,gcp-compute engine-res,29.34,USD,Data Science,Machine Learning,Production
+57c3ef66-f692-4e65-9b05-8c280a4045c0,2026-06-22,GCP,Cloud Storage,gcp-cloud storage-res,13.52,USD,Data Science,Machine Learning,Production
+d9d907f3-aa9f-4b4f-a936-7c47aa600cbc,2026-06-23,AWS,EC2,aws-ec2-res,127.37,USD,Engineering,Backend Core,Production
+f8c747e2-3a79-43bb-abae-6ceef24579f3,2026-06-23,AWS,RDS,aws-rds-res,79.8,USD,Engineering,Backend Core,Production
+6fe8e6ff-dcb6-4639-afb0-f593568466c4,2026-06-23,AWS,S3,aws-s3-res,34.62,USD,Engineering,Data Platform,Production
+17fb2500-9222-4c37-a30e-17a37af5df89,2026-06-23,AWS,Lambda,aws-lambda-res,9.67,USD,Finance,Payments,Production
+9340b62a-e65d-4119-b94c-e3fabf65ff35,2026-06-23,AWS,EBS,aws-ebs-res,16.0,USD,Infrastructure,DevOps,Staging
+36c4c5ac-2a61-400f-92e5-1ae207b62576,2026-06-23,AZURE,Virtual Machines,azure-virtual machines-res,37.92,USD,Finance,Risk Modeling,Production
+b9410dd7-8c41-405b-a288-ad30a1b0c832,2026-06-23,AZURE,Azure SQL,azure-azure sql-res,46.41,USD,Finance,Accounting,Production
+cfc23149-b4ce-4eb6-b778-318cd52cbbfa,2026-06-23,AZURE,Blob Storage,azure-blob storage-res,16.77,USD,Legal,Compliance,Production
+6685fb7a-29d2-4e04-bbd9-b5d25f37c2a3,2026-06-23,GCP,BigQuery,gcp-bigquery-res,75.68,USD,Data Science,BI & Analytics,Production
+f1031919-4d15-4076-ae9e-50e9d4da1324,2026-06-23,GCP,Compute Engine,gcp-compute engine-res,30.71,USD,Data Science,Machine Learning,Production
+93263794-5377-47d2-acb1-0fbfea7b0d35,2026-06-23,GCP,Cloud Storage,gcp-cloud storage-res,12.1,USD,Data Science,Machine Learning,Production
+9e880c33-8ce0-4e75-a0b7-cf8e41b1824f,2026-06-24,AWS,EC2,aws-ec2-res,123.54,USD,Engineering,Backend Core,Production
+28a7421e-ad78-45eb-b2ea-07a5fad69bf0,2026-06-24,AWS,RDS,aws-rds-res,88.75,USD,Engineering,Backend Core,Production
+0698f0dc-87e2-4a72-9526-11600837a16a,2026-06-24,AWS,S3,aws-s3-res,36.05,USD,Engineering,Data Platform,Production
+5fd3d398-9011-42ee-884e-90d50736f1e8,2026-06-24,AWS,Lambda,aws-lambda-res,10.06,USD,Finance,Payments,Production
+755e3c32-7e23-490b-aa33-f90fa6d351c9,2026-06-24,AWS,EBS,aws-ebs-res,16.06,USD,Infrastructure,DevOps,Staging
+3c5bbe97-d600-4db5-adfb-abfcf6181269,2026-06-24,AZURE,Virtual Machines,azure-virtual machines-res,36.74,USD,Finance,Risk Modeling,Production
+c36568ee-77f7-420f-88c7-d44e5019a9fc,2026-06-24,AZURE,Azure SQL,azure-azure sql-res,47.97,USD,Finance,Accounting,Production
+d6e978fa-c81a-4859-aa5f-39fb0ec94d54,2026-06-24,AZURE,Blob Storage,azure-blob storage-res,17.03,USD,Legal,Compliance,Production
+8d67f1dd-2c7e-40d3-a113-bc3d5b4e3a7d,2026-06-24,GCP,BigQuery,gcp-bigquery-res,80.22,USD,Data Science,BI & Analytics,Production
+cf2fe62f-be8e-43ad-ada7-be20b358f391,2026-06-24,GCP,Compute Engine,gcp-compute engine-res,31.92,USD,Data Science,Machine Learning,Production
+4599da7e-5ae9-4b79-9b25-83ee54302248,2026-06-24,GCP,Cloud Storage,gcp-cloud storage-res,13.5,USD,Data Science,Machine Learning,Production
+8f0bc96c-cd12-404a-971a-df2a60f84428,2026-06-25,AWS,EC2,aws-ec2-res,135.25,USD,Engineering,Backend Core,Production
+ebe51b17-6328-4a63-8e43-db83bbd7105e,2026-06-25,AWS,RDS,aws-rds-res,88.07,USD,Engineering,Backend Core,Production
+ee7d54cd-6976-43fc-ab3f-3fe438fa9492,2026-06-25,AWS,S3,aws-s3-res,36.46,USD,Engineering,Data Platform,Production
+4ab0fe0a-67f0-4578-ab14-c2d6871057d5,2026-06-25,AWS,Lambda,aws-lambda-res,9.68,USD,Finance,Payments,Production
+fc922e53-b558-44f6-a504-0f2424e19c3e,2026-06-25,AWS,EBS,aws-ebs-res,14.79,USD,Infrastructure,DevOps,Staging
+e388d250-1639-474c-ace2-8aae9a8dbd1b,2026-06-25,AZURE,Virtual Machines,azure-virtual machines-res,41.07,USD,Finance,Risk Modeling,Production
+5fe4b63f-f59a-4f3a-a3ce-79db9d241d13,2026-06-25,AZURE,Azure SQL,azure-azure sql-res,44.05,USD,Finance,Accounting,Production
+1f6ea846-e897-4f42-9ffb-72d57ab5c85b,2026-06-25,AZURE,Blob Storage,azure-blob storage-res,16.35,USD,Legal,Compliance,Production
+c4bcca59-9a5f-4316-bad4-2566d1f94d42,2026-06-25,GCP,BigQuery,gcp-bigquery-res,71.76,USD,Data Science,BI & Analytics,Production
+7dcda39e-5d1b-4372-bee1-13550538e7e1,2026-06-25,GCP,Compute Engine,gcp-compute engine-res,31.63,USD,Data Science,Machine Learning,Production
+55ed7af4-93bd-4a06-ad4e-db3f3b0b6582,2026-06-25,GCP,Cloud Storage,gcp-cloud storage-res,13.64,USD,Data Science,Machine Learning,Production
+49e1146f-82a8-4e15-b7d2-7cb6522dac30,2026-06-26,AWS,EC2,aws-ec2-res,121.98,USD,Engineering,Backend Core,Production
+5fba8df7-87b9-45e5-8a1c-aaaf9265dfde,2026-06-26,AWS,RDS,aws-rds-res,83.65,USD,Engineering,Backend Core,Production
+38301a20-639b-4d3f-a8bc-bd8aa575354f,2026-06-26,AWS,S3,aws-s3-res,36.3,USD,Engineering,Data Platform,Production
+294beea8-7b86-43b6-9e91-85713eeb9e9e,2026-06-26,AWS,Lambda,aws-lambda-res,8.97,USD,Finance,Payments,Production
+4f761d44-3c25-47c3-be1a-11b026d77445,2026-06-26,AWS,EBS,aws-ebs-res,14.42,USD,Infrastructure,DevOps,Staging
+c43fde15-326d-418a-aa81-fac161b18c95,2026-06-26,AZURE,Virtual Machines,azure-virtual machines-res,37.1,USD,Finance,Risk Modeling,Production
+0c660b41-4276-4899-b9d7-0c634ef8f550,2026-06-26,AZURE,Azure SQL,azure-azure sql-res,47.36,USD,Finance,Accounting,Production
+1e2cc529-052c-46e4-a13e-30107e16ecef,2026-06-26,AZURE,Blob Storage,azure-blob storage-res,17.77,USD,Legal,Compliance,Production
+5ec33fb9-22d2-420c-8459-83aa40102c4b,2026-06-26,GCP,BigQuery,gcp-bigquery-res,75.37,USD,Data Science,BI & Analytics,Production
+aeef5adb-4939-4228-8741-84d21b62eeb3,2026-06-26,GCP,Compute Engine,gcp-compute engine-res,31.64,USD,Data Science,Machine Learning,Production
+d1af373c-fb47-4383-858c-6adf7109c252,2026-06-26,GCP,Cloud Storage,gcp-cloud storage-res,12.96,USD,Data Science,Machine Learning,Production
+29d7d4a8-1954-4c18-9f5e-8712b02b362d,2026-06-27,AWS,EC2,aws-ec2-res,95.79,USD,Engineering,Backend Core,Production
+f769c25b-a0b7-4b8c-85ff-3d51039dd165,2026-06-27,AWS,RDS,aws-rds-res,67.53,USD,Engineering,Backend Core,Production
+711237db-80b1-41ee-89d0-b595162b1ecd,2026-06-27,AWS,S3,aws-s3-res,28.47,USD,Engineering,Data Platform,Production
+8e260578-939a-419a-a956-4c1c31bccd7c,2026-06-27,AWS,Lambda,aws-lambda-res,7.62,USD,Finance,Payments,Production
+18f17f4c-b231-4198-9f79-1c876b1a4899,2026-06-27,AWS,EBS,aws-ebs-res,11.87,USD,Infrastructure,DevOps,Staging
+7663f5a9-4473-451d-9892-9c05f787d281,2026-06-27,AZURE,Virtual Machines,azure-virtual machines-res,30.12,USD,Finance,Risk Modeling,Production
+d92b4e36-b30c-418f-9055-2a80689666fb,2026-06-27,AZURE,Azure SQL,azure-azure sql-res,39.66,USD,Finance,Accounting,Production
+adeb619f-45a1-40e6-8b9e-bd3935a597ce,2026-06-27,AZURE,Blob Storage,azure-blob storage-res,12.77,USD,Legal,Compliance,Production
+b2d0ac1e-4e2b-48ed-aa0d-30851210e9b5,2026-06-27,GCP,BigQuery,gcp-bigquery-res,58.13,USD,Data Science,BI & Analytics,Production
+64966743-b663-4aee-bfbf-83c5103da4f7,2026-06-27,GCP,Compute Engine,gcp-compute engine-res,24.22,USD,Data Science,Machine Learning,Production
+e1a85e70-9cbc-4818-9b03-d411333b9400,2026-06-27,GCP,Cloud Storage,gcp-cloud storage-res,10.58,USD,Data Science,Machine Learning,Production
+be43061a-e952-40cc-b77f-dc37eb7d3d30,2026-06-28,AWS,EC2,aws-ec2-res,109.19,USD,Engineering,Backend Core,Production
+2474d3e3-812b-460f-b279-16baf4dd51ea,2026-06-28,AWS,RDS,aws-rds-res,65.3,USD,Engineering,Backend Core,Production
+4e30e448-a1bf-4454-b978-bf28ce6a0f13,2026-06-28,AWS,S3,aws-s3-res,30.26,USD,Engineering,Data Platform,Production
+3e30dfb7-32e1-4990-8d59-b65ce58c1a3c,2026-06-28,AWS,Lambda,aws-lambda-res,7.74,USD,Finance,Payments,Production
+3a51902c-28e3-42da-bed0-248bf8b7309a,2026-06-28,AWS,EBS,aws-ebs-res,12.89,USD,Infrastructure,DevOps,Staging
+f2601aab-37c7-47cc-b757-3dff5f6ba122,2026-06-28,AZURE,Virtual Machines,azure-virtual machines-res,29.79,USD,Finance,Risk Modeling,Production
+0f20741b-1048-47b4-af01-5ed67787010d,2026-06-28,AZURE,Azure SQL,azure-azure sql-res,36.04,USD,Finance,Accounting,Production
+64dd0daa-bbec-49d3-bf09-ba48642a94f8,2026-06-28,AZURE,Blob Storage,azure-blob storage-res,13.79,USD,Legal,Compliance,Production
+dc6b2abb-1786-4e35-ac0d-9b8706ad0c20,2026-06-28,GCP,BigQuery,gcp-bigquery-res,56.82,USD,Data Science,BI & Analytics,Production
+b082dda6-4591-48fe-96f9-b19a023a7174,2026-06-28,GCP,Compute Engine,gcp-compute engine-res,26.88,USD,Data Science,Machine Learning,Production
+340b3fc2-4452-40e8-b520-d7d2e1bab7db,2026-06-28,GCP,Cloud Storage,gcp-cloud storage-res,9.94,USD,Data Science,Machine Learning,Production
+88c2305a-185a-4fb9-9769-c2993c5b2ff4,2026-06-29,AWS,EC2,aws-ec2-res,131.48,USD,Engineering,Backend Core,Production
+31294691-6bcf-44f3-8805-dccc09c981b4,2026-06-29,AWS,RDS,aws-rds-res,84.88,USD,Engineering,Backend Core,Production
+0cd87569-4e5f-4db5-a716-ed7d0e3595b9,2026-06-29,AWS,S3,aws-s3-res,33.46,USD,Engineering,Data Platform,Production
+701e1929-3335-4375-b008-eab250f2903d,2026-06-29,AWS,Lambda,aws-lambda-res,8.97,USD,Finance,Payments,Production
+f727603a-ed41-4d2c-b748-b1442adddf2f,2026-06-29,AWS,EBS,aws-ebs-res,15.94,USD,Infrastructure,DevOps,Staging
+9804d85d-abd2-41d0-a7f9-128759767cdd,2026-06-29,AZURE,Virtual Machines,azure-virtual machines-res,41.13,USD,Finance,Risk Modeling,Production
+b880ae99-6a1e-40f0-a760-d51261150d6e,2026-06-29,AZURE,Azure SQL,azure-azure sql-res,46.74,USD,Finance,Accounting,Production
+02d23820-b9df-4217-b809-906ff0ace447,2026-06-29,AZURE,Blob Storage,azure-blob storage-res,17.04,USD,Legal,Compliance,Production
+3e8eb6f7-af8c-49a8-8333-aea7b3c3cc69,2026-06-29,GCP,BigQuery,gcp-bigquery-res,70.26,USD,Data Science,BI & Analytics,Production
+cce35713-059e-43b2-8124-638b8ec00980,2026-06-29,GCP,Compute Engine,gcp-compute engine-res,31.75,USD,Data Science,Machine Learning,Production
+ca55b7e0-5af3-4ba4-af16-f730c0415d34,2026-06-29,GCP,Cloud Storage,gcp-cloud storage-res,13.34,USD,Data Science,Machine Learning,Production
+33b4c7da-d596-483c-af67-6c32025eb3a4,2026-06-30,AWS,EC2,aws-ec2-res,124.86,USD,Engineering,Backend Core,Production
+e0ff7957-9305-440a-ad26-e20a463d3c24,2026-06-30,AWS,RDS,aws-rds-res,82.04,USD,Engineering,Backend Core,Production
+e6bd1234-771a-404b-801f-ec82f3b681d3,2026-06-30,AWS,S3,aws-s3-res,36.22,USD,Engineering,Data Platform,Production
+8ab50254-2ef9-4dbd-ae8a-05a9a69a225c,2026-06-30,AWS,Lambda,aws-lambda-res,9.02,USD,Finance,Payments,Production
+f60f832d-928d-4efe-aed7-5889525359f1,2026-06-30,AWS,EBS,aws-ebs-res,15.19,USD,Infrastructure,DevOps,Staging
+70e19bab-030b-458f-9393-bed3e0bafab5,2026-06-30,AZURE,Virtual Machines,azure-virtual machines-res,40.2,USD,Finance,Risk Modeling,Production
+55294171-298f-4bd7-a0de-1f8b88798a19,2026-06-30,AZURE,Azure SQL,azure-azure sql-res,46.16,USD,Finance,Accounting,Production
+98ff5bc2-fc74-4149-be66-00c2f63fb6cc,2026-06-30,AZURE,Blob Storage,azure-blob storage-res,16.28,USD,Legal,Compliance,Production
+a2074370-3f66-44fe-b754-88139b1bc0f4,2026-06-30,GCP,BigQuery,gcp-bigquery-res,73.05,USD,Data Science,BI & Analytics,Production
+a78d9aa8-8813-4f01-89a1-316057b58f81,2026-06-30,GCP,Compute Engine,gcp-compute engine-res,31.2,USD,Data Science,Machine Learning,Production
+9f098c16-0c87-4f79-a6c6-afbcdb45911e,2026-06-30,GCP,Cloud Storage,gcp-cloud storage-res,13.81,USD,Data Science,Machine Learning,Production
+d8f70ba1-95f1-4b51-84f2-6dd930cac07c,2026-07-01,AWS,EC2,aws-ec2-res,119.64,USD,Engineering,Backend Core,Production
+5669d96c-60a7-468e-b795-c788eacdc19f,2026-07-01,AWS,RDS,aws-rds-res,89.47,USD,Engineering,Backend Core,Production
+3b12e106-72ef-4c94-98cf-4c8d654cf939,2026-07-01,AWS,S3,aws-s3-res,34.98,USD,Engineering,Data Platform,Production
+720cdff3-9599-43ae-9e43-41b79b97dd03,2026-07-01,AWS,Lambda,aws-lambda-res,9.87,USD,Finance,Payments,Production
+9b7fbb1e-35f1-4cf7-91d6-c7e0863942ab,2026-07-01,AWS,EBS,aws-ebs-res,15.05,USD,Infrastructure,DevOps,Staging
+03318678-5b1d-47bf-9307-262dbe832b98,2026-07-01,AZURE,Virtual Machines,azure-virtual machines-res,36.01,USD,Finance,Risk Modeling,Production
+62dbc42c-be54-4731-86fc-6815020366f9,2026-07-01,AZURE,Azure SQL,azure-azure sql-res,43.82,USD,Finance,Accounting,Production
+66859a2d-005c-4d41-bd8f-013f6c047485,2026-07-01,AZURE,Blob Storage,azure-blob storage-res,17.17,USD,Legal,Compliance,Production
+0b6eb99c-068f-4629-ae84-ee2db80874b8,2026-07-01,GCP,BigQuery,gcp-bigquery-res,74.79,USD,Data Science,BI & Analytics,Production
+388380b5-a3c4-4d7e-ab36-a2fe0d60d962,2026-07-01,GCP,Compute Engine,gcp-compute engine-res,33.17,USD,Data Science,Machine Learning,Production
+76580272-7a0b-403f-b9ae-8929b1437545,2026-07-01,GCP,Cloud Storage,gcp-cloud storage-res,13.12,USD,Data Science,Machine Learning,Production
+190143d4-41bc-47dd-b2ac-0bd693bf5096,2026-07-02,AWS,EC2,aws-ec2-res,118.4,USD,Engineering,Backend Core,Production
+aedb0541-32fb-46b7-8860-200885e28a6b,2026-07-02,AWS,RDS,aws-rds-res,77.02,USD,Engineering,Backend Core,Production
+393ae635-7195-422c-bd64-cd04e9c72f57,2026-07-02,AWS,S3,aws-s3-res,33.64,USD,Engineering,Data Platform,Production
+bcfed30e-a947-45af-9cd5-632fb63d64da,2026-07-02,AWS,Lambda,aws-lambda-res,9.0,USD,Finance,Payments,Production
+4e97cde5-3ba5-4e1b-9760-96144535d537,2026-07-02,AWS,EBS,aws-ebs-res,15.17,USD,Infrastructure,DevOps,Staging
+40fa445a-0175-4a1c-840f-03ac67114cdb,2026-07-02,AZURE,Virtual Machines,azure-virtual machines-res,36.9,USD,Finance,Risk Modeling,Production
+d7f367f1-f846-40da-bdef-a003a3a813de,2026-07-02,AZURE,Azure SQL,azure-azure sql-res,46.51,USD,Finance,Accounting,Production
+b6f2db81-d710-48ef-a89a-0e5b9df09e86,2026-07-02,AZURE,Blob Storage,azure-blob storage-res,17.61,USD,Legal,Compliance,Production
+49b3a945-67af-4221-bd69-9aa982e4e1f5,2026-07-02,GCP,BigQuery,gcp-bigquery-res,78.96,USD,Data Science,BI & Analytics,Production
+bc4860a1-2c5b-4d4c-b884-e5abfebab147,2026-07-02,GCP,Compute Engine,gcp-compute engine-res,28.83,USD,Data Science,Machine Learning,Production
+9a08ab32-db98-4166-bc1d-e06156e11ee7,2026-07-02,GCP,Cloud Storage,gcp-cloud storage-res,13.99,USD,Data Science,Machine Learning,Production
+7f0270f7-bd45-43a3-8ef5-ac64defff8e5,2026-07-03,AWS,EC2,aws-ec2-res,119.15,USD,Engineering,Backend Core,Production
+199c7737-7b42-4cb0-a980-5e9b1a5a8916,2026-07-03,AWS,RDS,aws-rds-res,81.34,USD,Engineering,Backend Core,Production
+51406c33-18fa-4428-8a56-796ff6e75105,2026-07-03,AWS,S3,aws-s3-res,36.8,USD,Engineering,Data Platform,Production
+d59cb02f-d06c-4a6c-8d67-c0239b49b4c1,2026-07-03,AWS,Lambda,aws-lambda-res,9.53,USD,Finance,Payments,Production
+ba9fdb91-461d-48d3-8bbd-a03578eb296a,2026-07-03,AWS,EBS,aws-ebs-res,16.3,USD,Infrastructure,DevOps,Staging
+223960e2-8fae-4fae-89ff-322b46018dff,2026-07-03,AZURE,Virtual Machines,azure-virtual machines-res,41.68,USD,Finance,Risk Modeling,Production
+e1e6b819-9524-4052-b45b-af465c27fb43,2026-07-03,AZURE,Azure SQL,azure-azure sql-res,43.17,USD,Finance,Accounting,Production
+612e643d-4a56-472b-9f41-78a3258eaf9c,2026-07-03,AZURE,Blob Storage,azure-blob storage-res,17.5,USD,Legal,Compliance,Production
+595cad84-c359-499a-b0dd-155f5d5f3f2c,2026-07-03,GCP,BigQuery,gcp-bigquery-res,73.96,USD,Data Science,BI & Analytics,Production
+0a74279c-9a60-4ee0-9e6b-14d10f58dd74,2026-07-03,GCP,Compute Engine,gcp-compute engine-res,28.99,USD,Data Science,Machine Learning,Production
+1e0049a4-f1df-42aa-bf4a-2d289336451f,2026-07-03,GCP,Cloud Storage,gcp-cloud storage-res,14.32,USD,Data Science,Machine Learning,Production
+64e07709-3d95-4bcd-b5a4-938c2ebf259b,2026-07-04,AWS,EC2,aws-ec2-res,105.16,USD,Engineering,Backend Core,Production
+5b9664a1-bd11-4721-818b-2619e54ca07b,2026-07-04,AWS,RDS,aws-rds-res,68.68,USD,Engineering,Backend Core,Production
+638d0f3d-2146-4488-8cff-f6a838478204,2026-07-04,AWS,S3,aws-s3-res,28.75,USD,Engineering,Data Platform,Production
+72ee9c69-5388-42de-99e8-a6e20885cc62,2026-07-04,AWS,Lambda,aws-lambda-res,8.0,USD,Finance,Payments,Production
+99fd4fdf-42b4-4ebd-8936-b1b49e661273,2026-07-04,AWS,EBS,aws-ebs-res,13.48,USD,Infrastructure,DevOps,Staging
+511ca5d9-acb7-4a4f-8b08-c03b3d9e3b3b,2026-07-04,AZURE,Virtual Machines,azure-virtual machines-res,30.79,USD,Finance,Risk Modeling,Production
+546ab1a4-779b-45ff-b25c-a5492c014dad,2026-07-04,AZURE,Azure SQL,azure-azure sql-res,38.81,USD,Finance,Accounting,Production
+362b9022-2bb4-483c-8c35-8441bdac879a,2026-07-04,AZURE,Blob Storage,azure-blob storage-res,13.05,USD,Legal,Compliance,Production
+24a453b6-cf71-4b63-a539-4df934097f5d,2026-07-04,GCP,BigQuery,gcp-bigquery-res,64.58,USD,Data Science,BI & Analytics,Production
+0de7dd06-d5a6-42e8-a5e0-6b565bb83ff0,2026-07-04,GCP,Compute Engine,gcp-compute engine-res,25.08,USD,Data Science,Machine Learning,Production
+330b1e0f-e831-45a6-9f32-e2c3ce252ea2,2026-07-04,GCP,Cloud Storage,gcp-cloud storage-res,11.11,USD,Data Science,Machine Learning,Production
+503105f6-051a-4141-9204-7ddb475465f0,2026-07-05,AWS,EC2,aws-ec2-res,101.51,USD,Engineering,Backend Core,Production
+21f4b95c-4609-4cd3-b11c-4b7a0f514247,2026-07-05,AWS,RDS,aws-rds-res,69.73,USD,Engineering,Backend Core,Production
+1060f7c1-ec43-463e-825b-cb2d7354981a,2026-07-05,AWS,S3,aws-s3-res,30.28,USD,Engineering,Data Platform,Production
+3db75981-0cf9-476b-a580-f1946d1e24d0,2026-07-05,AWS,Lambda,aws-lambda-res,8.14,USD,Finance,Payments,Production
+0e7ca2b2-035b-4c0d-a167-15bdb1eca4df,2026-07-05,AWS,EBS,aws-ebs-res,12.0,USD,Infrastructure,DevOps,Staging
+014f78e2-f198-4814-b912-1695eb88b76b,2026-07-05,AZURE,Virtual Machines,azure-virtual machines-res,31.62,USD,Finance,Risk Modeling,Production
+846c4e7b-2ec7-47f6-8451-cca0a6ae6af6,2026-07-05,AZURE,Azure SQL,azure-azure sql-res,40.81,USD,Finance,Accounting,Production
+13a12d1e-95c1-4dcd-8ecb-a2abc640e300,2026-07-05,AZURE,Blob Storage,azure-blob storage-res,14.05,USD,Legal,Compliance,Production
+4214ad97-4040-4344-96df-f7c71c2e81a1,2026-07-05,GCP,BigQuery,gcp-bigquery-res,56.37,USD,Data Science,BI & Analytics,Production
+51696c12-90ee-491a-a998-24ac27abed4b,2026-07-05,GCP,Compute Engine,gcp-compute engine-res,25.21,USD,Data Science,Machine Learning,Production
+143084ed-d8cc-4cf0-adac-df24fa9fc33e,2026-07-05,GCP,Cloud Storage,gcp-cloud storage-res,11.48,USD,Data Science,Machine Learning,Production
+a9eda45c-336c-4e8c-81fa-eb0f9da4376a,2026-07-06,AWS,EC2,aws-ec2-res,134.94,USD,Engineering,Backend Core,Production
+dd922687-ab5b-4067-b78a-968d1aa79a16,2026-07-06,AWS,RDS,aws-rds-res,82.84,USD,Engineering,Backend Core,Production
+9be0f31c-6707-457b-a1e7-48fc48ca8b83,2026-07-06,AWS,S3,aws-s3-res,34.86,USD,Engineering,Data Platform,Production
+bc40f00e-7ffe-46e5-9f1f-d5254cb27af7,2026-07-06,AWS,Lambda,aws-lambda-res,9.67,USD,Finance,Payments,Production
+33405612-f983-408d-8b83-591516ccb208,2026-07-06,AWS,EBS,aws-ebs-res,14.55,USD,Infrastructure,DevOps,Staging
+8ad81b01-e08f-4e60-b98a-444630dff5d1,2026-07-06,AZURE,Virtual Machines,azure-virtual machines-res,37.13,USD,Finance,Risk Modeling,Production
+e0585a18-50c3-46f7-8d47-37f8ac748ce7,2026-07-06,AZURE,Azure SQL,azure-azure sql-res,47.18,USD,Finance,Accounting,Production
+5719a55d-0754-4ef6-9a5a-c1a69bc65363,2026-07-06,AZURE,Blob Storage,azure-blob storage-res,15.63,USD,Legal,Compliance,Production
+78a1119a-469a-4a4c-9f2a-bfb3367ec99c,2026-07-06,GCP,BigQuery,gcp-bigquery-res,81.3,USD,Data Science,BI & Analytics,Production
+9953a8c9-7177-4b6e-b1ab-9e5c89d9f810,2026-07-06,GCP,Compute Engine,gcp-compute engine-res,33.08,USD,Data Science,Machine Learning,Production
+aec70544-ed91-4f05-b033-92db0aa6502e,2026-07-06,GCP,Cloud Storage,gcp-cloud storage-res,13.75,USD,Data Science,Machine Learning,Production
+56b47c8a-a80d-4f0a-80e0-5551960aecae,2026-07-07,AWS,EC2,aws-ec2-res,123.05,USD,Engineering,Backend Core,Production
+001329dd-618f-4bbf-82ac-a96cc4801545,2026-07-07,AWS,RDS,aws-rds-res,77.38,USD,Engineering,Backend Core,Production
+918886b3-7c1d-46c9-b2d6-595de893babc,2026-07-07,AWS,S3,aws-s3-res,36.98,USD,Engineering,Data Platform,Production
+1c27a2e1-2341-4187-8e3d-d0b0d775aedb,2026-07-07,AWS,Lambda,aws-lambda-res,8.86,USD,Finance,Payments,Production
+e97eaeab-0077-4811-9869-e2a382c86b47,2026-07-07,AWS,EBS,aws-ebs-res,16.27,USD,Infrastructure,DevOps,Staging
+7a83cd57-ecdf-43a6-abb4-5e8fffe8fbce,2026-07-07,AZURE,Virtual Machines,azure-virtual machines-res,41.98,USD,Finance,Risk Modeling,Production
+d440ddf2-edff-48e4-8b75-084150324643,2026-07-07,AZURE,Azure SQL,azure-azure sql-res,49.67,USD,Finance,Accounting,Production
+4006d42c-cd24-4e87-bb07-e7ac9c7f5416,2026-07-07,AZURE,Blob Storage,azure-blob storage-res,17.89,USD,Legal,Compliance,Production
+4127fc3d-1f89-4251-814e-eb5a46cfcae6,2026-07-07,GCP,BigQuery,gcp-bigquery-res,81.62,USD,Data Science,BI & Analytics,Production
+e371450f-c0d9-4e5a-b46e-5c2431a15119,2026-07-07,GCP,Compute Engine,gcp-compute engine-res,30.59,USD,Data Science,Machine Learning,Production
+9a33cd75-e80b-4ada-b41b-71a9b0cf89e2,2026-07-07,GCP,Cloud Storage,gcp-cloud storage-res,14.26,USD,Data Science,Machine Learning,Production
+a6fe43bd-f1ae-47dc-9db6-9d9b631a6a14,2026-07-08,AWS,EC2,aws-ec2-res,128.26,USD,Engineering,Backend Core,Production
+4bbbc377-b67f-4939-be07-0ca8de25b683,2026-07-08,AWS,RDS,aws-rds-res,85.83,USD,Engineering,Backend Core,Production
+1fc44bd9-91ee-4e97-80a9-24579bfd5bcc,2026-07-08,AWS,S3,aws-s3-res,37.16,USD,Engineering,Data Platform,Production
+837a709c-48be-45b1-9f11-c8ea765bb162,2026-07-08,AWS,Lambda,aws-lambda-res,8.95,USD,Finance,Payments,Production
+c76e27eb-bb1b-45ec-b3b7-1d8bc351c767,2026-07-08,AWS,EBS,aws-ebs-res,16.08,USD,Infrastructure,DevOps,Staging
+22e912bb-11ae-4fd8-af2e-5d2baedfbd56,2026-07-08,AZURE,Virtual Machines,azure-virtual machines-res,41.5,USD,Finance,Risk Modeling,Production
+b1bc49b0-e1ae-49a1-978b-ff92ba405c67,2026-07-08,AZURE,Azure SQL,azure-azure sql-res,48.9,USD,Finance,Accounting,Production
+08dc8aa4-8130-4bdb-a51a-3a8bb2b9fce7,2026-07-08,AZURE,Blob Storage,azure-blob storage-res,16.42,USD,Legal,Compliance,Production
+fcf15d37-c643-46be-8784-ac5f5153704c,2026-07-08,GCP,BigQuery,gcp-bigquery-res,76.59,USD,Data Science,BI & Analytics,Production
+a3085f6b-be48-485c-840e-c8718edd2a68,2026-07-08,GCP,Compute Engine,gcp-compute engine-res,31.68,USD,Data Science,Machine Learning,Production
+0f791784-b76c-4454-8126-cc71581c83f5,2026-07-08,GCP,Cloud Storage,gcp-cloud storage-res,12.58,USD,Data Science,Machine Learning,Production
+59b31953-629f-4166-bb6b-9f04f940f22a,2026-07-09,AWS,EC2,aws-ec2-res,138.92,USD,Engineering,Backend Core,Production
+f3bcc2d7-5315-41cd-b096-1f8980e30ea6,2026-07-09,AWS,RDS,aws-rds-res,81.39,USD,Engineering,Backend Core,Production
+60eaf5e4-9920-40ff-9069-f6d5cfbda1d9,2026-07-09,AWS,S3,aws-s3-res,37.08,USD,Engineering,Data Platform,Production
+3e022de8-fd52-4c5b-a2ad-85becc6373e9,2026-07-09,AWS,Lambda,aws-lambda-res,9.85,USD,Finance,Payments,Production
+f54d852e-29b6-482f-ba91-17de7ba0abfc,2026-07-09,AWS,EBS,aws-ebs-res,16.54,USD,Infrastructure,DevOps,Staging
+2582deba-82ae-4316-8930-b9871301fc83,2026-07-09,AZURE,Virtual Machines,azure-virtual machines-res,40.59,USD,Finance,Risk Modeling,Production
+1b4a0e8e-89ca-4f6a-84bc-32ac6a950c12,2026-07-09,AZURE,Azure SQL,azure-azure sql-res,49.99,USD,Finance,Accounting,Production
+9fc7ed1d-de3c-4bef-9608-82bc4be23a76,2026-07-09,AZURE,Blob Storage,azure-blob storage-res,15.48,USD,Legal,Compliance,Production
+62fb1144-7393-4930-aaf5-0004bc3a9522,2026-07-09,GCP,BigQuery,gcp-bigquery-res,74.99,USD,Data Science,BI & Analytics,Production
+5ed9337d-d639-4867-82ff-ef6b0e181d59,2026-07-09,GCP,Compute Engine,gcp-compute engine-res,29.57,USD,Data Science,Machine Learning,Production
+49b61f96-820a-4083-8c77-1d3b07905274,2026-07-09,GCP,Cloud Storage,gcp-cloud storage-res,12.68,USD,Data Science,Machine Learning,Production
+af67ecb0-6d7e-4224-9b05-428373da09af,2026-07-10,AWS,EC2,aws-ec2-res,133.39,USD,Engineering,Backend Core,Production
+b4462181-aabf-4387-8eb3-40168aeb602f,2026-07-10,AWS,RDS,aws-rds-res,88.79,USD,Engineering,Backend Core,Production
+96a46537-9911-4a82-8ab7-ebde1629c084,2026-07-10,AWS,S3,aws-s3-res,38.0,USD,Engineering,Data Platform,Production
+2ef0323b-5229-44d2-b923-32b13df94670,2026-07-10,AWS,Lambda,aws-lambda-res,9.49,USD,Finance,Payments,Production
+35246a5a-15a9-4b2c-9c12-1c9846f09f4c,2026-07-10,AWS,EBS,aws-ebs-res,14.46,USD,Infrastructure,DevOps,Staging
+e51db995-6021-41f6-98fa-df81bd715159,2026-07-10,AZURE,Virtual Machines,azure-virtual machines-res,36.71,USD,Finance,Risk Modeling,Production
+65ad17e0-7b67-4b8f-bcc3-28d304686b75,2026-07-10,AZURE,Azure SQL,azure-azure sql-res,48.25,USD,Finance,Accounting,Production
+03f50071-d629-42b0-8848-2e7b743ab744,2026-07-10,AZURE,Blob Storage,azure-blob storage-res,17.61,USD,Legal,Compliance,Production
+f6234f0a-5018-45ef-9c34-47cb4b1025b7,2026-07-10,GCP,BigQuery,gcp-bigquery-res,73.17,USD,Data Science,BI & Analytics,Production
+6e45fdf1-2e20-4bc6-bf72-491f2ba0196a,2026-07-10,GCP,Compute Engine,gcp-compute engine-res,30.66,USD,Data Science,Machine Learning,Production
+58de739e-a380-46f6-9f20-1058f4c211ed,2026-07-10,GCP,Cloud Storage,gcp-cloud storage-res,14.24,USD,Data Science,Machine Learning,Production
+e1e1d427-d791-4518-a9e6-bbeb54016015,2026-07-11,AWS,EC2,aws-ec2-res,110.15,USD,Engineering,Backend Core,Production
+83b15b90-4c20-4556-880d-d4c7ef564382,2026-07-11,AWS,RDS,aws-rds-res,73.54,USD,Engineering,Backend Core,Production
+7d9b4db3-f2b7-47f2-af7e-0b69b21f5452,2026-07-11,AWS,S3,aws-s3-res,29.77,USD,Engineering,Data Platform,Production
+aa620fec-de40-4a79-9394-846545b25ae7,2026-07-11,AWS,Lambda,aws-lambda-res,8.14,USD,Finance,Payments,Production
+1cfa99ea-b994-4a5c-94ec-fc83b5bba0ae,2026-07-11,AWS,EBS,aws-ebs-res,12.39,USD,Infrastructure,DevOps,Staging
+d74039aa-c2ae-49f8-b4cf-48dc6b795323,2026-07-11,AZURE,Virtual Machines,azure-virtual machines-res,34.08,USD,Finance,Risk Modeling,Production
+af372150-25c5-461a-a91e-e54b3a5f4a65,2026-07-11,AZURE,Azure SQL,azure-azure sql-res,40.31,USD,Finance,Accounting,Production
+c73ff38d-72be-45ef-abf2-4a4e420c84af,2026-07-11,AZURE,Blob Storage,azure-blob storage-res,13.69,USD,Legal,Compliance,Production
+0110ac60-44b4-4191-9205-1c1ab27c92d7,2026-07-11,GCP,BigQuery,gcp-bigquery-res,57.46,USD,Data Science,BI & Analytics,Production
+fb410e0c-a454-4731-868e-7d12795b4129,2026-07-11,GCP,Compute Engine,gcp-compute engine-res,26.48,USD,Data Science,Machine Learning,Production
+2bbd05f6-8977-400e-a363-46fc4403c0d1,2026-07-11,GCP,Cloud Storage,gcp-cloud storage-res,10.8,USD,Data Science,Machine Learning,Production
+60ee438c-30be-4f2f-b1ed-14ea6331a4d0,2026-07-12,AWS,EC2,aws-ec2-res,101.47,USD,Engineering,Backend Core,Production
+5a073aac-d4ba-4940-88ae-a12b1874a637,2026-07-12,AWS,RDS,aws-rds-res,62.88,USD,Engineering,Backend Core,Production
+5dc6e78f-f21b-46d2-88b3-df26cb239049,2026-07-12,AWS,S3,aws-s3-res,28.59,USD,Engineering,Data Platform,Production
+20834511-8b13-48b1-88d1-b754888d1602,2026-07-12,AWS,Lambda,aws-lambda-res,8.11,USD,Finance,Payments,Production
+4f4bcc93-f18f-416b-a294-d4494966e13b,2026-07-12,AWS,EBS,aws-ebs-res,12.3,USD,Infrastructure,DevOps,Staging
+9af06ff5-b8d0-4eda-94aa-9d316b2d3879,2026-07-12,AZURE,Virtual Machines,azure-virtual machines-res,29.96,USD,Finance,Risk Modeling,Production
+f27d4d2f-1d22-441c-80da-648438cda456,2026-07-12,AZURE,Azure SQL,azure-azure sql-res,35.46,USD,Finance,Accounting,Production
+8da0d37b-658c-4e7e-83d3-8cceba77ac17,2026-07-12,AZURE,Blob Storage,azure-blob storage-res,12.86,USD,Legal,Compliance,Production
+f037e4fd-54ff-45ec-bd37-8be8e6da4699,2026-07-12,GCP,BigQuery,gcp-bigquery-res,63.22,USD,Data Science,BI & Analytics,Production
+d47145bf-f1a0-4a3d-8bfa-2ba6f5744c01,2026-07-12,GCP,Compute Engine,gcp-compute engine-res,23.62,USD,Data Science,Machine Learning,Production
+33e4d289-2869-4da7-a367-4100df85f5e5,2026-07-12,GCP,Cloud Storage,gcp-cloud storage-res,10.81,USD,Data Science,Machine Learning,Production
+1abd9e04-89f0-44a1-b9f3-b10b4a1034fb,2026-07-13,AWS,EC2,aws-ec2-res,121.74,USD,Engineering,Backend Core,Production
+aa5291b2-5100-4134-a2fe-f9a8878bfa99,2026-07-13,AWS,RDS,aws-rds-res,84.41,USD,Engineering,Backend Core,Production
+e983ac94-e1b7-4433-b18d-4ba1f262f0e7,2026-07-13,AWS,S3,aws-s3-res,36.93,USD,Engineering,Data Platform,Production
+6cf07e8c-eb04-4f1c-bb48-9fa278ea453e,2026-07-13,AWS,Lambda,aws-lambda-res,9.17,USD,Finance,Payments,Production
+7ac5bc8e-8c4b-4ee5-8ab0-8f9fc80a38b4,2026-07-13,AWS,EBS,aws-ebs-res,14.92,USD,Infrastructure,DevOps,Staging
+20efc672-70f4-4cc5-ae68-5dac34431211,2026-07-13,AZURE,Virtual Machines,azure-virtual machines-res,41.14,USD,Finance,Risk Modeling,Production
+92965248-5241-47c2-82b4-34ad93a8bda2,2026-07-13,AZURE,Azure SQL,azure-azure sql-res,49.81,USD,Finance,Accounting,Production
+215c1938-cae9-435c-9e26-60f42c49d25f,2026-07-13,AZURE,Blob Storage,azure-blob storage-res,17.04,USD,Legal,Compliance,Production
+a07faa00-2435-4d24-ad97-f902c4538154,2026-07-13,GCP,BigQuery,gcp-bigquery-res,78.07,USD,Data Science,BI & Analytics,Production
+fe8630d0-2bdf-49d8-bef3-ce8d62eda7eb,2026-07-13,GCP,Compute Engine,gcp-compute engine-res,32.17,USD,Data Science,Machine Learning,Production
+4e58fb91-fdcf-45f7-a583-5c9540bdd19e,2026-07-13,GCP,Cloud Storage,gcp-cloud storage-res,12.56,USD,Data Science,Machine Learning,Production
+ddf9e973-f89a-4024-a19b-b6e2c149e4dd,2026-07-14,AWS,EC2,aws-ec2-res,131.68,USD,Engineering,Backend Core,Production
+d8160871-c408-4c22-97d0-ca28359e552d,2026-07-14,AWS,RDS,aws-rds-res,90.21,USD,Engineering,Backend Core,Production
+ac943438-8585-46a3-aa35-1f1305a9e01e,2026-07-14,AWS,S3,aws-s3-res,34.98,USD,Engineering,Data Platform,Production
+757b51fc-1c85-4035-be92-9bd7f157e331,2026-07-14,AWS,Lambda,aws-lambda-res,9.91,USD,Finance,Payments,Production
+169f35fd-3ef1-46ad-bf61-f3a52c995cbd,2026-07-14,AWS,EBS,aws-ebs-res,15.98,USD,Infrastructure,DevOps,Staging
+39c891e2-cfbc-4388-a90a-5d5afdbb47db,2026-07-14,AZURE,Virtual Machines,azure-virtual machines-res,39.98,USD,Finance,Risk Modeling,Production
+16f1ec5d-ce53-4235-a092-5d3b0e309f38,2026-07-14,AZURE,Azure SQL,azure-azure sql-res,45.0,USD,Finance,Accounting,Production
+58a48da4-360c-4e54-8411-a51e12c018ad,2026-07-14,AZURE,Blob Storage,azure-blob storage-res,18.19,USD,Legal,Compliance,Production
+f3b18631-3693-4bbc-8fcf-32cd64bcfe4e,2026-07-14,GCP,BigQuery,gcp-bigquery-res,72.96,USD,Data Science,BI & Analytics,Production
+ab5d69eb-96f8-4ab9-aa60-c25912cfdd36,2026-07-14,GCP,Compute Engine,gcp-compute engine-res,31.37,USD,Data Science,Machine Learning,Production
+a80dbdc3-6f34-45c1-b3b2-ecc6083277c0,2026-07-14,GCP,Cloud Storage,gcp-cloud storage-res,12.47,USD,Data Science,Machine Learning,Production
+c1171a1e-0f92-453d-b067-496f4aff034b,2026-07-15,AWS,EC2,aws-ec2-res,137.56,USD,Engineering,Backend Core,Production
+acf19614-ae31-4d6d-b18a-75d48bf7de58,2026-07-15,AWS,RDS,aws-rds-res,86.96,USD,Engineering,Backend Core,Production
+5d9f8817-d5df-485d-a2ee-bda214f1747a,2026-07-15,AWS,S3,aws-s3-res,38.25,USD,Engineering,Data Platform,Production
+0744fe2e-1380-4876-b5d5-dfbe81742db3,2026-07-15,AWS,Lambda,aws-lambda-res,10.05,USD,Finance,Payments,Production
+c250f919-dc85-42bd-9664-255a7863b5b6,2026-07-15,AWS,EBS,aws-ebs-res,16.35,USD,Infrastructure,DevOps,Staging
+d7d48931-1628-4774-8fd2-19304c304155,2026-07-15,AZURE,Virtual Machines,azure-virtual machines-res,36.65,USD,Finance,Risk Modeling,Production
+7c0e07fe-8f74-40ff-9748-23bad6f48c49,2026-07-15,AZURE,Azure SQL,azure-azure sql-res,46.79,USD,Finance,Accounting,Production
+0496db2f-0317-463d-990f-88bcf1851b78,2026-07-15,AZURE,Blob Storage,azure-blob storage-res,16.19,USD,Legal,Compliance,Production
+f6af9834-7084-48ff-bb85-f27c37d51203,2026-07-15,GCP,BigQuery,gcp-bigquery-res,77.01,USD,Data Science,BI & Analytics,Production
+3b7b425c-7a32-4228-be58-0da0d722d7a3,2026-07-15,GCP,Compute Engine,gcp-compute engine-res,30.42,USD,Data Science,Machine Learning,Production
+52c877f3-2494-4e5e-b294-68222dc8d929,2026-07-15,GCP,Cloud Storage,gcp-cloud storage-res,14.34,USD,Data Science,Machine Learning,Production
+d469cd7c-a1fd-4ff9-8391-62eecdc384a8,2026-07-16,AWS,EC2,aws-ec2-res,136.76,USD,Engineering,Backend Core,Production
+83f31483-7097-47b3-8ca4-b15334c0e61f,2026-07-16,AWS,RDS,aws-rds-res,78.2,USD,Engineering,Backend Core,Production
+930db84d-8679-4d40-922d-c4265736d297,2026-07-16,AWS,S3,aws-s3-res,37.26,USD,Engineering,Data Platform,Production
+1272454d-7193-4803-b72e-4464c0ad992a,2026-07-16,AWS,Lambda,aws-lambda-res,9.73,USD,Finance,Payments,Production
+93640047-ec67-4c96-a46f-ba465f325739,2026-07-16,AWS,EBS,aws-ebs-res,16.25,USD,Infrastructure,DevOps,Staging
+478c34c6-ccc7-4d79-9012-86e259a2fb84,2026-07-16,AZURE,Virtual Machines,azure-virtual machines-res,41.38,USD,Finance,Risk Modeling,Production
+750008ab-a9f2-4f67-9e6a-1210424abb69,2026-07-16,AZURE,Azure SQL,azure-azure sql-res,48.75,USD,Finance,Accounting,Production
+ae827954-249c-4023-b46a-34836f33deb6,2026-07-16,AZURE,Blob Storage,azure-blob storage-res,15.64,USD,Legal,Compliance,Production
+1e710b50-0f6b-427f-ad0a-ef712bfc47b9,2026-07-16,GCP,BigQuery,gcp-bigquery-res,81.93,USD,Data Science,BI & Analytics,Production
+43aa3d22-b30a-4fa1-bb46-1a306d8dac54,2026-07-16,GCP,Compute Engine,gcp-compute engine-res,33.9,USD,Data Science,Machine Learning,Production
+1f4a5519-3313-4494-b2e5-b28ad3ad751f,2026-07-16,GCP,Cloud Storage,gcp-cloud storage-res,13.43,USD,Data Science,Machine Learning,Production
+a0a7313d-127b-4c2f-9bff-b5a584840f81,2026-07-17,AWS,EC2,aws-ec2-res,134.25,USD,Engineering,Backend Core,Production
+a1e9e66f-c4d5-4182-83c8-1772e65faca6,2026-07-17,AWS,RDS,aws-rds-res,89.22,USD,Engineering,Backend Core,Production
+6e72fd8d-4bdf-472e-b21c-34adb674bd2b,2026-07-17,AWS,S3,aws-s3-res,37.25,USD,Engineering,Data Platform,Production
+c6217f02-f9f2-4460-b66f-337ba8615357,2026-07-17,AWS,Lambda,aws-lambda-res,9.11,USD,Finance,Payments,Production
+fb7c99ac-9694-40a9-9b5c-d94ca08477b6,2026-07-17,AWS,EBS,aws-ebs-res,16.3,USD,Infrastructure,DevOps,Staging
+8e86353c-ef8a-4f4c-9dbb-14abf6ce2cd8,2026-07-17,AZURE,Virtual Machines,azure-virtual machines-res,42.23,USD,Finance,Risk Modeling,Production
+b00761e2-76d7-4cd4-b88c-01580cd35254,2026-07-17,AZURE,Azure SQL,azure-azure sql-res,48.07,USD,Finance,Accounting,Production
+73f6dc74-6ccc-4c6e-8991-c7eca9a7986a,2026-07-17,AZURE,Blob Storage,azure-blob storage-res,17.93,USD,Legal,Compliance,Production
+2067db6b-71e4-4585-b772-6fbf2ea6d127,2026-07-17,GCP,BigQuery,gcp-bigquery-res,81.98,USD,Data Science,BI & Analytics,Production
+f52bdc56-793d-4426-832a-5ac5f3a21ccd,2026-07-17,GCP,Compute Engine,gcp-compute engine-res,32.56,USD,Data Science,Machine Learning,Production
+5536270f-7c5d-4448-8303-ecc31c9a0d56,2026-07-17,GCP,Cloud Storage,gcp-cloud storage-res,12.94,USD,Data Science,Machine Learning,Production
+10cc0009-d689-40cc-96f5-4491638865e9,2026-07-18,AWS,EC2,aws-ec2-res,109.31,USD,Engineering,Backend Core,Production
+752ed0b4-0e19-4195-a1b2-1cc1233e5554,2026-07-18,AWS,RDS,aws-rds-res,63.68,USD,Engineering,Backend Core,Production
+cce8087d-e9c4-4d4c-ba06-47f4401a0bdb,2026-07-18,AWS,S3,aws-s3-res,30.58,USD,Engineering,Data Platform,Production
+3fbd0d1e-c1eb-450c-ac31-8330a8c2e58a,2026-07-18,AWS,Lambda,aws-lambda-res,7.54,USD,Finance,Payments,Production
+56f20b9d-2f38-4b1a-aaec-9a11d7b5e7e9,2026-07-18,AWS,EBS,aws-ebs-res,12.58,USD,Infrastructure,DevOps,Staging
+f271f6bf-92eb-4c0c-97d8-bb2ee67168fb,2026-07-18,AZURE,Virtual Machines,azure-virtual machines-res,34.47,USD,Finance,Risk Modeling,Production
+c25bfd53-ca2d-439d-b62a-c6203a70ebda,2026-07-18,AZURE,Azure SQL,azure-azure sql-res,35.8,USD,Finance,Accounting,Production
+b296f4c4-f2c1-493d-a11e-363bca9db930,2026-07-18,AZURE,Blob Storage,azure-blob storage-res,13.83,USD,Legal,Compliance,Production
+2c7746e1-5c8b-4b90-ac13-f9ae7fb9b3fa,2026-07-18,GCP,BigQuery,gcp-bigquery-res,61.71,USD,Data Science,BI & Analytics,Production
+6b048cba-01e5-47d8-b94e-28b7dd740128,2026-07-18,GCP,Compute Engine,gcp-compute engine-res,26.01,USD,Data Science,Machine Learning,Production
+336694db-0f87-4969-8610-91c3b72aebdd,2026-07-18,GCP,Cloud Storage,gcp-cloud storage-res,11.2,USD,Data Science,Machine Learning,Production
+d72eadeb-be2e-43b8-848f-e4dc465ce053,2026-07-19,AWS,EC2,aws-ec2-res,113.52,USD,Engineering,Backend Core,Production
+3a84728f-f016-4e33-8045-db1cacf2a696,2026-07-19,AWS,RDS,aws-rds-res,63.99,USD,Engineering,Backend Core,Production
+07c590a8-2765-4b6c-8d83-b569cfa0fd61,2026-07-19,AWS,S3,aws-s3-res,28.21,USD,Engineering,Data Platform,Production
+33d40f6c-b4a2-47e7-9e8f-d94a96f1c573,2026-07-19,AWS,Lambda,aws-lambda-res,7.48,USD,Finance,Payments,Production
+11edc62b-22d6-4d9c-9c1c-f6f54a60b6e5,2026-07-19,AWS,EBS,aws-ebs-res,12.85,USD,Infrastructure,DevOps,Staging
+2b903eb9-363c-41ac-b818-efcdd53d38ee,2026-07-19,AZURE,Virtual Machines,azure-virtual machines-res,32.04,USD,Finance,Risk Modeling,Production
+6c131f92-aa64-4353-841f-843f9443202d,2026-07-19,AZURE,Azure SQL,azure-azure sql-res,35.78,USD,Finance,Accounting,Production
+0dc4dcf7-f480-48fc-a58c-f477feba5d4f,2026-07-19,AZURE,Blob Storage,azure-blob storage-res,14.18,USD,Legal,Compliance,Production
+c0a01430-70a0-4ace-a160-e2022998a2d9,2026-07-19,GCP,BigQuery,gcp-bigquery-res,58.62,USD,Data Science,BI & Analytics,Production
+5ffbd674-6abd-4591-925a-48d6b6b074cc,2026-07-19,GCP,Compute Engine,gcp-compute engine-res,24.04,USD,Data Science,Machine Learning,Production
+80c9a5c7-96f7-4bdf-820d-4060774c2710,2026-07-19,GCP,Cloud Storage,gcp-cloud storage-res,10.95,USD,Data Science,Machine Learning,Production
+ba3eb627-60a2-41c3-8ab9-72baddff04ee,2026-07-20,AWS,EC2,aws-ec2-res,136.55,USD,Engineering,Backend Core,Production
+aa8f75e0-227f-42d4-a3e2-fb28d9423f77,2026-07-20,AWS,RDS,aws-rds-res,86.04,USD,Engineering,Backend Core,Production
+0dd6096e-03d6-41b4-8c6b-24aa58359281,2026-07-20,AWS,S3,aws-s3-res,36.5,USD,Engineering,Data Platform,Production
+dca06596-d000-4f6e-96dd-3c9b7e0996fb,2026-07-20,AWS,Lambda,aws-lambda-res,9.39,USD,Finance,Payments,Production
+a48152b4-bf8b-4f16-8d37-bfa6313f8522,2026-07-20,AWS,EBS,aws-ebs-res,15.73,USD,Infrastructure,DevOps,Staging
+838f6ec2-d1b9-4b95-ab22-9fc7f9c82ff9,2026-07-20,AZURE,Virtual Machines,azure-virtual machines-res,36.9,USD,Finance,Risk Modeling,Production
+10822d3b-4aca-4583-ae28-487c3eb977f9,2026-07-20,AZURE,Azure SQL,azure-azure sql-res,48.37,USD,Finance,Accounting,Production
+96c784b8-09ca-4617-94c3-b5256945852f,2026-07-20,AZURE,Blob Storage,azure-blob storage-res,18.39,USD,Legal,Compliance,Production
+a36413bc-19ee-4090-80c3-c5b4866ab2c1,2026-07-20,GCP,BigQuery,gcp-bigquery-res,79.97,USD,Data Science,BI & Analytics,Production
+2571381e-fd5e-4b5f-928e-af86fb62a1b9,2026-07-20,GCP,Compute Engine,gcp-compute engine-res,32.68,USD,Data Science,Machine Learning,Production
+f2348bad-d7a3-4a0e-990d-f9cd2f3da98c,2026-07-20,GCP,Cloud Storage,gcp-cloud storage-res,12.72,USD,Data Science,Machine Learning,Production
+d59118c3-c5e8-41e7-b0d9-4a62d2c14e6b,2026-07-21,AWS,EC2,aws-ec2-res,140.53,USD,Engineering,Backend Core,Production
+79f1b593-7609-4a26-a37a-4d9a392041d2,2026-07-21,AWS,RDS,aws-rds-res,90.5,USD,Engineering,Backend Core,Production
+633ac475-e3eb-42ac-8cc2-12ff13578add,2026-07-21,AWS,S3,aws-s3-res,34.23,USD,Engineering,Data Platform,Production
+6c300680-ee2c-46ba-9413-a73672afa0f8,2026-07-21,AWS,Lambda,aws-lambda-res,10.44,USD,Finance,Payments,Production
+c2c74631-de0d-4b1c-9a91-cbe357201f82,2026-07-21,AWS,EBS,aws-ebs-res,16.98,USD,Infrastructure,DevOps,Staging
+c3a45d9b-8aea-4eb6-9e6f-7c03e0b326dc,2026-07-21,AZURE,Virtual Machines,azure-virtual machines-res,37.74,USD,Finance,Risk Modeling,Production
+2252058e-08bc-411f-baec-fc6777b55d51,2026-07-21,AZURE,Azure SQL,azure-azure sql-res,47.89,USD,Finance,Accounting,Production
+f408f8bc-9d4a-468e-9387-1c90bc292ae0,2026-07-21,AZURE,Blob Storage,azure-blob storage-res,17.5,USD,Legal,Compliance,Production
+de856384-22f0-438d-b30f-89db1008712a,2026-07-21,GCP,BigQuery,gcp-bigquery-res,77.34,USD,Data Science,BI & Analytics,Production
+eaa3c37c-f4d8-4c38-bc71-e428eca7bf90,2026-07-21,GCP,Compute Engine,gcp-compute engine-res,33.19,USD,Data Science,Machine Learning,Production
+976cd0f9-e090-4d0a-b9ef-68c71f738afa,2026-07-21,GCP,Cloud Storage,gcp-cloud storage-res,13.48,USD,Data Science,Machine Learning,Production
+f8fcab12-a169-4d3b-8e1a-a05fd75e585b,2026-07-22,AWS,EC2,aws-ec2-res,133.99,USD,Engineering,Backend Core,Production
+f23009c7-f70e-45ac-8956-47c815930f07,2026-07-22,AWS,RDS,aws-rds-res,83.91,USD,Engineering,Backend Core,Production
+4c58db8d-67b2-4d30-b8d0-f4ae5d3a4b0e,2026-07-22,AWS,S3,aws-s3-res,34.61,USD,Engineering,Data Platform,Production
+300eec7e-0537-4276-a9ff-c55bf6b48816,2026-07-22,AWS,Lambda,aws-lambda-res,9.36,USD,Finance,Payments,Production
+42280047-951a-4182-9a86-1f64a0c4f1ba,2026-07-22,AWS,EBS,aws-ebs-res,15.29,USD,Infrastructure,DevOps,Staging
+09719662-9d78-4a20-b730-5ffb5fa2389a,2026-07-22,AZURE,Virtual Machines,azure-virtual machines-res,40.25,USD,Finance,Risk Modeling,Production
+78213120-2467-4eb5-9003-da6aaf4abe02,2026-07-22,AZURE,Azure SQL,azure-azure sql-res,47.17,USD,Finance,Accounting,Production
+e51af41f-3bb5-48a9-b90d-2a67ab480aab,2026-07-22,AZURE,Blob Storage,azure-blob storage-res,16.07,USD,Legal,Compliance,Production
+ba4f462c-5ca4-487f-a0a5-4b12d9ddf4d4,2026-07-22,GCP,BigQuery,gcp-bigquery-res,79.38,USD,Data Science,BI & Analytics,Production
+6859455e-533a-4806-8af4-23f5589ad715,2026-07-22,GCP,Compute Engine,gcp-compute engine-res,32.79,USD,Data Science,Machine Learning,Production
+63fcfaf0-9924-4dd8-9ff9-d69760530bf7,2026-07-22,GCP,Cloud Storage,gcp-cloud storage-res,12.75,USD,Data Science,Machine Learning,Production
+b7844619-2a74-47c9-b936-b7f18831251f,2026-07-23,AWS,EC2,aws-ec2-res,141.05,USD,Engineering,Backend Core,Production
+68bd1995-356d-47a8-8b50-2284d6b0448d,2026-07-23,AWS,RDS,aws-rds-res,91.07,USD,Engineering,Backend Core,Production
+0ac42542-8cc3-4a2f-9427-9134840eb469,2026-07-23,AWS,S3,aws-s3-res,35.19,USD,Engineering,Data Platform,Production
+5a40fb11-771f-486a-8005-be97e3697b35,2026-07-23,AWS,Lambda,aws-lambda-res,10.3,USD,Finance,Payments,Production
+2bfcffdc-d14e-4523-9721-5a72f1ea6048,2026-07-23,AWS,EBS,aws-ebs-res,17.13,USD,Infrastructure,DevOps,Staging
+96398d4c-9ff0-4975-84ca-0d6b307f8d13,2026-07-23,AZURE,Virtual Machines,azure-virtual machines-res,41.3,USD,Finance,Risk Modeling,Production
+ab914600-8fd5-43b1-b9d6-31e458f400fd,2026-07-23,AZURE,Azure SQL,azure-azure sql-res,46.99,USD,Finance,Accounting,Production
+2bf78212-0c7f-4b0f-b596-4bda127434c3,2026-07-23,AZURE,Blob Storage,azure-blob storage-res,18.48,USD,Legal,Compliance,Production
+d26c2233-864b-41c5-bcb6-d549d4230dd3,2026-07-23,GCP,BigQuery,gcp-bigquery-res,73.94,USD,Data Science,BI & Analytics,Production
+efa32971-268b-45a9-9cee-b45d7b36bebd,2026-07-23,GCP,Compute Engine,gcp-compute engine-res,34.36,USD,Data Science,Machine Learning,Production
+6929970b-5a27-4f8c-b018-04fca3e4302e,2026-07-23,GCP,Cloud Storage,gcp-cloud storage-res,13.63,USD,Data Science,Machine Learning,Production
+c303c8aa-157b-49b2-a326-830be95f957a,2026-07-24,AWS,EC2,aws-ec2-res,121.05,USD,Engineering,Backend Core,Production
+cdbb01ca-2b0f-4c63-a108-30ad4dfe4d84,2026-07-24,AWS,RDS,aws-rds-res,81.4,USD,Engineering,Backend Core,Production
+3c7363ca-d6bf-4266-873d-2fde5064f634,2026-07-24,AWS,S3,aws-s3-res,39.01,USD,Engineering,Data Platform,Production
+b97cee93-1587-41e1-9c42-900071dbe9b6,2026-07-24,AWS,Lambda,aws-lambda-res,9.53,USD,Finance,Payments,Production
+ae263985-8b24-4892-84f3-7aa61fc88224,2026-07-24,AWS,EBS,aws-ebs-res,17.11,USD,Infrastructure,DevOps,Staging
+5b78746f-afcb-4e8c-b7fa-34bbf4fdfdfe,2026-07-24,AZURE,Virtual Machines,azure-virtual machines-res,38.5,USD,Finance,Risk Modeling,Production
+1359a0e4-9dc5-49f8-b438-4f6bc768cd92,2026-07-24,AZURE,Azure SQL,azure-azure sql-res,48.72,USD,Finance,Accounting,Production
+bfa86d36-f3d3-4296-8bfe-d593fc067283,2026-07-24,AZURE,Blob Storage,azure-blob storage-res,16.35,USD,Legal,Compliance,Production
+195a04f1-a9f1-403f-868f-e9c6124a908c,2026-07-24,GCP,BigQuery,gcp-bigquery-res,75.37,USD,Data Science,BI & Analytics,Production
+e60e9c14-fd79-4b9e-8785-26455f6b11b1,2026-07-24,GCP,Compute Engine,gcp-compute engine-res,30.82,USD,Data Science,Machine Learning,Production
+215f58e4-d177-41f5-8983-0788f22c4d6c,2026-07-24,GCP,Cloud Storage,gcp-cloud storage-res,12.9,USD,Data Science,Machine Learning,Production
+426920cd-7031-4cce-827a-a29b33baefd1,2026-07-25,AWS,EC2,aws-ec2-res,105.87,USD,Engineering,Backend Core,Production
+9c0bcca3-a77d-4a21-8fae-eadf94afe87c,2026-07-25,AWS,RDS,aws-rds-res,73.9,USD,Engineering,Backend Core,Production
+060ea971-ba9c-433e-95b5-1c91b422025a,2026-07-25,AWS,S3,aws-s3-res,29.66,USD,Engineering,Data Platform,Production
+565ced7b-00c4-42f7-8306-6e18fa6471c7,2026-07-25,AWS,Lambda,aws-lambda-res,7.82,USD,Finance,Payments,Production
+ca3b4d6a-46af-4ff4-afe5-cdb39351adf0,2026-07-25,AWS,EBS,aws-ebs-res,12.5,USD,Infrastructure,DevOps,Staging
+13e3e15d-b2ee-429b-82fe-a65ed1f2ee85,2026-07-25,AZURE,Virtual Machines,azure-virtual machines-res,32.15,USD,Finance,Risk Modeling,Production
+b93e13a8-d99a-4705-b176-07867612df83,2026-07-25,AZURE,Azure SQL,azure-azure sql-res,38.84,USD,Finance,Accounting,Production
+e53ae98f-7353-458a-9f4d-691893988712,2026-07-25,AZURE,Blob Storage,azure-blob storage-res,13.64,USD,Legal,Compliance,Production
+d381aa7f-5635-4ac3-9d8a-dcc2e9e856d8,2026-07-25,GCP,BigQuery,gcp-bigquery-res,65.67,USD,Data Science,BI & Analytics,Production
+33d13dc5-f016-43e5-ac89-5ed424d27438,2026-07-25,GCP,Compute Engine,gcp-compute engine-res,27.16,USD,Data Science,Machine Learning,Production
+25676d35-66a9-4f50-8c4b-1c7dfa060503,2026-07-25,GCP,Cloud Storage,gcp-cloud storage-res,10.34,USD,Data Science,Machine Learning,Production
+f4e6c716-782c-48c5-9ee5-66ff121aab42,2026-07-26,AWS,EC2,aws-ec2-res,101.83,USD,Engineering,Backend Core,Production
+0e1dd7cf-c9e4-4f70-bf40-4af8e71a40e9,2026-07-26,AWS,RDS,aws-rds-res,67.17,USD,Engineering,Backend Core,Production
+8c120b27-1e40-442b-a5f7-e215617e4f2c,2026-07-26,AWS,S3,aws-s3-res,27.38,USD,Engineering,Data Platform,Production
+8e300836-4a90-403a-9f5b-0b8d23f7dd9e,2026-07-26,AWS,Lambda,aws-lambda-res,8.5,USD,Finance,Payments,Production
+9a5bd961-d60b-4545-ba18-40b1200fd0d5,2026-07-26,AWS,EBS,aws-ebs-res,12.39,USD,Infrastructure,DevOps,Staging
+53aa05e0-ee20-46b7-a2b9-8fc95aba77c5,2026-07-26,AZURE,Virtual Machines,azure-virtual machines-res,31.22,USD,Finance,Risk Modeling,Production
+720bc6bd-c1da-4a09-a263-d6dd018271eb,2026-07-26,AZURE,Azure SQL,azure-azure sql-res,39.54,USD,Finance,Accounting,Production
+80cd3d6b-bfad-48db-9092-1517c492955f,2026-07-26,AZURE,Blob Storage,azure-blob storage-res,13.13,USD,Legal,Compliance,Production
+4039b7a7-506e-4eea-aee8-cba504237c4a,2026-07-26,GCP,BigQuery,gcp-bigquery-res,68.05,USD,Data Science,BI & Analytics,Production
+c38565ab-11a1-4ad9-828f-beb67747b670,2026-07-26,GCP,Compute Engine,gcp-compute engine-res,25.95,USD,Data Science,Machine Learning,Production
+8b3a7141-f194-4708-bc1b-e6097012d416,2026-07-26,GCP,Cloud Storage,gcp-cloud storage-res,10.83,USD,Data Science,Machine Learning,Production
+ba8265ef-9000-47ae-a105-b32db939993f,2026-07-27,AWS,EC2,aws-ec2-res,122.7,USD,Engineering,Backend Core,Production
+f257bb69-258f-4080-9092-2791dfa945b5,2026-07-27,AWS,RDS,aws-rds-res,85.3,USD,Engineering,Backend Core,Production
+4390789b-04bc-4763-b0cc-4555ccd3ce49,2026-07-27,AWS,S3,aws-s3-res,34.99,USD,Engineering,Data Platform,Production
+f288182e-3f98-496f-a831-b5907008eeac,2026-07-27,AWS,Lambda,aws-lambda-res,9.65,USD,Finance,Payments,Production
+4b26f915-0db2-4758-ad17-f5f6ce920cb0,2026-07-27,AWS,EBS,aws-ebs-res,16.88,USD,Infrastructure,DevOps,Staging
+ab0f8e67-fd13-494a-a354-2068cabeab0e,2026-07-27,AZURE,Virtual Machines,azure-virtual machines-res,40.66,USD,Finance,Risk Modeling,Production
+60f3fdce-dba6-4be2-8005-6a3eaf08fcad,2026-07-27,AZURE,Azure SQL,azure-azure sql-res,49.24,USD,Finance,Accounting,Production
+51d705ef-4880-4e6d-b1ca-f3aec8a0ba29,2026-07-27,AZURE,Blob Storage,azure-blob storage-res,17.55,USD,Legal,Compliance,Production
+ec3dde3b-7b56-48ba-a577-26b00d51d065,2026-07-27,GCP,BigQuery,gcp-bigquery-res,72.06,USD,Data Science,BI & Analytics,Production
+c3b358ee-9d58-4353-ae60-cf76c8bc42a2,2026-07-27,GCP,Compute Engine,gcp-compute engine-res,31.53,USD,Data Science,Machine Learning,Production
+88758232-0b8f-4756-a473-7865a4e14217,2026-07-27,GCP,Cloud Storage,gcp-cloud storage-res,14.69,USD,Data Science,Machine Learning,Production
+3569341d-3528-4690-b586-d39c21cf9304,2026-07-28,AWS,EC2,aws-ec2-res,138.37,USD,Engineering,Backend Core,Production
+5de7f34a-2d24-45b3-8e0c-820eb104a169,2026-07-28,AWS,RDS,aws-rds-res,80.92,USD,Engineering,Backend Core,Production
+79fa9caf-aa5f-4e85-a59d-e085c31bc561,2026-07-28,AWS,S3,aws-s3-res,33.99,USD,Engineering,Data Platform,Production
+7a783270-9479-48b0-8912-169a8d3d097d,2026-07-28,AWS,Lambda,aws-lambda-res,9.17,USD,Finance,Payments,Production
+8aa641d6-5120-476f-ac7d-83258ab44fb7,2026-07-28,AWS,EBS,aws-ebs-res,17.02,USD,Infrastructure,DevOps,Staging
+1eff788a-a8f6-4091-9d16-b08b28db3cdb,2026-07-28,AZURE,Virtual Machines,azure-virtual machines-res,40.97,USD,Finance,Risk Modeling,Production
+854631ad-d0ee-4a33-b1e1-5b54d41fd76d,2026-07-28,AZURE,Azure SQL,azure-azure sql-res,47.98,USD,Finance,Accounting,Production
+f9c9bf23-3325-4f9e-9612-45adf3c56212,2026-07-28,AZURE,Blob Storage,azure-blob storage-res,17.11,USD,Legal,Compliance,Production
+bb31bfea-4295-40f0-85ae-1d9b8bb95c92,2026-07-28,GCP,BigQuery,gcp-bigquery-res,82.68,USD,Data Science,BI & Analytics,Production
+a4a4ae5a-71a9-4c2a-bb0d-81b0db717719,2026-07-28,GCP,Compute Engine,gcp-compute engine-res,29.9,USD,Data Science,Machine Learning,Production
+f0c2437a-1f5e-4d1e-afd7-c00cef9a7555,2026-07-28,GCP,Cloud Storage,gcp-cloud storage-res,13.88,USD,Data Science,Machine Learning,Production
+24c5b6ca-5f94-448b-bd58-4af4374cf606,2026-07-29,AWS,EC2,aws-ec2-res,137.37,USD,Engineering,Backend Core,Production
+f612b9ee-762a-479d-8536-47ab8f1a12ea,2026-07-29,AWS,RDS,aws-rds-res,92.95,USD,Engineering,Backend Core,Production
+f22639a3-2c0b-4b68-b5a0-006dd3e34cf8,2026-07-29,AWS,S3,aws-s3-res,38.04,USD,Engineering,Data Platform,Production
+ebbd43d6-33be-43d9-b11c-db9d0bf7415c,2026-07-29,AWS,Lambda,aws-lambda-res,10.33,USD,Finance,Payments,Production
+14b34b40-3fae-4120-b5e9-ab362cf2e11b,2026-07-29,AWS,EBS,aws-ebs-res,17.34,USD,Infrastructure,DevOps,Staging
+22b75467-85b3-4972-9412-27ee0ffd665b,2026-07-29,AZURE,Virtual Machines,azure-virtual machines-res,40.31,USD,Finance,Risk Modeling,Production
+148942d1-2d53-4e51-899e-4e196380ac03,2026-07-29,AZURE,Azure SQL,azure-azure sql-res,48.42,USD,Finance,Accounting,Production
+1ba987ae-e62c-41bf-8e95-c6f2dd1641e2,2026-07-29,AZURE,Blob Storage,azure-blob storage-res,17.92,USD,Legal,Compliance,Production
+4c2d0f83-e927-491f-b142-e292df8d8a1d,2026-07-29,GCP,BigQuery,gcp-bigquery-res,81.04,USD,Data Science,BI & Analytics,Production
+b14d0af7-5d58-451f-a0f5-b4a649277c6e,2026-07-29,GCP,Compute Engine,gcp-compute engine-res,31.29,USD,Data Science,Machine Learning,Production
+94994bb6-bfda-4837-8e58-6ad22d72f7dd,2026-07-29,GCP,Cloud Storage,gcp-cloud storage-res,14.71,USD,Data Science,Machine Learning,Production
+ca1e6c08-e2fb-447d-b014-5557787dad93,2026-07-30,AWS,EC2,aws-ec2-res,137.83,USD,Engineering,Backend Core,Production
+f9ab224a-661a-408c-b1df-382844b450dc,2026-07-30,AWS,RDS,aws-rds-res,84.98,USD,Engineering,Backend Core,Production
+9daed4e5-b891-4872-b468-0c96041a7b53,2026-07-30,AWS,S3,aws-s3-res,35.37,USD,Engineering,Data Platform,Production
+1e035954-a52f-449a-aa5b-7dcb3ac855bd,2026-07-30,AWS,Lambda,aws-lambda-res,9.18,USD,Finance,Payments,Production
+05bfe1b7-ee34-4051-b23f-c87c098515de,2026-07-30,AWS,EBS,aws-ebs-res,15.22,USD,Infrastructure,DevOps,Staging
+65110966-0d96-4eb1-be3b-de3d05225a00,2026-07-30,AZURE,Virtual Machines,azure-virtual machines-res,37.31,USD,Finance,Risk Modeling,Production
+6a395d5d-dc94-42ce-b26d-2e7c51585649,2026-07-30,AZURE,Azure SQL,azure-azure sql-res,50.45,USD,Finance,Accounting,Production
+d3b75dd1-0741-46ec-8e99-940f638d9831,2026-07-30,AZURE,Blob Storage,azure-blob storage-res,17.47,USD,Legal,Compliance,Production
+1f384b06-de64-41d9-9d4d-49e842428d4f,2026-07-30,GCP,BigQuery,gcp-bigquery-res,75.63,USD,Data Science,BI & Analytics,Production
+d0a927d2-cfa1-4d80-aa15-e487509e5548,2026-07-30,GCP,Compute Engine,gcp-compute engine-res,34.84,USD,Data Science,Machine Learning,Production
+41488600-d9c5-4d1e-b10b-69373a6f67cc,2026-07-30,GCP,Cloud Storage,gcp-cloud storage-res,13.1,USD,Data Science,Machine Learning,Production
+6b62e4b7-74e6-4a5a-8d8c-4fb173de94ae,2026-07-31,AWS,EC2,aws-ec2-res,143.0,USD,Engineering,Backend Core,Production
+e60421b0-5c7f-4d11-89e3-7170809f3b68,2026-07-31,AWS,RDS,aws-rds-res,83.92,USD,Engineering,Backend Core,Production
+214aa6f5-ae85-486c-9faf-5e3b481466d4,2026-07-31,AWS,S3,aws-s3-res,34.93,USD,Engineering,Data Platform,Production
+541f3241-a03c-4da2-8133-a9e91544a174,2026-07-31,AWS,Lambda,aws-lambda-res,10.07,USD,Finance,Payments,Production
+0a5215cc-aaea-448c-8923-7b8642bc4b6b,2026-07-31,AWS,EBS,aws-ebs-res,15.92,USD,Infrastructure,DevOps,Staging
+6b14eb95-8d2d-4aa6-a7f3-1d0f6c536e24,2026-07-31,AZURE,Virtual Machines,azure-virtual machines-res,40.75,USD,Finance,Risk Modeling,Production
+ba0eaeca-26ae-456d-9eac-21b653833048,2026-07-31,AZURE,Azure SQL,azure-azure sql-res,52.16,USD,Finance,Accounting,Production
+a8b371ff-8929-4be4-a181-b939b6f47b42,2026-07-31,AZURE,Blob Storage,azure-blob storage-res,16.31,USD,Legal,Compliance,Production
+7e93771c-32cd-4802-9693-5ee812ccbfae,2026-07-31,GCP,BigQuery,gcp-bigquery-res,82.92,USD,Data Science,BI & Analytics,Production
+b0ab2fec-eb18-47b2-93e4-26a02a02ae42,2026-07-31,GCP,Compute Engine,gcp-compute engine-res,32.61,USD,Data Science,Machine Learning,Production
+249db7b9-8216-4980-bd14-a8ee3a1e834d,2026-07-31,GCP,Cloud Storage,gcp-cloud storage-res,13.37,USD,Data Science,Machine Learning,Production
+f48231c3-166a-4037-a703-c75ec83f430a,2026-08-01,AWS,EC2,aws-ec2-res,112.48,USD,Engineering,Backend Core,Production
+13617ff1-0c6f-4712-9ad6-6b1d58cccbb2,2026-08-01,AWS,RDS,aws-rds-res,69.92,USD,Engineering,Backend Core,Production
+bd2359a5-33e0-4c58-a2d6-8fda56d07bbd,2026-08-01,AWS,S3,aws-s3-res,28.47,USD,Engineering,Data Platform,Production
+65c082ae-3e01-4769-8ab9-e8cae5768e46,2026-08-01,AWS,Lambda,aws-lambda-res,8.57,USD,Finance,Payments,Production
+77f58e89-3142-442c-a7ef-5873f042cfe0,2026-08-01,AWS,EBS,aws-ebs-res,13.72,USD,Infrastructure,DevOps,Staging
+5fcbf08b-e8fd-4538-be6a-06356ed4fe68,2026-08-01,AZURE,Virtual Machines,azure-virtual machines-res,31.05,USD,Finance,Risk Modeling,Production
+20c0c592-3832-402c-8622-996e5f07ff32,2026-08-01,AZURE,Azure SQL,azure-azure sql-res,36.58,USD,Finance,Accounting,Production
+9d88224d-73e7-400e-9b84-75ab049c4aec,2026-08-01,AZURE,Blob Storage,azure-blob storage-res,13.55,USD,Legal,Compliance,Production
+d2bb06db-5df8-40f3-8f7a-16f63d1c7a69,2026-08-01,GCP,BigQuery,gcp-bigquery-res,66.23,USD,Data Science,BI & Analytics,Production
+4345732b-4824-46e5-badf-ac2484a2acf1,2026-08-01,GCP,Compute Engine,gcp-compute engine-res,26.97,USD,Data Science,Machine Learning,Production
+9431ca94-3109-4618-b9e4-5479fdc7ff60,2026-08-01,GCP,Cloud Storage,gcp-cloud storage-res,10.84,USD,Data Science,Machine Learning,Production
+311a06f6-0a29-4761-a2bd-647aa9a67a37,2026-08-02,AWS,EC2,aws-ec2-res,114.47,USD,Engineering,Backend Core,Production
+f64eaff6-239d-46de-9990-3e9600cc3677,2026-08-02,AWS,RDS,aws-rds-res,73.96,USD,Engineering,Backend Core,Production
+c378e543-3e52-4e91-9ac5-a9aa62bfcb37,2026-08-02,AWS,S3,aws-s3-res,29.83,USD,Engineering,Data Platform,Production
+6c2b0ea2-bb94-4a21-a84b-703f72c26704,2026-08-02,AWS,Lambda,aws-lambda-res,7.7,USD,Finance,Payments,Production
+802450f3-93b6-4162-876d-5026c765116f,2026-08-02,AWS,EBS,aws-ebs-res,13.78,USD,Infrastructure,DevOps,Staging
+87668a7b-6e5b-447f-9f67-40a71b4a937f,2026-08-02,AZURE,Virtual Machines,azure-virtual machines-res,32.17,USD,Finance,Risk Modeling,Production
+a93dc26d-14fb-461d-bd0c-fb4570ef9aaa,2026-08-02,AZURE,Azure SQL,azure-azure sql-res,40.39,USD,Finance,Accounting,Production
+6b56adc4-1cef-43f4-85a1-358f68d02c0e,2026-08-02,AZURE,Blob Storage,azure-blob storage-res,14.2,USD,Legal,Compliance,Production
+c60c9575-31b6-4f9b-9b51-3a0355fbaab9,2026-08-02,GCP,BigQuery,gcp-bigquery-res,60.24,USD,Data Science,BI & Analytics,Production
+4146d85b-3476-4931-9d03-924cf4e67e66,2026-08-02,GCP,Compute Engine,gcp-compute engine-res,27.8,USD,Data Science,Machine Learning,Production
+76039c02-5905-4eb9-8ede-c498626d7439,2026-08-02,GCP,Cloud Storage,gcp-cloud storage-res,11.24,USD,Data Science,Machine Learning,Production
+b2a322df-23b1-427c-9370-fd1b4dff8bb1,2026-08-03,AWS,EC2,aws-ec2-res,124.65,USD,Engineering,Backend Core,Production
+b16a41bf-8af5-4de6-8610-5da1c8181175,2026-08-03,AWS,RDS,aws-rds-res,207.62,USD,Engineering,Backend Core,Production
+d0daaaa2-34b9-4f06-80a4-d044cdd03b0c,2026-08-03,AWS,S3,aws-s3-res,38.94,USD,Engineering,Data Platform,Production
+d3b9e641-eab0-4292-8732-4622d24c22d7,2026-08-03,AWS,Lambda,aws-lambda-res,9.51,USD,Finance,Payments,Production
+b9a6c751-5c94-478e-8525-4648d329aedc,2026-08-03,AWS,EBS,aws-ebs-res,15.85,USD,Infrastructure,DevOps,Staging
+d6db753b-ec57-4492-bf40-af9f83ee76c0,2026-08-03,AZURE,Virtual Machines,azure-virtual machines-res,40.99,USD,Finance,Risk Modeling,Production
+ea37e05f-dd1a-4f02-8bd3-fc2414ac97c7,2026-08-03,AZURE,Azure SQL,azure-azure sql-res,49.17,USD,Finance,Accounting,Production
+e7aa0640-cf57-47b9-9b39-d476fa35de00,2026-08-03,AZURE,Blob Storage,azure-blob storage-res,18.45,USD,Legal,Compliance,Production
+8b937942-3da9-40d0-9332-2e8f9eca9dbc,2026-08-03,GCP,BigQuery,gcp-bigquery-res,77.39,USD,Data Science,BI & Analytics,Production
+f8e6c666-d49d-4b70-a828-b5f6ba6de038,2026-08-03,GCP,Compute Engine,gcp-compute engine-res,33.53,USD,Data Science,Machine Learning,Production
+49d26a01-4063-41ca-925d-a7d6a9f32c59,2026-08-03,GCP,Cloud Storage,gcp-cloud storage-res,13.53,USD,Data Science,Machine Learning,Production
+18ce8e9c-6658-4994-922a-42a4ea3d2de6,2026-08-04,AWS,EC2,aws-ec2-res,134.72,USD,Engineering,Backend Core,Production
+0b74cd43-f0ec-4e6b-b90d-25e825bf162a,2026-08-04,AWS,RDS,aws-rds-res,81.54,USD,Engineering,Backend Core,Production
+67afc834-0b49-4560-b1f7-84729fe27aa9,2026-08-04,AWS,S3,aws-s3-res,35.22,USD,Engineering,Data Platform,Production
+d9ad70f1-1dec-4674-9fa1-75a7a318af33,2026-08-04,AWS,Lambda,aws-lambda-res,9.55,USD,Finance,Payments,Production
+ef24e991-fc61-497a-9779-a0046abb9353,2026-08-04,AWS,EBS,aws-ebs-res,15.78,USD,Infrastructure,DevOps,Staging
+35c0456a-3b3e-4777-a680-6ac87a09df3d,2026-08-04,AZURE,Virtual Machines,azure-virtual machines-res,39.18,USD,Finance,Risk Modeling,Production
+4b2722f0-6038-4536-9ad4-f9ce174d05b7,2026-08-04,AZURE,Azure SQL,azure-azure sql-res,47.89,USD,Finance,Accounting,Production
+2c871ada-d8b3-45e8-86c9-8acf4a003b53,2026-08-04,AZURE,Blob Storage,azure-blob storage-res,18.36,USD,Legal,Compliance,Production
+f56c6114-afe4-45b4-926c-22df79629325,2026-08-04,GCP,BigQuery,gcp-bigquery-res,84.28,USD,Data Science,BI & Analytics,Production
+686e6223-9f45-4575-a1a9-6b1b4cd91004,2026-08-04,GCP,Compute Engine,gcp-compute engine-res,31.92,USD,Data Science,Machine Learning,Production
+882f1388-a09c-46fc-b784-5a126af20e15,2026-08-04,GCP,Cloud Storage,gcp-cloud storage-res,13.18,USD,Data Science,Machine Learning,Production
+6b923990-6fc5-4110-a7ed-5bac515ca758,2026-08-05,AWS,EC2,aws-ec2-res,140.95,USD,Engineering,Backend Core,Production
+fa7ff23c-346d-4178-8b68-20073b99fed6,2026-08-05,AWS,RDS,aws-rds-res,86.25,USD,Engineering,Backend Core,Production
+6bb921c7-e636-40c7-95ec-0b0e18375e07,2026-08-05,AWS,S3,aws-s3-res,35.71,USD,Engineering,Data Platform,Production
+e8055224-58b7-43ab-9581-46661d87b6d1,2026-08-05,AWS,Lambda,aws-lambda-res,9.09,USD,Finance,Payments,Production
+ad4c5a24-143a-46a5-a98b-3c29f7629716,2026-08-05,AWS,EBS,aws-ebs-res,15.59,USD,Infrastructure,DevOps,Staging
+b4a8ac46-b1ec-4671-a89e-7746542d1a5f,2026-08-05,AZURE,Virtual Machines,azure-virtual machines-res,42.47,USD,Finance,Risk Modeling,Production
+3fab0d6a-7cdf-4fbf-b201-006968080a37,2026-08-05,AZURE,Azure SQL,azure-azure sql-res,47.33,USD,Finance,Accounting,Production
+d6e970c9-51fa-4f09-9563-89016c7aa68b,2026-08-05,AZURE,Blob Storage,azure-blob storage-res,18.78,USD,Legal,Compliance,Production
+cda477e0-6e02-4d78-9ed4-2c0b9c6fecdb,2026-08-05,GCP,BigQuery,gcp-bigquery-res,83.36,USD,Data Science,BI & Analytics,Production
+b25cc3e0-1d4b-49f3-9d97-39d132331a0a,2026-08-05,GCP,Compute Engine,gcp-compute engine-res,32.8,USD,Data Science,Machine Learning,Production
+573433f3-4b65-4135-88d3-e7d14bde122b,2026-08-05,GCP,Cloud Storage,gcp-cloud storage-res,12.98,USD,Data Science,Machine Learning,Production
+30c1b822-b71b-4067-af8a-4b48f225e92b,2026-08-06,AWS,EC2,aws-ec2-res,124.21,USD,Engineering,Backend Core,Production
+3a247f5c-e46e-4a09-8ec9-854cc09fb028,2026-08-06,AWS,RDS,aws-rds-res,80.66,USD,Engineering,Backend Core,Production
+7166cac5-0bb9-4ce8-903b-48a26eb61fde,2026-08-06,AWS,S3,aws-s3-res,38.79,USD,Engineering,Data Platform,Production
+a2e7d1d1-7a96-4161-9ab4-6d607257e34d,2026-08-06,AWS,Lambda,aws-lambda-res,9.72,USD,Finance,Payments,Production
+9b89efa9-b3f4-473a-9d77-e22398a06225,2026-08-06,AWS,EBS,aws-ebs-res,16.68,USD,Infrastructure,DevOps,Staging
+c89ce5d1-e4ec-41d1-b856-d768d0a01a3b,2026-08-06,AZURE,Virtual Machines,azure-virtual machines-res,40.49,USD,Finance,Risk Modeling,Production
+5222c3ea-989a-4f42-9bbb-144f603d27f7,2026-08-06,AZURE,Azure SQL,azure-azure sql-res,45.97,USD,Finance,Accounting,Production
+abef21c3-5fd2-46b2-bf1c-c450a9cd896b,2026-08-06,AZURE,Blob Storage,azure-blob storage-res,18.68,USD,Legal,Compliance,Production
+edc5decb-79b4-4adc-88ef-7e90e9e62af1,2026-08-06,GCP,BigQuery,gcp-bigquery-res,81.88,USD,Data Science,BI & Analytics,Production
+3a99be3e-95f0-4136-ab72-dea6ed1fdb2f,2026-08-06,GCP,Compute Engine,gcp-compute engine-res,32.08,USD,Data Science,Machine Learning,Production
+64b3c12a-0bf3-49d2-901c-e5f600d9bbd6,2026-08-06,GCP,Cloud Storage,gcp-cloud storage-res,13.15,USD,Data Science,Machine Learning,Production
+0ef73a03-fcf5-4ef5-ae79-7055f7f0e3d0,2026-08-07,AWS,EC2,aws-ec2-res,140.75,USD,Engineering,Backend Core,Production
+2331150e-d47c-4388-a948-1dffdadbe6bf,2026-08-07,AWS,RDS,aws-rds-res,86.01,USD,Engineering,Backend Core,Production
+9527d6f4-476d-4d1d-b209-a02e52ec1a0d,2026-08-07,AWS,S3,aws-s3-res,39.3,USD,Engineering,Data Platform,Production
+aa17466a-73b2-4c2c-b012-f71c5bc693cd,2026-08-07,AWS,Lambda,aws-lambda-res,9.82,USD,Finance,Payments,Production
+93a48859-bab9-4bae-ad9c-e16e4ba33d7a,2026-08-07,AWS,EBS,aws-ebs-res,15.24,USD,Infrastructure,DevOps,Staging
+f59da4c0-f10d-4879-8860-8590c59ae014,2026-08-07,AZURE,Virtual Machines,azure-virtual machines-res,38.81,USD,Finance,Risk Modeling,Production
+3acc9b07-45b5-4afa-8c81-f8229e9b78c3,2026-08-07,AZURE,Azure SQL,azure-azure sql-res,51.36,USD,Finance,Accounting,Production
+2283106e-6e43-4312-bc21-d46cb55df681,2026-08-07,AZURE,Blob Storage,azure-blob storage-res,16.92,USD,Legal,Compliance,Production
+3f827b19-eb03-400a-bc9e-573fcd6edadd,2026-08-07,GCP,BigQuery,gcp-bigquery-res,78.49,USD,Data Science,BI & Analytics,Production
+e4ad7ccb-c176-4651-bcbe-dda6ca402c49,2026-08-07,GCP,Compute Engine,gcp-compute engine-res,30.54,USD,Data Science,Machine Learning,Production
+ac14b9ec-450f-47b6-9ee4-a4b96ba5f741,2026-08-07,GCP,Cloud Storage,gcp-cloud storage-res,13.94,USD,Data Science,Machine Learning,Production
+c781134f-4a99-4b90-94e1-edf458344c96,2026-08-08,AWS,EC2,aws-ec2-res,100.86,USD,Engineering,Backend Core,Production
+1fe220a0-92a4-4d74-8941-c669ea48d5cd,2026-08-08,AWS,RDS,aws-rds-res,72.15,USD,Engineering,Backend Core,Production
+dcb304f0-ea10-40e3-a4f2-78b6239cf870,2026-08-08,AWS,S3,aws-s3-res,28.31,USD,Engineering,Data Platform,Production
+a6557b97-60b9-43fd-b562-c86f545d50be,2026-08-08,AWS,Lambda,aws-lambda-res,7.71,USD,Finance,Payments,Production
+709801eb-2e82-462f-9122-1b57415d7599,2026-08-08,AWS,EBS,aws-ebs-res,13.87,USD,Infrastructure,DevOps,Staging
+d459b9aa-e79b-4d73-9e85-98c97b800419,2026-08-08,AZURE,Virtual Machines,azure-virtual machines-res,33.92,USD,Finance,Risk Modeling,Production
+1e63fec6-d4f2-4635-b9c5-22ed0403f6b1,2026-08-08,AZURE,Azure SQL,azure-azure sql-res,37.72,USD,Finance,Accounting,Production
+909ebed8-a790-4d87-904e-a1dc6577f9b1,2026-08-08,AZURE,Blob Storage,azure-blob storage-res,15.13,USD,Legal,Compliance,Production
+7d8dc28b-8921-4231-8b57-b0393aca3021,2026-08-08,GCP,BigQuery,gcp-bigquery-res,60.87,USD,Data Science,BI & Analytics,Production
+01ea08a8-b5bb-409c-80ee-362fa8cb0d01,2026-08-08,GCP,Compute Engine,gcp-compute engine-res,24.43,USD,Data Science,Machine Learning,Production
+c404d69a-9c93-45c1-8acf-dd51d2932ec7,2026-08-08,GCP,Cloud Storage,gcp-cloud storage-res,10.46,USD,Data Science,Machine Learning,Production
+2debd154-8cd6-4dc8-9356-cfc4cd4834e2,2026-08-09,AWS,EC2,aws-ec2-res,104.21,USD,Engineering,Backend Core,Production
+8772ca26-73fc-44ad-b97b-14ef4e1b1dec,2026-08-09,AWS,RDS,aws-rds-res,70.5,USD,Engineering,Backend Core,Production
+1782ed71-2bb5-42b5-97d5-d9900af0def5,2026-08-09,AWS,S3,aws-s3-res,30.41,USD,Engineering,Data Platform,Production
+e54daca4-77ff-4e4c-b608-04617aab9289,2026-08-09,AWS,Lambda,aws-lambda-res,8.12,USD,Finance,Payments,Production
+db81e75b-95db-4f03-bcce-80e9bb64a902,2026-08-09,AWS,EBS,aws-ebs-res,13.65,USD,Infrastructure,DevOps,Staging
+d4342cd1-258d-4768-b2c3-81f0cdec6e60,2026-08-09,AZURE,Virtual Machines,azure-virtual machines-res,34.62,USD,Finance,Risk Modeling,Production
+82c73112-7379-4f6e-baca-113d614cda96,2026-08-09,AZURE,Azure SQL,azure-azure sql-res,39.93,USD,Finance,Accounting,Production
+20aa8818-f315-4479-a288-bc96243911ca,2026-08-09,AZURE,Blob Storage,azure-blob storage-res,13.53,USD,Legal,Compliance,Production
+637f6dfd-dae9-474f-85e1-ae6050533225,2026-08-09,GCP,BigQuery,gcp-bigquery-res,65.39,USD,Data Science,BI & Analytics,Production
+e98fae4b-0dd9-420a-8a5b-2ee3fa5ec225,2026-08-09,GCP,Compute Engine,gcp-compute engine-res,27.43,USD,Data Science,Machine Learning,Production
+0136fa33-6a40-465a-89ab-2da997880174,2026-08-09,GCP,Cloud Storage,gcp-cloud storage-res,11.66,USD,Data Science,Machine Learning,Production
+623744a7-78f0-4ad5-bcab-c4a9abf7fa04,2026-08-10,AWS,EC2,aws-ec2-res,382.18,USD,Engineering,Backend Core,Production
+6f1530cb-b34b-4c39-8589-fe5015b5c83a,2026-08-10,AWS,RDS,aws-rds-res,84.69,USD,Engineering,Backend Core,Production
+b2ba9e7a-138d-4a35-aa0f-bced515d3492,2026-08-10,AWS,S3,aws-s3-res,38.09,USD,Engineering,Data Platform,Production
+3ffbd3d6-4611-476f-acf0-1d286bd8e9dd,2026-08-10,AWS,Lambda,aws-lambda-res,10.16,USD,Finance,Payments,Production
+0b106d24-e8ad-4b0a-a54d-f959a6ae0c78,2026-08-10,AWS,EBS,aws-ebs-res,17.68,USD,Infrastructure,DevOps,Staging
+cb8c3d19-e172-4d95-b9c8-7e7bd568ac38,2026-08-10,AZURE,Virtual Machines,azure-virtual machines-res,44.16,USD,Finance,Risk Modeling,Production
+1d3ad094-0781-49fb-9ed7-50e406e1c6bb,2026-08-10,AZURE,Azure SQL,azure-azure sql-res,52.61,USD,Finance,Accounting,Production
+a90a4580-f593-4df5-8eb6-164d0c4c9246,2026-08-10,AZURE,Blob Storage,azure-blob storage-res,17.6,USD,Legal,Compliance,Production
+056fb449-d940-4854-9cc8-8fc618df230a,2026-08-10,GCP,BigQuery,gcp-bigquery-res,79.2,USD,Data Science,BI & Analytics,Production
+c21edfbb-af46-447b-801b-52ec4ce7b20c,2026-08-10,GCP,Compute Engine,gcp-compute engine-res,31.94,USD,Data Science,Machine Learning,Production
+621cf4a6-6f9a-4b6a-af3e-b36268dcb7f2,2026-08-10,GCP,Cloud Storage,gcp-cloud storage-res,14.55,USD,Data Science,Machine Learning,Production
+39ab8dc0-6501-4209-9a0a-ea0668992858,2026-08-11,AWS,EC2,aws-ec2-res,126.73,USD,Engineering,Backend Core,Production
+eaa752ed-c132-41f0-9da4-c07196356599,2026-08-11,AWS,RDS,aws-rds-res,94.53,USD,Engineering,Backend Core,Production
+27d2e741-3869-4aa1-ae14-9d912ecd2976,2026-08-11,AWS,S3,aws-s3-res,35.27,USD,Engineering,Data Platform,Production
+c801e005-c21a-449d-80f6-618cc7bc3929,2026-08-11,AWS,Lambda,aws-lambda-res,10.5,USD,Finance,Payments,Production
+6b9bc013-16b5-48ae-8d8a-92403bf0551f,2026-08-11,AWS,EBS,aws-ebs-res,15.09,USD,Infrastructure,DevOps,Staging
+ef153ca4-47b4-4926-9656-2e4cb0234eb8,2026-08-11,AZURE,Virtual Machines,azure-virtual machines-res,43.01,USD,Finance,Risk Modeling,Production
+14bf7b32-7b95-4151-837a-472e64e6c3e1,2026-08-11,AZURE,Azure SQL,azure-azure sql-res,51.95,USD,Finance,Accounting,Production
+cb583a83-f556-4582-991e-b91b44b4d5a8,2026-08-11,AZURE,Blob Storage,azure-blob storage-res,17.3,USD,Legal,Compliance,Production
+69cce0a6-1a60-49f7-a7bd-ba5c3dc1c7a1,2026-08-11,GCP,BigQuery,gcp-bigquery-res,77.0,USD,Data Science,BI & Analytics,Production
+8d0de2d2-d3b6-4d0e-a1b3-b22651e73f8b,2026-08-11,GCP,Compute Engine,gcp-compute engine-res,33.3,USD,Data Science,Machine Learning,Production
+9051cec2-e8eb-495b-935b-c3ae2e144746,2026-08-11,GCP,Cloud Storage,gcp-cloud storage-res,14.22,USD,Data Science,Machine Learning,Production
+20a5a9ef-6efb-4533-93f8-c88a8c6a6476,2026-08-12,AWS,EC2,aws-ec2-res,145.33,USD,Engineering,Backend Core,Production
+886b737a-5fd2-472a-b26e-6f1aef337617,2026-08-12,AWS,RDS,aws-rds-res,90.97,USD,Engineering,Backend Core,Production
+8169dad7-d10d-4667-b6b1-93cd7f70881d,2026-08-12,AWS,S3,aws-s3-res,35.02,USD,Engineering,Data Platform,Production
+f5d9608e-f780-466e-8980-3a0af021d4a6,2026-08-12,AWS,Lambda,aws-lambda-res,10.72,USD,Finance,Payments,Production
+f5940e83-0630-4de8-9fbb-a036ceeaa978,2026-08-12,AWS,EBS,aws-ebs-res,15.32,USD,Infrastructure,DevOps,Staging
+c08f4e01-fba1-4fde-847b-d121197de1dc,2026-08-12,AZURE,Virtual Machines,azure-virtual machines-res,39.92,USD,Finance,Risk Modeling,Production
+0d76e989-1e40-4f78-863f-048b40bb1353,2026-08-12,AZURE,Azure SQL,azure-azure sql-res,48.09,USD,Finance,Accounting,Production
+5bc15d21-478b-494a-9974-dbf7c1b0acbb,2026-08-12,AZURE,Blob Storage,azure-blob storage-res,18.34,USD,Legal,Compliance,Production
+d2fefa70-fb6e-4e19-aa39-e93cb95cbae2,2026-08-12,GCP,BigQuery,gcp-bigquery-res,81.04,USD,Data Science,BI & Analytics,Production
+9e8f363e-72fd-44f3-8e71-fa8d6c9c2f37,2026-08-12,GCP,Compute Engine,gcp-compute engine-res,33.54,USD,Data Science,Machine Learning,Production
+17c79839-9521-4a58-a365-e44bc118d0ff,2026-08-12,GCP,Cloud Storage,gcp-cloud storage-res,13.57,USD,Data Science,Machine Learning,Production
+76375eca-608e-4f95-b2ba-e94dfba00704,2026-08-13,AWS,EC2,aws-ec2-res,126.37,USD,Engineering,Backend Core,Production
+11e4c10d-d1fd-49be-91d9-4d4171de4865,2026-08-13,AWS,RDS,aws-rds-res,84.34,USD,Engineering,Backend Core,Production
+b40d7a23-e4cb-45f5-8f19-17656f54436a,2026-08-13,AWS,S3,aws-s3-res,35.27,USD,Engineering,Data Platform,Production
+d4101323-a5c4-4baf-abb8-6efffb3c8423,2026-08-13,AWS,Lambda,aws-lambda-res,10.2,USD,Finance,Payments,Production
+2d04b178-7ec0-4a5e-9b77-91f8fe23f0de,2026-08-13,AWS,EBS,aws-ebs-res,15.56,USD,Infrastructure,DevOps,Staging
+9155d491-85a9-44e3-8005-215692f01249,2026-08-13,AZURE,Virtual Machines,azure-virtual machines-res,43.98,USD,Finance,Risk Modeling,Production
+d47ad945-551f-4ce9-af53-194f984a1174,2026-08-13,AZURE,Azure SQL,azure-azure sql-res,46.3,USD,Finance,Accounting,Production
+67076ad6-2688-4372-8d70-4a2e3808116f,2026-08-13,AZURE,Blob Storage,azure-blob storage-res,17.75,USD,Legal,Compliance,Production
+74720bdd-ae36-4d3f-8ecc-42c6c1f34269,2026-08-13,GCP,BigQuery,gcp-bigquery-res,77.4,USD,Data Science,BI & Analytics,Production
+2256e4f5-f7f7-4a6e-b063-0bc92d62b802,2026-08-13,GCP,Compute Engine,gcp-compute engine-res,34.83,USD,Data Science,Machine Learning,Production
+5c43265d-61dc-447f-a2ae-06d979f8f312,2026-08-13,GCP,Cloud Storage,gcp-cloud storage-res,15.17,USD,Data Science,Machine Learning,Production
+d2d004a7-a40a-43b5-9456-5ff25bd4b0f3,2026-08-14,AWS,EC2,aws-ec2-res,138.29,USD,Engineering,Backend Core,Production
+21f7132a-739c-4a56-a9e8-f4e310eaec69,2026-08-14,AWS,RDS,aws-rds-res,94.88,USD,Engineering,Backend Core,Production
+26b3cd11-9fef-471f-8156-5f71c0869765,2026-08-14,AWS,S3,aws-s3-res,39.18,USD,Engineering,Data Platform,Production
+76ffff41-e55b-4d11-bfb0-c7c46ff9c41c,2026-08-14,AWS,Lambda,aws-lambda-res,10.31,USD,Finance,Payments,Production
+ca27ceec-9df9-4ada-b59a-9695d554da2f,2026-08-14,AWS,EBS,aws-ebs-res,16.83,USD,Infrastructure,DevOps,Staging
+951c9281-c9e9-49ce-be2a-a5a5b8b012b1,2026-08-14,AZURE,Virtual Machines,azure-virtual machines-res,40.71,USD,Finance,Risk Modeling,Production
+ee1344bf-d536-4ff8-9c17-3f31140268f0,2026-08-14,AZURE,Azure SQL,azure-azure sql-res,47.6,USD,Finance,Accounting,Production
+dcd9ae73-ea68-4998-ba47-f77b57403e57,2026-08-14,AZURE,Blob Storage,azure-blob storage-res,17.79,USD,Legal,Compliance,Production
+9f5c95bb-3a30-4ce1-b06c-155507a67442,2026-08-14,GCP,BigQuery,gcp-bigquery-res,77.89,USD,Data Science,BI & Analytics,Production
+c5d26493-c880-47be-9f5b-8e756754f612,2026-08-14,GCP,Compute Engine,gcp-compute engine-res,34.53,USD,Data Science,Machine Learning,Production
+b15e7416-6727-4bd1-8eb5-a349151cd967,2026-08-14,GCP,Cloud Storage,gcp-cloud storage-res,14.27,USD,Data Science,Machine Learning,Production
+94d3cb25-64b3-4f51-ac84-03cf1f804d7b,2026-08-15,AWS,EC2,aws-ec2-res,115.75,USD,Engineering,Backend Core,Production
+c5608231-7178-43fb-acd9-b918ec025f6f,2026-08-15,AWS,RDS,aws-rds-res,69.16,USD,Engineering,Backend Core,Production
+c4494ea3-8dd7-48ba-8fa4-f49105e67aed,2026-08-15,AWS,S3,aws-s3-res,29.15,USD,Engineering,Data Platform,Production
+24cc1ba2-df9f-4304-9f96-60974399c1c8,2026-08-15,AWS,Lambda,aws-lambda-res,8.61,USD,Finance,Payments,Production
+04a66780-d8c3-4f3a-b6af-7972f5ebb6a9,2026-08-15,AWS,EBS,aws-ebs-res,13.98,USD,Infrastructure,DevOps,Staging
+b3b08bec-bb8b-46f7-a29b-d31df79e1c00,2026-08-15,AZURE,Virtual Machines,azure-virtual machines-res,35.33,USD,Finance,Risk Modeling,Production
+6967ae22-8dac-4832-954d-a05f049a1221,2026-08-15,AZURE,Azure SQL,azure-azure sql-res,42.92,USD,Finance,Accounting,Production
+67ef32d0-758b-43e0-bc1a-7f83e90452a5,2026-08-15,AZURE,Blob Storage,azure-blob storage-res,14.35,USD,Legal,Compliance,Production
+15dbe3a7-53e6-45cc-8da4-220d0a33f069,2026-08-15,GCP,BigQuery,gcp-bigquery-res,69.71,USD,Data Science,BI & Analytics,Production
+5f10a4c8-53cc-447e-9f93-25d7d80944b1,2026-08-15,GCP,Compute Engine,gcp-compute engine-res,25.11,USD,Data Science,Machine Learning,Production
+81d0abb3-a6e1-47eb-a080-b0a0063b567c,2026-08-15,GCP,Cloud Storage,gcp-cloud storage-res,12.18,USD,Data Science,Machine Learning,Production
+1b6fc903-6a09-4eb1-ba08-3958a49c8195,2026-08-16,AWS,EC2,aws-ec2-res,111.66,USD,Engineering,Backend Core,Production
+d929d8a1-9bd7-465c-bab5-3540ed693541,2026-08-16,AWS,RDS,aws-rds-res,71.37,USD,Engineering,Backend Core,Production
+a4737d2a-94e8-4122-887c-3a6ddd5011af,2026-08-16,AWS,S3,aws-s3-res,30.98,USD,Engineering,Data Platform,Production
+64fe87cc-3af7-4917-b9e9-a21ec65533b4,2026-08-16,AWS,Lambda,aws-lambda-res,8.03,USD,Finance,Payments,Production
+24062379-d509-47d1-b606-bebe61ca8982,2026-08-16,AWS,EBS,aws-ebs-res,12.4,USD,Infrastructure,DevOps,Staging
+9b866223-a501-4850-b8ff-bdd5cab5b109,2026-08-16,AZURE,Virtual Machines,azure-virtual machines-res,30.95,USD,Finance,Risk Modeling,Production
+f87b8ee9-ff86-4dbc-8ecd-e887091109e2,2026-08-16,AZURE,Azure SQL,azure-azure sql-res,42.23,USD,Finance,Accounting,Production
+ffbf4868-0043-44cf-a750-dc82cb5b3635,2026-08-16,AZURE,Blob Storage,azure-blob storage-res,13.46,USD,Legal,Compliance,Production
+130e36a4-c9b6-4f6a-8185-d0942d9fe843,2026-08-16,GCP,BigQuery,gcp-bigquery-res,62.15,USD,Data Science,BI & Analytics,Production
+fe9a4a7c-241b-4b0a-8ab0-562b5dd1940e,2026-08-16,GCP,Compute Engine,gcp-compute engine-res,27.96,USD,Data Science,Machine Learning,Production
+a6cb3331-c78b-48dc-b77e-c70ef270714f,2026-08-16,GCP,Cloud Storage,gcp-cloud storage-res,11.44,USD,Data Science,Machine Learning,Production
+3e7a309f-ec81-4e13-ab9d-506cf365009d,2026-08-17,AWS,EC2,aws-ec2-res,128.1,USD,Engineering,Backend Core,Production
+851ca6fd-593b-4c1c-90b7-93bb93247a7a,2026-08-17,AWS,RDS,aws-rds-res,86.68,USD,Engineering,Backend Core,Production
+d9ea45a8-7cc5-4963-bce3-baaac0485cf4,2026-08-17,AWS,S3,aws-s3-res,40.28,USD,Engineering,Data Platform,Production
+c2a80c2b-93aa-409f-9039-7b0e1cffb1e8,2026-08-17,AWS,Lambda,aws-lambda-res,10.72,USD,Finance,Payments,Production
+61f97979-43df-418a-a41e-a316caa3490d,2026-08-17,AWS,EBS,aws-ebs-res,15.82,USD,Infrastructure,DevOps,Staging
+01aa129a-fab1-41bb-ac34-52ebdfc1f427,2026-08-17,AZURE,Virtual Machines,azure-virtual machines-res,42.26,USD,Finance,Risk Modeling,Production
+e1fd0e7b-ae24-4843-a329-a31934b734e5,2026-08-17,AZURE,Azure SQL,azure-azure sql-res,49.97,USD,Finance,Accounting,Production
+a94c090e-7e93-4b05-9a67-01fc4cec6791,2026-08-17,AZURE,Blob Storage,azure-blob storage-res,18.21,USD,Legal,Compliance,Production
+2b43d0b8-00e6-4451-ad4a-08c0d7aaa945,2026-08-17,GCP,BigQuery,gcp-bigquery-res,273.18,USD,Data Science,BI & Analytics,Production
+cc872a9d-de37-4bec-95c5-fc6fcb953796,2026-08-17,GCP,Compute Engine,gcp-compute engine-res,32.18,USD,Data Science,Machine Learning,Production
+668af1d9-51cd-47ed-be3a-1592d8e5c6ee,2026-08-17,GCP,Cloud Storage,gcp-cloud storage-res,14.84,USD,Data Science,Machine Learning,Production
+e2a20bf0-a416-4d47-8df8-9b6129a160e0,2026-08-18,AWS,EC2,aws-ec2-res,136.19,USD,Engineering,Backend Core,Production
+33076737-d9cd-4f14-9313-a94649e4b1fd,2026-08-18,AWS,RDS,aws-rds-res,90.31,USD,Engineering,Backend Core,Production
+5d311cdb-2898-4599-84ef-1d4e1092eb0c,2026-08-18,AWS,S3,aws-s3-res,35.24,USD,Engineering,Data Platform,Production
+de4b3ab6-5c06-445e-9359-7e636ff4987f,2026-08-18,AWS,Lambda,aws-lambda-res,10.06,USD,Finance,Payments,Production
+044d412e-f282-45b6-a5ef-c706f88acac5,2026-08-18,AWS,EBS,aws-ebs-res,15.64,USD,Infrastructure,DevOps,Staging
+e69bd434-1844-424a-b56c-ee2eb6b699af,2026-08-18,AZURE,Virtual Machines,azure-virtual machines-res,39.64,USD,Finance,Risk Modeling,Production
+853b8de1-d1c6-408e-a3e1-6b935ec61646,2026-08-18,AZURE,Azure SQL,azure-azure sql-res,50.38,USD,Finance,Accounting,Production
+879d966c-90e1-4ea4-b493-c5bcd4397107,2026-08-18,AZURE,Blob Storage,azure-blob storage-res,17.01,USD,Legal,Compliance,Production
+6d9143c4-aa09-492c-82f4-29abcbbde9b6,2026-08-18,GCP,BigQuery,gcp-bigquery-res,81.16,USD,Data Science,BI & Analytics,Production
+528df426-0d8d-4757-93c4-3bfe2c22a597,2026-08-18,GCP,Compute Engine,gcp-compute engine-res,30.87,USD,Data Science,Machine Learning,Production
+0b744418-85d7-4967-89c5-4b56427608ad,2026-08-18,GCP,Cloud Storage,gcp-cloud storage-res,13.98,USD,Data Science,Machine Learning,Production
+7d9d8ad1-90f2-4fe9-978d-8887e69dd7b6,2026-08-19,AWS,EC2,aws-ec2-res,132.19,USD,Engineering,Backend Core,Production
+1c2f51ec-95c8-425e-bff9-0b02ab8f2625,2026-08-19,AWS,RDS,aws-rds-res,82.78,USD,Engineering,Backend Core,Production
+937a5b72-c6d7-4e85-8747-75e92e6b0d79,2026-08-19,AWS,S3,aws-s3-res,38.41,USD,Engineering,Data Platform,Production
+6a78ce20-3fdc-4c74-a17d-458adf9bf5e5,2026-08-19,AWS,Lambda,aws-lambda-res,10.7,USD,Finance,Payments,Production
+6319d6cd-c321-4973-bb09-ba1e74aaf79c,2026-08-19,AWS,EBS,aws-ebs-res,16.74,USD,Infrastructure,DevOps,Staging
+f9c4adba-90b0-4ec3-8723-1c9ef644568b,2026-08-19,AZURE,Virtual Machines,azure-virtual machines-res,44.01,USD,Finance,Risk Modeling,Production
+43b8bd81-56dd-48bf-8ebc-6c19e369a917,2026-08-19,AZURE,Azure SQL,azure-azure sql-res,50.27,USD,Finance,Accounting,Production
+4c71e401-6a9b-4cbf-a9a0-9531405a3c87,2026-08-19,AZURE,Blob Storage,azure-blob storage-res,18.31,USD,Legal,Compliance,Production
+d0d17e48-2985-4372-8736-28d800d25c54,2026-08-19,GCP,BigQuery,gcp-bigquery-res,76.86,USD,Data Science,BI & Analytics,Production
+84a67041-f562-468f-abbf-12b19d7b6a69,2026-08-19,GCP,Compute Engine,gcp-compute engine-res,35.62,USD,Data Science,Machine Learning,Production
+136e4ad9-e779-4fb5-a55b-3acb77335236,2026-08-19,GCP,Cloud Storage,gcp-cloud storage-res,14.04,USD,Data Science,Machine Learning,Production
+bfa936f6-74ae-4a1a-bb37-90beeb9fa722,2026-08-20,AWS,EC2,aws-ec2-res,142.7,USD,Engineering,Backend Core,Production
+1e1c73a7-16c4-4333-a352-7bcff047e0af,2026-08-20,AWS,RDS,aws-rds-res,93.9,USD,Engineering,Backend Core,Production
+666051e5-49bb-4095-991f-37709aeaaf55,2026-08-20,AWS,S3,aws-s3-res,38.93,USD,Engineering,Data Platform,Production
+8b0311b5-ce4b-4afd-85c7-fb78812dd973,2026-08-20,AWS,Lambda,aws-lambda-res,10.0,USD,Finance,Payments,Production
+66bf5dc8-c835-4972-b1b7-3744314c6cb8,2026-08-20,AWS,EBS,aws-ebs-res,17.56,USD,Infrastructure,DevOps,Staging
+bbdde8a4-2a08-4817-8883-16b0f40712f2,2026-08-20,AZURE,Virtual Machines,azure-virtual machines-res,39.16,USD,Finance,Risk Modeling,Production
+3afbeb30-82d5-4747-915c-07e3b7c9e479,2026-08-20,AZURE,Azure SQL,azure-azure sql-res,46.97,USD,Finance,Accounting,Production
+12116e0f-28f6-40f2-a07f-b7260eaec257,2026-08-20,AZURE,Blob Storage,azure-blob storage-res,18.83,USD,Legal,Compliance,Production
+77242de3-ba03-4a71-b854-f716767cf3f4,2026-08-20,GCP,BigQuery,gcp-bigquery-res,78.92,USD,Data Science,BI & Analytics,Production
+0be4e486-a92b-4779-93b2-2849eec783aa,2026-08-20,GCP,Compute Engine,gcp-compute engine-res,30.9,USD,Data Science,Machine Learning,Production
+bd7ac501-f851-47a5-9fac-40e02ac92539,2026-08-20,GCP,Cloud Storage,gcp-cloud storage-res,13.89,USD,Data Science,Machine Learning,Production
+55987d7a-cfed-4cd0-b813-f98a67524023,2026-08-21,AWS,EC2,aws-ec2-res,127.2,USD,Engineering,Backend Core,Production
+bb31dc61-58b9-4233-bf93-0e68d8d6ef9b,2026-08-21,AWS,RDS,aws-rds-res,88.62,USD,Engineering,Backend Core,Production
+5dfbf800-f33f-44be-bd79-7cc962abc1f9,2026-08-21,AWS,S3,aws-s3-res,35.94,USD,Engineering,Data Platform,Production
+39532916-de82-406c-945c-d09ef5dd7781,2026-08-21,AWS,Lambda,aws-lambda-res,9.91,USD,Finance,Payments,Production
+0fea3084-41bf-4d75-a3e1-bcb2a03946cf,2026-08-21,AWS,EBS,aws-ebs-res,17.93,USD,Infrastructure,DevOps,Staging
+fc50c1a8-7a4b-4c51-a0c6-3be9d9769251,2026-08-21,AZURE,Virtual Machines,azure-virtual machines-res,39.24,USD,Finance,Risk Modeling,Production
+848da6f0-fda1-4c5d-82dd-f80544ff5eb2,2026-08-21,AZURE,Azure SQL,azure-azure sql-res,49.97,USD,Finance,Accounting,Production
+dd7ee8f3-62f1-4e15-9495-e9633e354205,2026-08-21,AZURE,Blob Storage,azure-blob storage-res,18.0,USD,Legal,Compliance,Production
+931ee00a-d527-4816-86ee-328d1e60567d,2026-08-21,GCP,BigQuery,gcp-bigquery-res,81.19,USD,Data Science,BI & Analytics,Production
+f40b6505-d1af-4cd0-90f5-9123e0cd474d,2026-08-21,GCP,Compute Engine,gcp-compute engine-res,31.4,USD,Data Science,Machine Learning,Production
+916c5247-863d-49cf-8e12-caa67543fdb0,2026-08-21,GCP,Cloud Storage,gcp-cloud storage-res,15.24,USD,Data Science,Machine Learning,Production
+ff02f3bb-113e-4fe4-9047-5a69efa864c4,2026-08-22,AWS,EC2,aws-ec2-res,104.98,USD,Engineering,Backend Core,Production
+8e391654-e02b-456a-a658-635f0015128b,2026-08-22,AWS,RDS,aws-rds-res,66.62,USD,Engineering,Backend Core,Production
+664f815a-9d6b-4cd5-83e5-d62b846dadbc,2026-08-22,AWS,S3,aws-s3-res,32.16,USD,Engineering,Data Platform,Production
+78ba319f-ef93-476a-b0ab-b585c5b31881,2026-08-22,AWS,Lambda,aws-lambda-res,7.69,USD,Finance,Payments,Production
+7519aed7-3410-4cf4-841f-4f1a605fc9d2,2026-08-22,AWS,EBS,aws-ebs-res,13.3,USD,Infrastructure,DevOps,Staging
+c95432fb-4238-41f3-93f3-adc9b325a610,2026-08-22,AZURE,Virtual Machines,azure-virtual machines-res,31.53,USD,Finance,Risk Modeling,Production
+5beeb383-b3d7-4145-b7fe-3a5feac8e88a,2026-08-22,AZURE,Azure SQL,azure-azure sql-res,39.68,USD,Finance,Accounting,Production
+c9953d7a-c9d9-4fad-8f96-b740a02413f8,2026-08-22,AZURE,Blob Storage,azure-blob storage-res,15.35,USD,Legal,Compliance,Production
+125aecc6-f2f5-4358-915d-14938c5a7a52,2026-08-22,GCP,BigQuery,gcp-bigquery-res,61.79,USD,Data Science,BI & Analytics,Production
+465d92a4-e067-4252-a244-49ab7d654d5d,2026-08-22,GCP,Compute Engine,gcp-compute engine-res,27.71,USD,Data Science,Machine Learning,Production
+f3cdf4c5-6a82-496d-8caa-00eb0d9263c3,2026-08-22,GCP,Cloud Storage,gcp-cloud storage-res,12.07,USD,Data Science,Machine Learning,Production
+8765adff-78ca-4f48-876b-cc6c1487281a,2026-08-23,AWS,EC2,aws-ec2-res,115.93,USD,Engineering,Backend Core,Production
+b477e659-403d-49ad-827e-be3bcdf173d7,2026-08-23,AWS,RDS,aws-rds-res,77.25,USD,Engineering,Backend Core,Production
+3f89650f-a2de-4cff-a7fd-27abd7d070f3,2026-08-23,AWS,S3,aws-s3-res,31.93,USD,Engineering,Data Platform,Production
+45fcf2b4-7a5f-42d8-ab0b-82ed99735e2e,2026-08-23,AWS,Lambda,aws-lambda-res,8.02,USD,Finance,Payments,Production
+c2b53ce4-83ff-4c5a-951d-ddde39004260,2026-08-23,AWS,EBS,aws-ebs-res,13.77,USD,Infrastructure,DevOps,Staging
+8f2a5037-82b1-45dd-8641-bfc92f3ff261,2026-08-23,AZURE,Virtual Machines,azure-virtual machines-res,32.84,USD,Finance,Risk Modeling,Production
+11fe6925-cd05-47e4-9392-beb1006500e5,2026-08-23,AZURE,Azure SQL,azure-azure sql-res,39.38,USD,Finance,Accounting,Production
+c5da162e-68bd-46cb-9441-b83e9bc1ce9c,2026-08-23,AZURE,Blob Storage,azure-blob storage-res,14.87,USD,Legal,Compliance,Production
+601f2eb4-0fa9-435b-8190-ba0833235251,2026-08-23,GCP,BigQuery,gcp-bigquery-res,65.41,USD,Data Science,BI & Analytics,Production
+aa2e2f61-d15a-415a-af55-4b251ca306be,2026-08-23,GCP,Compute Engine,gcp-compute engine-res,24.93,USD,Data Science,Machine Learning,Production
+882a30a8-02e6-484f-94c1-df432ed80663,2026-08-23,GCP,Cloud Storage,gcp-cloud storage-res,11.26,USD,Data Science,Machine Learning,Production
+20eb1860-8178-4382-843c-a399a2303618,2026-08-24,AWS,EC2,aws-ec2-res,132.04,USD,Engineering,Backend Core,Production
+74effa7f-5f14-489d-9965-54eb0f23b0b4,2026-08-24,AWS,RDS,aws-rds-res,87.41,USD,Engineering,Backend Core,Production
+fb383760-2031-4189-b91c-8f64a25ecd5b,2026-08-24,AWS,S3,aws-s3-res,36.41,USD,Engineering,Data Platform,Production
+3438502a-9576-4749-81fc-07d127bbce5c,2026-08-24,AWS,Lambda,aws-lambda-res,10.27,USD,Finance,Payments,Production
+b51aa54d-4e08-4dda-b79c-c620538f2d0f,2026-08-24,AWS,EBS,aws-ebs-res,15.64,USD,Infrastructure,DevOps,Staging
+6ff8d5f4-afa4-496a-90e2-8ca9047d9b72,2026-08-24,AZURE,Virtual Machines,azure-virtual machines-res,39.77,USD,Finance,Risk Modeling,Production
+2bbef3c7-2ffc-4fe9-8fad-5223916d4692,2026-08-24,AZURE,Azure SQL,azure-azure sql-res,48.04,USD,Finance,Accounting,Production
+c215c627-8a73-4126-a496-4c8aa5c70495,2026-08-24,AZURE,Blob Storage,azure-blob storage-res,17.76,USD,Legal,Compliance,Production
+a6c6b463-e8df-408a-8467-5fc12142cf75,2026-08-24,GCP,BigQuery,gcp-bigquery-res,76.55,USD,Data Science,BI & Analytics,Production
+a93ba35e-7162-4a1b-90d9-f2ceb159ed58,2026-08-24,GCP,Compute Engine,gcp-compute engine-res,32.35,USD,Data Science,Machine Learning,Production
+c67b8831-8381-43fe-813c-cb8cd4921df1,2026-08-24,GCP,Cloud Storage,gcp-cloud storage-res,15.32,USD,Data Science,Machine Learning,Production
