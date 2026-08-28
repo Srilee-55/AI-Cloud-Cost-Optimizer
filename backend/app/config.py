@@ -9,10 +9,22 @@ class Settings(BaseSettings):
     ENVIRONMENT: str = "development"
     DEBUG: bool = True
 
-    # Database
+    # Database (PostgreSQL / Supabase)
     DATABASE_URL: str = "sqlite:///./cloud_optimizer.db"
+    DB_POOL_SIZE: int = 10
+    DB_MAX_OVERFLOW: int = 20
+    DB_POOL_TIMEOUT: int = 30
+    DB_POOL_RECYCLE: int = 300
+    DB_POOL_PRE_PING: bool = True
 
-    # JWT
+    # Supabase Credentials
+    SUPABASE_URL: str = ""
+    SUPABASE_PUBLISHABLE_KEY: str = ""
+    SUPABASE_ANON_KEY: str = ""
+    SUPABASE_SERVICE_ROLE_KEY: str = ""
+
+    # JWT & Authentication
+    JWT_SECRET: str = ""
     SECRET_KEY: str = "dev-super-secret-key-change-in-production-2026-optimizer"
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 120
@@ -33,6 +45,18 @@ class Settings(BaseSettings):
         "http://127.0.0.1:5173",
         "http://localhost:3000",
     ]
+
+    @property
+    def EFFECTIVE_SECRET_KEY(self) -> str:
+        return self.JWT_SECRET if self.JWT_SECRET and len(self.JWT_SECRET.strip()) > 0 else self.SECRET_KEY
+
+    @property
+    def NORMALIZED_DATABASE_URL(self) -> str:
+        url = self.DATABASE_URL.strip()
+        # Handle Supabase postgres:// -> postgresql:// for SQLAlchemy
+        if url.startswith("postgres://"):
+            url = "postgresql://" + url[len("postgres://"):]
+        return url
 
     @field_validator("CORS_ORIGINS", mode="before")
     def assemble_cors_origins(cls, v):

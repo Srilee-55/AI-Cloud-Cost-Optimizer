@@ -82,14 +82,6 @@ npm run dev
 
 ---
 
-## 🔑 Demo Workspace Credentials
-
-| Role | Email | Password |
-| :--- | :--- | :--- |
-| **Admin** | `demo@cloudoptimizer.ai` | `OptimizerDemo2026!` |
-
----
-
 ## 🧪 Automated Test Suite
 
 Run the full pytest suite covering authentication, ML statistical algorithms, agent tools, and API routes:

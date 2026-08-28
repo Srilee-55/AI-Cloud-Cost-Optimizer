@@ -1,5 +1,5 @@
 import uuid
-from datetime import datetime
+from datetime import datetime, timezone
 from sqlalchemy import Column, String, ForeignKey, DateTime, Text
 from sqlalchemy.orm import relationship
 from app.database import Base
@@ -16,6 +16,6 @@ class Report(Base):
     file_path = Column(String(500), default="")
     status = Column(String(50), default="completed", nullable=False)  # completed, generating, failed
     metadata_json = Column(Text, default="{}", nullable=False)
-    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), nullable=False)
 
     workspace = relationship("Workspace", back_populates="reports")

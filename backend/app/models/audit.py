@@ -1,5 +1,5 @@
 import uuid
-from datetime import datetime
+from datetime import datetime, timezone
 from sqlalchemy import Column, String, ForeignKey, DateTime, Text
 from sqlalchemy.orm import relationship
 from app.database import Base
@@ -17,7 +17,7 @@ class AuditLog(Base):
     resource_id = Column(String(255), default="")
     details_json = Column(Text, default="{}", nullable=False)
     ip_address = Column(String(50), default="127.0.0.1")
-    created_at = Column(DateTime, default=datetime.utcnow, nullable=False, index=True)
+    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), nullable=False, index=True)
 
     workspace = relationship("Workspace", back_populates="audit_logs")
     user = relationship("User", back_populates="audit_logs")

@@ -1,6 +1,6 @@
 from datetime import datetime
 from typing import Optional, List, Dict, Any
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 
 class AgentRunRequest(BaseModel):
@@ -10,6 +10,8 @@ class AgentRunRequest(BaseModel):
 
 
 class AgentActionResponse(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
     id: str
     session_id: str
     step_number: int
@@ -21,11 +23,10 @@ class AgentActionResponse(BaseModel):
     status: str
     timestamp: datetime
 
-    class Config:
-        from_attributes = True
-
 
 class AgentSessionResponse(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
     id: str
     workspace_id: str
     user_id: Optional[str]
@@ -35,9 +36,6 @@ class AgentSessionResponse(BaseModel):
     created_at: datetime
     updated_at: datetime
     actions: List[AgentActionResponse] = []
-
-    class Config:
-        from_attributes = True
 
 
 class ToolTraceItem(BaseModel):

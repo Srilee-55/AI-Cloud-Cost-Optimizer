@@ -1,5 +1,5 @@
 import uuid
-from datetime import datetime, date
+from datetime import datetime, date, timezone
 from sqlalchemy import Column, String, Float, ForeignKey, DateTime, Date
 from sqlalchemy.orm import relationship
 from app.database import Base
@@ -17,7 +17,7 @@ class Forecast(Base):
     upper_bound = Column(Float, nullable=False)
     confidence_score = Column(Float, default=0.85, nullable=False)  # 0 to 1
     method = Column(String(50), default="exponential_smoothing", nullable=False)
-    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), nullable=False)
 
     workspace = relationship("Workspace", back_populates="forecasts")
 
@@ -38,6 +38,6 @@ class SavingsEstimate(Base):
     confidence_score = Column(Float, default=0.9, nullable=False)
     risk_level = Column(String(50), default="Low", nullable=False)  # Low, Medium, High
     status = Column(String(50), default="active", nullable=False)
-    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), nullable=False)
 
     workspace = relationship("Workspace", back_populates="savings_estimates")

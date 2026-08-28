@@ -1,5 +1,5 @@
 import uuid
-from datetime import datetime, date
+from datetime import datetime, date, timezone
 from sqlalchemy import Column, String, Boolean, DateTime, Date, Float, ForeignKey, Text, Index
 from sqlalchemy.orm import relationship
 from app.database import Base
@@ -29,7 +29,7 @@ class CostRecord(Base):
     
     is_demo = Column(Boolean, default=False, nullable=False)
     source = Column(String(50), default="automated_sync", nullable=False)  # manual, csv, automated_sync
-    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), nullable=False)
 
     # Relationships
     workspace = relationship("Workspace", back_populates="cost_records")
@@ -52,4 +52,4 @@ class CostEfficiencyScore(Base):
     efficiency_score = Column(Float, nullable=False)  # 0 to 100
     waste_percentage = Column(Float, default=0.0)
     idle_spend_ratio = Column(Float, default=0.0)
-    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), nullable=False)

@@ -1,5 +1,5 @@
 import uuid
-from datetime import datetime
+from datetime import datetime, timezone
 from sqlalchemy import Column, String, Boolean, DateTime, Float, ForeignKey, Text, JSON
 from sqlalchemy.orm import relationship
 from app.database import Base
@@ -13,7 +13,7 @@ class CloudProvider(Base):
     code = Column(String(50), unique=True, nullable=False)  # aws, azure, gcp
     icon = Column(String(50), default="Cloud")
     is_active = Column(Boolean, default=True, nullable=False)
-    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), nullable=False)
 
     accounts = relationship("CloudAccount", back_populates="provider")
 
@@ -30,9 +30,9 @@ class CloudAccount(Base):
     status = Column(String(50), default="Connected", nullable=False)  # Connected, Syncing, Error
     is_demo = Column(Boolean, default=False, nullable=False)
     credentials_json = Column(Text, default="{}", nullable=False)
-    last_synced_at = Column(DateTime, default=datetime.utcnow)
-    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
-    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
+    last_synced_at = Column(DateTime, default=lambda: datetime.now(timezone.utc))
+    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), nullable=False)
+    updated_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), onupdate=lambda: datetime.now(timezone.utc), nullable=False)
 
     workspace = relationship("Workspace", back_populates="cloud_accounts")
     provider = relationship("CloudProvider", back_populates="accounts")
@@ -60,8 +60,8 @@ class CloudResource(Base):
     project = Column(String(100), default="Core Services", nullable=False)
     tags_json = Column(Text, default="{}", nullable=False)
     is_demo = Column(Boolean, default=False, nullable=False)
-    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
-    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
+    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), nullable=False)
+    updated_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), onupdate=lambda: datetime.now(timezone.utc), nullable=False)
 
     workspace = relationship("Workspace", back_populates="cloud_resources")
     account = relationship("CloudAccount", back_populates="resources")

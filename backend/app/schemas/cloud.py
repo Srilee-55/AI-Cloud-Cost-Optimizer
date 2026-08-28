@@ -1,17 +1,16 @@
 from datetime import datetime
 from typing import Optional, Dict, Any
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 
 class CloudProviderResponse(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
     id: str
     name: str
     code: str
     icon: Optional[str]
     is_active: bool
-
-    class Config:
-        from_attributes = True
 
 
 class CloudAccountCreate(BaseModel):
@@ -24,6 +23,8 @@ class CloudAccountCreate(BaseModel):
 
 
 class CloudAccountResponse(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
     id: str
     workspace_id: str
     provider_id: str
@@ -36,11 +37,10 @@ class CloudAccountResponse(BaseModel):
     created_at: datetime
     provider: Optional[CloudProviderResponse] = None
 
-    class Config:
-        from_attributes = True
-
 
 class CloudResourceResponse(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
     id: str
     workspace_id: str
     cloud_account_id: str
@@ -59,6 +59,3 @@ class CloudResourceResponse(BaseModel):
     tags_json: str
     is_demo: bool
     created_at: datetime
-
-    class Config:
-        from_attributes = True

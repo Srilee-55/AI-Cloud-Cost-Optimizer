@@ -1,9 +1,11 @@
 from datetime import date, datetime
 from typing import Optional, List, Dict, Any
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 
 class ForecastResponse(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
     id: str
     workspace_id: str
     forecast_type: str
@@ -14,9 +16,6 @@ class ForecastResponse(BaseModel):
     confidence_score: float
     method: str
     created_at: datetime
-
-    class Config:
-        from_attributes = True
 
 
 class ForecastSummaryResponse(BaseModel):
@@ -31,6 +30,8 @@ class ForecastSummaryResponse(BaseModel):
 
 
 class SavingsEstimateResponse(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
     id: str
     workspace_id: str
     title: str
@@ -45,9 +46,6 @@ class SavingsEstimateResponse(BaseModel):
     risk_level: str
     status: str
     created_at: datetime
-
-    class Config:
-        from_attributes = True
 
 
 class SavingsSummaryResponse(BaseModel):

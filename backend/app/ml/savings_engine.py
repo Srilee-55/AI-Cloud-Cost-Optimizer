@@ -1,5 +1,5 @@
 import uuid
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import List, Dict, Any, Optional
 
 
@@ -342,7 +342,7 @@ def analyze_user_provided_resources(
         "estimates": opportunities,
         "currency": currency,
         "currency_symbol": "₹",
-        "analysis_timestamp": datetime.utcnow(),
+        "analysis_timestamp": datetime.now(timezone.utc),
         "data_source": "user_submitted_data"
     }
 

@@ -82,28 +82,15 @@ def get_current_workspace(
 
     # Fallback to user's first available workspace
     membership = db.query(WorkspaceMember).filter(WorkspaceMember.user_id == current_user.id).first()
-    if membership:
+    if membership and membership.workspace:
         return membership.workspace
 
-    # If user has no workspace, check if any demo workspace exists, or create a default one
-    workspace = db.query(Workspace).first()
-    if workspace:
-        # Create membership
-        new_membership = WorkspaceMember(
-            workspace_id=workspace.id,
-            user_id=current_user.id,
-            role="Admin"
-        )
-        db.add(new_membership)
-        db.commit()
-        return workspace
-
-    # Create initial workspace for user
+    # If user has no workspace, create a dedicated isolated workspace for this user
     default_ws = Workspace(
         name=f"{current_user.full_name}'s Workspace",
-        slug=f"workspace-{current_user.id[:8]}",
-        account_type="Growing Business",
-        monthly_budget=15000.0,
+        slug=f"ws-{current_user.id[:8]}",
+        account_type="Startup",
+        monthly_budget=10000.0,
         currency="USD"
     )
     db.add(default_ws)

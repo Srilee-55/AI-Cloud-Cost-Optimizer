@@ -1,7 +1,7 @@
 import os
 import json
 from typing import List
-from datetime import datetime
+from datetime import datetime, timezone
 from fastapi import APIRouter, Depends, HTTPException, status
 from fastapi.responses import FileResponse, Response
 from sqlalchemy.orm import Session
@@ -61,7 +61,7 @@ def generate_report(
         for r in cost_records
     ]
 
-    filename = f"report_{workspace.slug}_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.{req.file_format}"
+    filename = f"report_{workspace.slug}_{datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S')}.{req.file_format}"
     file_path = os.path.join(REPORT_DIR, filename)
 
     if req.file_format.lower() == "csv":

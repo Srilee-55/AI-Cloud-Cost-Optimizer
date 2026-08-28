@@ -1,5 +1,5 @@
 import json
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 import random
 from sqlalchemy.orm import Session
 from app.models.user import User, UserRole
@@ -107,7 +107,7 @@ def seed_database(db: Session):
             environment=acc["env"],
             status="Connected",
             is_demo=True,
-            last_synced_at=datetime.utcnow()
+            last_synced_at=datetime.now(timezone.utc)
         )
         db.add(cloud_acc)
         db.commit()

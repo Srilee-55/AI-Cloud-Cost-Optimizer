@@ -1,6 +1,6 @@
 import json
 from typing import List, Dict, Any
-from datetime import datetime
+from datetime import datetime, timezone
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from app.database import get_db
@@ -112,7 +112,7 @@ def test_critical_alert_webhook(
             "service": "AWS EC2",
             "actual_cost": 366.22,
             "expected_baseline": 128.50,
-            "timestamp": datetime.utcnow().isoformat()
+            "timestamp": datetime.now(timezone.utc).isoformat()
         },
         "delivery_target": "Slack #cloud-cost-alerts"
     }

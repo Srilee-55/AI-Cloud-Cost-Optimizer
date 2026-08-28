@@ -1,5 +1,5 @@
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Dict, Any, Optional
 from sqlalchemy.orm import Session
 from app.agents.planner import AgentPlanner
@@ -58,7 +58,7 @@ class AgentController:
             raise ValueError("Recommendation not found")
 
         rec.approval_status = RecommendationStatus.APPROVED
-        rec.approved_at = datetime.utcnow()
+        rec.approved_at = datetime.now(timezone.utc)
         self.db.commit()
         self.db.refresh(rec)
 
@@ -86,7 +86,7 @@ class AgentController:
             raise ValueError("Recommendation not found")
 
         rec.approval_status = RecommendationStatus.REJECTED
-        rec.rejected_at = datetime.utcnow()
+        rec.rejected_at = datetime.now(timezone.utc)
         rec.rejection_reason = reason or "Rejected by user"
         self.db.commit()
         self.db.refresh(rec)
@@ -120,6 +120,7 @@ class AgentController:
         if rec.approval_status == RecommendationStatus.REJECTED:
             raise ValueError("Cannot simulate a rejected recommendation")
 
+        now_iso = datetime.now(timezone.utc).isoformat()
         simulation_result = {
             "simulation_id": f"sim-{rec.id[:8]}",
             "action_executed": f"SIMULATED: {rec.recommended_action}",
@@ -131,11 +132,11 @@ class AgentController:
             "achieved_monthly_savings": rec.estimated_savings,
             "achieved_annual_savings": round(rec.estimated_savings * 12, 2),
             "safety_status": "SIMULATION_SUCCESS - No live production infrastructure modified.",
-            "timestamp": datetime.utcnow().isoformat()
+            "timestamp": now_iso
         }
 
         rec.approval_status = RecommendationStatus.SIMULATED
-        rec.simulated_at = datetime.utcnow()
+        rec.simulated_at = datetime.now(timezone.utc)
         rec.simulated_result_json = json.dumps(simulation_result)
         self.db.commit()
 

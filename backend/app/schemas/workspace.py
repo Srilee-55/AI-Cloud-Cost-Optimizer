@@ -1,9 +1,11 @@
 from datetime import datetime
 from typing import Optional, List
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 
 class WorkspaceResponse(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
     id: str
     name: str
     slug: str
@@ -14,9 +16,6 @@ class WorkspaceResponse(BaseModel):
     onboarding_completed: bool
     checklist_json: str
     created_at: datetime
-
-    class Config:
-        from_attributes = True
 
 
 class WorkspaceCreate(BaseModel):

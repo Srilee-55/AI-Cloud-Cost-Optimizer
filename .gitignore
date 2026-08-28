@@ -17,17 +17,19 @@ htmlcov/
 
 # Local Databases & Logs
 *.db
+*.db.backup*
 *.db-journal
 *.sqlite3
 cloud_optimizer.db
-generated_reports/*.pdf
-generated_reports/*.csv
+generated_reports/
+backend/generated_reports/
 *.log
 
 # Environment Variables & Secrets
 .env
 .env.local
 .env.*.local
+!.env.example
 
 # IDE & OS Files
 .vscode/

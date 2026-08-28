@@ -1,6 +1,6 @@
 from datetime import date, datetime
 from typing import Optional, List, Dict, Any
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 
 class CostRecordCreate(BaseModel):
@@ -19,6 +19,8 @@ class CostRecordCreate(BaseModel):
 
 
 class CostRecordResponse(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
     id: str
     workspace_id: str
     cloud_account_id: Optional[str]
@@ -38,9 +40,6 @@ class CostRecordResponse(BaseModel):
     is_demo: bool
     source: str
     created_at: datetime
-
-    class Config:
-        from_attributes = True
 
 
 class CostSummaryResponse(BaseModel):

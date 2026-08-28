@@ -1,5 +1,5 @@
 import uuid
-from datetime import datetime, date
+from datetime import datetime, date, timezone
 from sqlalchemy import Column, String, Float, ForeignKey, DateTime, Date, Text
 from sqlalchemy.orm import relationship
 from app.database import Base
@@ -28,6 +28,6 @@ class Anomaly(Base):
     possible_cause = Column(Text, nullable=False)
     recommended_action = Column(Text, nullable=False)
     status = Column(String(50), default="active", nullable=False)  # active, investigated, resolved
-    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), nullable=False)
 
     workspace = relationship("Workspace", back_populates="anomalies")

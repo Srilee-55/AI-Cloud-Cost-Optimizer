@@ -1,5 +1,5 @@
 import uuid
-from datetime import datetime
+from datetime import datetime, timezone
 from sqlalchemy import Column, String, Boolean, ForeignKey, DateTime, Text
 from sqlalchemy.orm import relationship
 from app.database import Base
@@ -31,7 +31,7 @@ class Alert(Base):
     severity = Column(String(50), default=AlertSeverity.WARNING, nullable=False)
     is_read = Column(Boolean, default=False, nullable=False)
     metadata_json = Column(Text, default="{}", nullable=False)
-    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), nullable=False)
 
     workspace = relationship("Workspace", back_populates="alerts")
 
@@ -46,7 +46,7 @@ class Notification(Base):
     message = Column(Text, nullable=False)
     link = Column(String(255), default="")
     is_read = Column(Boolean, default=False, nullable=False)
-    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), nullable=False)
 
     user = relationship("User", back_populates="notifications")
 
@@ -61,4 +61,4 @@ class WebhookEvent(Base):
     target_url = Column(String(255), default="https://hooks.slack.com/services/simulated")
     status = Column(String(50), default="simulated_delivered", nullable=False)  # simulated_delivered, failed
     response_code = Column(String(10), default="200")
-    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), nullable=False)

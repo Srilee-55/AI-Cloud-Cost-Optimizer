@@ -1,9 +1,11 @@
 from datetime import datetime
 from typing import Optional, Dict, Any
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 
 class AlertResponse(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
     id: str
     workspace_id: str
     alert_type: str
@@ -14,11 +16,10 @@ class AlertResponse(BaseModel):
     metadata_json: str
     created_at: datetime
 
-    class Config:
-        from_attributes = True
-
 
 class NotificationResponse(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
     id: str
     user_id: str
     workspace_id: str
@@ -28,11 +29,10 @@ class NotificationResponse(BaseModel):
     is_read: bool
     created_at: datetime
 
-    class Config:
-        from_attributes = True
-
 
 class WebhookEventResponse(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
     id: str
     workspace_id: str
     event_type: str
@@ -41,6 +41,3 @@ class WebhookEventResponse(BaseModel):
     status: str
     response_code: str
     created_at: datetime
-
-    class Config:
-        from_attributes = True

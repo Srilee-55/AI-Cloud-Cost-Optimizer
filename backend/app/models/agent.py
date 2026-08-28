@@ -1,5 +1,5 @@
 import uuid
-from datetime import datetime
+from datetime import datetime, timezone
 from sqlalchemy import Column, String, Float, ForeignKey, DateTime, Text, Integer, JSON
 from sqlalchemy.orm import relationship
 from app.database import Base
@@ -15,8 +15,8 @@ class AgentSession(Base):
     goal = Column(Text, nullable=False)
     status = Column(String(50), default="in_progress", nullable=False)  # in_progress, completed, failed
     summary = Column(Text, default="")
-    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
-    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
+    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), nullable=False)
+    updated_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), onupdate=lambda: datetime.now(timezone.utc), nullable=False)
 
     workspace = relationship("Workspace", back_populates="agent_sessions")
     actions = relationship("AgentAction", back_populates="session", cascade="all, delete-orphan", order_by="AgentAction.step_number")
@@ -35,7 +35,7 @@ class AgentAction(Base):
     tool_output_json = Column(Text, default="{}", nullable=False)
     duration_ms = Column(Float, default=0.0)
     status = Column(String(50), default="success", nullable=False)
-    timestamp = Column(DateTime, default=datetime.utcnow, nullable=False)
+    timestamp = Column(DateTime, default=lambda: datetime.now(timezone.utc), nullable=False)
 
     session = relationship("AgentSession", back_populates="actions")
 
@@ -55,4 +55,4 @@ class ChatMessage(Base):
     recommendations_json = Column(Text, default="[]", nullable=False)
     confidence = Column(Float, default=0.95)
     
-    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), nullable=False)

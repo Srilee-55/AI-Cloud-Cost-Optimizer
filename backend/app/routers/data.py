@@ -1,6 +1,7 @@
 import io
 import csv
 import json
+import uuid
 from datetime import datetime, date
 from typing import List, Dict, Any
 from fastapi import APIRouter, Depends, HTTPException, UploadFile, File, status
@@ -120,6 +121,7 @@ async def upload_csv(
                 parsed_date = date.today()
 
             rec = CostRecord(
+                id=str(uuid.uuid4()),
                 workspace_id=workspace.id,
                 provider_code=prov,
                 service_name=service,
@@ -141,7 +143,7 @@ async def upload_csv(
             errors.append(f"Row {idx}: {str(err)}")
 
     if records_to_insert:
-        db.bulk_save_objects(records_to_insert)
+        db.add_all(records_to_insert)
         db.commit()
 
     # Audit log

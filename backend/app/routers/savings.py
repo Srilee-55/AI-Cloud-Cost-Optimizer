@@ -1,6 +1,6 @@
 import csv
 import io
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Dict, Any, List, Optional
 from fastapi import APIRouter, Depends, HTTPException, status
 from fastapi.responses import PlainTextResponse
@@ -156,7 +156,7 @@ def get_current_workspace_savings(
             "opportunities": [],
             "currency": "INR",
             "currency_symbol": "₹",
-            "analysis_timestamp": datetime.utcnow(),
+            "analysis_timestamp": datetime.now(timezone.utc),
             "data_source": "workspace_database"
         }
         return ApiResponse(

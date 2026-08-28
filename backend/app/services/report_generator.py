@@ -1,7 +1,7 @@
 import os
 import csv
 import io
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Dict, Any, List
 from reportlab.lib.pagesizes import letter
 from reportlab.lib import colors
@@ -125,7 +125,7 @@ def generate_executive_report_pdf(
 
     # Title & Metadata
     elements.append(Paragraph("AI Cloud Cost Optimizer — Executive Intelligence Report", title_style))
-    elements.append(Paragraph(f"<b>Workspace:</b> {workspace_name} &nbsp;|&nbsp; <b>Generated:</b> {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}", subtitle_style))
+    elements.append(Paragraph(f"<b>Workspace:</b> {workspace_name} &nbsp;|&nbsp; <b>Generated:</b> {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}", subtitle_style))
     elements.append(Spacer(1, 10))
 
     # Executive Summary KPI Table

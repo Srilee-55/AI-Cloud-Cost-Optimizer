@@ -9,8 +9,8 @@ const LoginPage = () => {
   const navigate = useNavigate();
   const { login } = useAuth();
 
-  const [email, setEmail] = useState('demo@cloudoptimizer.ai');
-  const [password, setPassword] = useState('OptimizerDemo2026!');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [rememberMe, setRememberMe] = useState(true);
   const [loading, setLoading] = useState(false);
@@ -123,11 +123,6 @@ const LoginPage = () => {
         <Link to="/register" className="text-brand-600 hover:text-brand-700 font-bold">
           Create an account
         </Link>
-      </div>
-
-      <div className="mt-4 p-3 bg-brand-50/60 rounded-xl border border-brand-100 text-[11px] text-brand-800">
-        <span className="font-bold">Demo Workspace Credentials:</span>
-        <div className="mt-0.5 font-mono text-[10.5px]">demo@cloudoptimizer.ai / OptimizerDemo2026!</div>
       </div>
     </div>
   );

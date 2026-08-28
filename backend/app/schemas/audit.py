@@ -1,9 +1,11 @@
 from datetime import datetime
 from typing import Optional
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 
 class AuditLogResponse(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
     id: str
     workspace_id: str
     user_id: Optional[str]
@@ -14,6 +16,3 @@ class AuditLogResponse(BaseModel):
     details_json: str
     ip_address: str
     created_at: datetime
-
-    class Config:
-        from_attributes = True

@@ -1,6 +1,6 @@
 from datetime import datetime
 from typing import Optional, Dict, Any
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 
 class ReportGenerateRequest(BaseModel):
@@ -13,6 +13,8 @@ class ReportGenerateRequest(BaseModel):
 
 
 class ReportResponse(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
     id: str
     workspace_id: str
     title: str
@@ -22,6 +24,3 @@ class ReportResponse(BaseModel):
     status: str
     metadata_json: str
     created_at: datetime
-
-    class Config:
-        from_attributes = True

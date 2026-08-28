@@ -1,6 +1,6 @@
 import json
 from typing import List
-from datetime import datetime
+from datetime import datetime, timezone
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from app.database import get_db
@@ -63,7 +63,7 @@ def create_account(
         status="Connected",
         is_demo=req.is_demo,
         credentials_json=json.dumps(req.credentials or {}),
-        last_synced_at=datetime.utcnow()
+        last_synced_at=datetime.now(timezone.utc)
     )
     db.add(new_acc)
     db.commit()
@@ -126,7 +126,7 @@ def sync_account(
     if not acc:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Account not found")
 
-    acc.last_synced_at = datetime.utcnow()
+    acc.last_synced_at = datetime.now(timezone.utc)
     acc.status = "Connected"
     db.commit()
 
