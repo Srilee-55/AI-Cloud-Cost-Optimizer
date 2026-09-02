@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import { Mail, Lock, Eye, EyeOff, ArrowRight, Sparkles, ShieldCheck } from 'lucide-react';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
+import { Mail, Lock, Eye, EyeOff, ArrowRight, Sparkles, ShieldCheck, Zap } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import Button from '../components/common/Button';
 import Input from '../components/common/Input';
 
 const LoginPage = () => {
   const navigate = useNavigate();
+  const location = useLocation();
   const { login } = useAuth();
 
   const [email, setEmail] = useState('');
@@ -16,24 +17,36 @@ const LoginPage = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  const targetPath = location.state?.from?.pathname || '/dashboard';
+
+  const handleSubmit = async (e, customEmail = null, customPass = null) => {
+    if (e) e.preventDefault();
     setError('');
 
-    if (!email || !password) {
+    const loginEmail = customEmail || email;
+    const loginPass = customPass || password;
+
+    if (!loginEmail || !loginPass) {
       setError('Please enter both email and password.');
       return;
     }
 
     setLoading(true);
-    const res = await login(email, password);
+    const res = await login(loginEmail, loginPass);
     setLoading(false);
 
     if (res.success) {
-      navigate('/dashboard');
+      navigate(targetPath, { replace: true });
     } else {
       setError(res.error || 'Invalid credentials. Please check your details and try again.');
     }
+  };
+
+  const handleDemoLogin = (e) => {
+    e.preventDefault();
+    setEmail('demo@cloudoptimizer.ai');
+    setPassword('OptimizerDemo2026!');
+    handleSubmit(null, 'demo@cloudoptimizer.ai', 'OptimizerDemo2026!');
   };
 
   return (
@@ -115,6 +128,27 @@ const LoginPage = () => {
           className="w-full font-bold shadow-sm mt-2"
         >
           Sign In to Workspace
+        </Button>
+
+        <div className="relative my-4">
+          <div className="absolute inset-0 flex items-center">
+            <div className="w-full border-t border-slate-200" />
+          </div>
+          <div className="relative flex justify-center text-xs uppercase">
+            <span className="bg-white px-2 text-slate-400 font-semibold">Or for quick evaluation</span>
+          </div>
+        </div>
+
+        <Button
+          type="button"
+          variant="outline"
+          size="md"
+          icon={Zap}
+          onClick={handleDemoLogin}
+          isLoading={loading}
+          className="w-full font-bold text-slate-700 bg-slate-50 hover:bg-slate-100 border-slate-300"
+        >
+          One-Click Demo Admin Login
         </Button>
       </form>
 

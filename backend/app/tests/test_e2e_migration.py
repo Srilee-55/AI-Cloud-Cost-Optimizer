@@ -79,11 +79,16 @@ def test_e2e_full_lifecycle_and_user_isolation():
     # -------------------------------------------------------------
     # Step 4: User A Ingests CSV Billing Data
     # -------------------------------------------------------------
+    from datetime import date, timedelta
+    today_str = date.today().strftime("%Y-%m-%d")
+    yesterday_str = (date.today() - timedelta(days=1)).strftime("%Y-%m-%d")
+    prev_str = (date.today() - timedelta(days=2)).strftime("%Y-%m-%d")
+
     csv_content = (
         "Date,Provider,Service,Amount,Region,CostCenter,Team,Project,Environment,ResourceId\n"
-        "2026-08-01,aws,EC2,450.00,us-east-1,Engineering,Backend,Core,Production,i-user-a-01\n"
-        "2026-08-02,aws,RDS,280.00,us-east-1,Engineering,Database,Core,Production,rds-user-a-01\n"
-        "2026-08-03,gcp,BigQuery,320.00,us-central1,Analytics,BI,Reports,Production,bq-user-a-01\n"
+        f"{prev_str},aws,EC2,450.00,us-east-1,Engineering,Backend,Core,Production,i-user-a-01\n"
+        f"{yesterday_str},aws,RDS,280.00,us-east-1,Engineering,Database,Core,Production,rds-user-a-01\n"
+        f"{today_str},gcp,BigQuery,320.00,us-central1,Analytics,BI,Reports,Production,bq-user-a-01\n"
     )
     files = {"file": ("user_a_billing.csv", io.BytesIO(csv_content.encode("utf-8")), "text/csv")}
     upload_res = client.post("/api/data/upload-csv", headers=headers_a, files=files)

@@ -55,6 +55,13 @@ app = FastAPI(
     lifespan=lifespan
 )
 
+
+# Root Health Check Route
+@app.get("/", tags=["Health"])
+def root_health_check():
+    return {"status": "ok"}
+
+
 # CORS Middleware
 origins = settings.CORS_ORIGINS if isinstance(settings.CORS_ORIGINS, list) else ["*"]
 app.add_middleware(
@@ -63,6 +70,7 @@ app.add_middleware(
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+    allow_origin_regex=r"https://.*\.vercel\.app"
 )
 
 # Rate Limiter
